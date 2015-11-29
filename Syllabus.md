@@ -61,7 +61,7 @@ Students **MUST** attend at least 8 of 10 classes.  Your grade will be based on 
 
 For each homework, students should submis a report that includes:
 * Working code which implements the procedures specified by the assignment. Code should be easy to read and commented well.
-* Appropriate text and figures/graphs describing the results. All graphs and figures should be **labeled**.
+* Appropriate text and figures/graphs describing the results. All graphs and figures should be [**labeled**](http://www.harding.edu/fmccown/r/).
 
 ## Extra Articles to read about working in the analytics/data science field:
 * ["Is Data Scientist the Right Career Choice? Candid Advice"](http://www.kdnuggets.com/2014/03/data-scientist-right-career-path-candid-advice.html)
