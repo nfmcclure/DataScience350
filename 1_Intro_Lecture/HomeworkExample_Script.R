@@ -1,17 +1,15 @@
 ##--------------------------------------------
 ##
-## R Review Homework Headstart
+## Homework 1 Example
 ##
 ## Class: PCE Data Science Methods Class
 ##
 ##--------------------------------------------
 
-##-----Set working directory-----
-setwd('E:/Work/Teaching/PCE_Data_Science/1_Intro_Lecture/')
-
 ##-----Load Libraries-----
 library(dplyr)
 library(data.table)
+library(logging)
 
 source('weather_retrieval.R')
 
@@ -26,10 +24,6 @@ weather_file_name = 'las_vegas_hourly_weather.csv'
 
 if (weather_file_name %in% list.files()){
   weather_data = read.csv(weather_file_name, stringsAsFactors = FALSE)
-  names(weather_data) = c('time','temp','dew_pt','humidity','pressure',
-                          'visibility','wind_dir','wind_speed','gust_speed',
-                          'precipitation','events','conditions',
-                          'wind_dir_deg','date')
 } else {
   range(headcount$DateFormat)
   
@@ -38,10 +32,6 @@ if (weather_file_name %in% list.files()){
               to=max(headcount$DateFormat),
               by=1)
   weather_data = get_weather_data(airport, dates)
-  names(weather_data) = c('time','temp','dew_pt','humidity','pressure',
-                          'visibility','wind_dir','wind_speed','gust_speed',
-                          'precipitation','events','conditions',
-                          'wind_dir_deg','date')
 }
 
 # Let's create a datetime in the weather data
