@@ -1,17 +1,15 @@
 ##--------------------------------------------
 ##
-## R Review Homework Headstart
+## Homework 1 Example
 ##
 ## Class: PCE Data Science Methods Class
 ##
 ##--------------------------------------------
 
-##-----Set working directory-----
-setwd('E:/Work/Teaching/PCE_Data_Science/1_Intro_Lecture/')
-
 ##-----Load Libraries-----
 library(dplyr)
 library(data.table)
+library(logging)
 
 source('weather_retrieval.R')
 
