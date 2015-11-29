@@ -44,16 +44,16 @@ Students are expected to use personal machines in class that are able to:
 
 | Lecture | Date       | Topic  | Reading  |
 | --------|------------| -------| ---------|
-| Week 1  | 2016-01-05 | Introduction; Data Exploration; R overview | -Intro DS Ch 3,9; -StatThink Ch 2. |
-| Week 2  | 2016-01-12 | Probability Distributions; Conditional Prob; Missing Data; Getting/Storing Data | -Intro DS Ch 7,10; -StatThink Ch 4. |
-| Week 3  | 2016-01-19 | Outliers and Missing Data; Intro to Hypothesis Testing | -Intro DS Ch 6 |
-| Week 4  | 2016-01-26 | Hypothesis Testing; The Central Limit Theorem | -StatThink Ch 6, 7 |
-| Week 5  | 2016-02-02 | Graph Algorithms and Intro to Regression | -StatThink Pg 93-97 |
-| Week 6  | 2016-02-09 | Regression and Feature Selection | -Intro DS Ch 16 |
-| Week 7  | 2016-02-16 | Feature Selection; Simpson's Paradox; Intro to Bayes | -None |
-| Week 8  | 2016-02-23 | Extra Topics and Intro to Bayesian Statistics | -StatThink Pg 97-101 |
-| Week 9  | 2016-03-01 | Bayesian Inference and Computational Statistics | None |
-| Week 10 | 2016-03-08 | Review; Guest Lecture; and Possible Extra Topics | None |
+| [Week 1](https://github.com/nfmcclure/DataScience350/tree/master/1_Intro_Lecture)  | 2016-01-05 | Introduction; Data Exploration; R overview | -Intro DS Ch 3,9; -StatThink Ch 2. |
+| [Week 2](https://github.com/nfmcclure/DataScience350/tree/master/2_Distributions_ConditionalProb)  | 2016-01-12 | Probability Distributions; Conditional Prob; Missing Data; Getting/Storing Data | -Intro DS Ch 7,10; -StatThink Ch 4. |
+| [Week 3](https://github.com/nfmcclure/DataScience350/tree/master/3_Outliers_MissingData_Hypothesis)  | 2016-01-19 | Outliers and Missing Data; Intro to Hypothesis Testing | -Intro DS Ch 6 |
+| [Week 4](https://github.com/nfmcclure/DataScience350/tree/master/4_HypothesisTesting_CentralLimit)  | 2016-01-26 | Hypothesis Testing; The Central Limit Theorem | -StatThink Ch 6, 7 |
+| [Week 5](https://github.com/nfmcclure/DataScience350/tree/master/5_HypothesisTesting_ConfidenceIntervals)  | 2016-02-02 | Graph Algorithms and Intro to Regression | -StatThink Pg 93-97 |
+| [Week 6](https://github.com/nfmcclure/DataScience350/tree/master/6_Regression_FeatureSelection)  | 2016-02-09 | Regression and Feature Selection | -Intro DS Ch 16 |
+| [Week 7](https://github.com/nfmcclure/DataScience350/tree/master/7_TimeSeries_SpatialStats_Bayes)  | 2016-02-16 | Feature Selection; Simpson's Paradox; Intro to Bayes | -None |
+| [Week 8](https://github.com/nfmcclure/DataScience350/tree/master/8_Bayesian_ComputationalStats)  | 2016-02-23 | Extra Topics and Intro to Bayesian Statistics | -StatThink Pg 97-101 |
+| [Week 9](https://github.com/nfmcclure/DataScience350/tree/master/9_NLP)  | 2016-03-01 | Bayesian Inference and Computational Statistics | None |
+| [Week 10](https://github.com/nfmcclure/DataScience350/tree/master/10_Review_ExtraTopics) | 2016-03-08 | Review; Guest Lecture; and Possible Extra Topics | None |
 
 
 ## Student Assessment
