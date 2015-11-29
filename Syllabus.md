@@ -41,3 +41,14 @@ Students are expected to use personal machines in class that are able to:
 
 ## Course Topics and Assignments by Date:
 (Topics and Dates are tentative and alwasy subject to change)
+
+## Student Assessment
+Students **MUST** attend at least 8 of 10 classes.  Your grade will be based on eight homework assignments and one individual project. Details on these will be handed out/distributed on the first day.
+
+For each homework, students should submis a report that includes:
+* Working code which implements the procedures specified by the assignment. Code should be easy to read and commented well.
+* Appropriate text and figures/graphs describing the results. All graphs and figures should be **labeled**.
+
+## Policies and Values:
+Your gain from this course is highly dependent on your attendance and completion of the exercises.  I fully expect students to actively participate (asking questions, doing the homework, helping others).  
+Students are expected to behave professionally and abide by all student policies outlined by The University of Washington Student Conduct Code. [http://www.washington.edu/cssc/]
