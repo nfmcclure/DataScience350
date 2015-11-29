@@ -37,7 +37,7 @@ Students are expected to use personal machines in class that are able to:
   * [Gephi](http://gephi.hithub.io/) (Note: Gephi is paticular on a type of Java. Last I checked, it required >= Java 1.6).
 
 ## Program Webpage:
-( Insert New Webpage Here)
+* https://canvas.uw.edu/courses/1026608
 
 ## Course Topics and Assignments by Date:
 (Topics and Dates are tentative and alwasy subject to change)
