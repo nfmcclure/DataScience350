@@ -38,3 +38,39 @@ There is a total of 24 possible points. (16 pts for homework + 8 points for indi
   * [One More R Tutorial](http://cyclismo.org/tutorial/R/)
   * [Notes from a 2-day course at UW](http://faculty.washington.edu/tlumley/Rcourse/)
   * [Google's Style Guide](http://google-styleguide.googlecode.com/svn/trunk/google-r-style.html)
+
+## Statistics Review
+* Familiar Concepts:
+  * Discrete vs. Continuous Distributions
+  * Probability
+  * y=mx + b
+* Statistics is the emphasis of this course.
+
+## SQL Review
+* Only basic SQL is needed.
+  * Create tables
+  * Drop tables
+  * Joins (inner, outer, left, right)
+  * Temp tables
+  * Coalesce, Cast, Case
+
+* SQLite tables are great for smaller, contained SQL databases.
+* Accessing SQLite:
+  * [SQLite Browser](http://sqlitebrowser.org/)
+
+## Counting Review
+* Factorials
+  * Count # of ways to order N things = N!
+  * 0! = 1
+  * 1! = 1
+  * 4! = 4*3*2*1 = 24
+  * 10! = 10*9* ... *2*1 = 3,628,800
+  * N! = (N) * (N-1) * (N-2) * ... * 2 * 1
+* Permutations
+  * Count # of ways to *order* R things from N things = N! / (N-R)!
+  * Ordering Matters. E.g. the group of 'A-B-C' is different than the group 'C-B-A'.
+  * Also written as P(N,R)
+* Combinations
+  * Count # of ways to *group* R things from N things = N! / ( R! (N-R)! )
+  * Ordering doesn't matter, so we divide the permutation formula by the # of ways to order R things, R!.
+  * Also written as C(N,R) or 
