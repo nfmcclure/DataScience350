@@ -49,6 +49,17 @@ For each homework, students should submis a report that includes:
 * Working code which implements the procedures specified by the assignment. Code should be easy to read and commented well.
 * Appropriate text and figures/graphs describing the results. All graphs and figures should be **labeled**.
 
+## Extra Articles to read about working in the analytics/data science field:
+* [http://www.kdnuggets.com/2014/03/data-scientist-right-career-path-candid-advice.html]
+* [http://www.kdnuggets.com/2015/06/analytics-career-right-for-you.html]
+* [http://treycausey.com/data_science_interviews.html]
+* [http://treycausey.com/hiring_data_scientists.html]
+* [http://www.erinshellman.com/crushed-it-landing-a-data-science-job/]
+* [http://blog.ellenchisa.com/2014/04/13/stuff-ive-screwed-up-while-interviewing/]
+* [https://medium.com/@rchang/my-two-year-journey-as-a-data-scientist-at-twitter-f0c13298aee6#.267j4mdh8]
+* [http://multithreaded.stitchfix.com/blog/2015/03/31/advice-for-data-scientists/]
+* [https://dl.dropboxusercontent.com/u/23421017/50YearsDataScience.pdf]
+
 ## Policies and Values:
 Your gain from this course is highly dependent on your attendance and completion of the exercises.  I fully expect students to actively participate (asking questions, doing the homework, helping others).  
 Students are expected to behave professionally and abide by all student policies outlined by The University of Washington Student Conduct Code. [http://www.washington.edu/cssc/]
