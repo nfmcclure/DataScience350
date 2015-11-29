@@ -42,10 +42,10 @@ Students are expected to use personal machines in class that are able to:
 ## Course Topics and Assignments by Date:
 (Topics and Dates are tentative and alwasy subject to change)
 
-| Lecture        | Date           | Topic  | Reading  |
-| -------------- |----------------| -------| ---------|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+| Lecture     | Date         | Topic  | Reading  |
+| ----------- |--------------| -------| ---------|
+| Week 1      | 2016-01-05   | Introduction; Data Exploration; R overview | -Intro DS Ch 3,9; -StatThink Ch 2. |
+| Week 2      | 2016-01-12   | Probability Distributions; Conditional Prob; Missing Data; Getting/Storing Data | -Intro DS Ch 6 |
 
 ## Student Assessment
 Students **MUST** attend at least 8 of 10 classes.  Your grade will be based on eight homework assignments and one individual project. Details on these will be handed out/distributed on the first day.
