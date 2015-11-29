@@ -26,5 +26,5 @@ No required textbooks. All required reading will be available online as articles
 * Additional Resources (optional):
   * “[Computational Statistics Using R and R Studio: An Introduction for Scientists](http://www.calvin.edu/~rpruim/talks/SC11/Seattle/RatSC11/Master-StatsForScience.pdf)” by Randall Pruim.
 * Further Fun Reading (optional):
-  * "The Signal and the Noise." By Nate Silver. Penguin Press HC, 2012.
-  * "Dataclysm". By Christian Rudder. Crown Publishing Group, 2014.
+  * "The Signal and the Noise." By Nate Silver. Penguin Press HC, 2012. [Amazon Link](http://www.amazon.com/Signal-Noise-Many-Predictions-Fail--but/dp/0143125087/)
+  * "Dataclysm". By Christian Rudder. Crown Publishing Group, 2014. [Amazon Link](http://www.amazon.com/Dataclysm-Identity--What-Online-Offline-Selves-ebook/dp/B00J1IQUX8)
