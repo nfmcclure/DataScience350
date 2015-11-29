@@ -79,6 +79,11 @@ get_weather_data = function(airport, dates, logger=NA, db_conn=NA){
     dbWriteTable(db_conn, airport, weather_frame, overwrite=TRUE)
   }
   
+  names(weather_frame) = c('time','temp','dew_pt','humidity','pressure',
+                          'visibility','wind_dir','wind_speed','gust_speed',
+                          'precipitation','events','conditions',
+                          'wind_dir_deg','date')
+  
   return(weather_frame)
   
 }
