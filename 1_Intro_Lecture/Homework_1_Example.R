@@ -24,10 +24,6 @@ weather_file_name = 'las_vegas_hourly_weather.csv'
 
 if (weather_file_name %in% list.files()){
   weather_data = read.csv(weather_file_name, stringsAsFactors = FALSE)
-  names(weather_data) = c('time','temp','dew_pt','humidity','pressure',
-                          'visibility','wind_dir','wind_speed','gust_speed',
-                          'precipitation','events','conditions',
-                          'wind_dir_deg','date')
 } else {
   range(headcount$DateFormat)
   
@@ -36,10 +32,6 @@ if (weather_file_name %in% list.files()){
               to=max(headcount$DateFormat),
               by=1)
   weather_data = get_weather_data(airport, dates)
-  names(weather_data) = c('time','temp','dew_pt','humidity','pressure',
-                          'visibility','wind_dir','wind_speed','gust_speed',
-                          'precipitation','events','conditions',
-                          'wind_dir_deg','date')
 }
 
 # Let's create a datetime in the weather data
