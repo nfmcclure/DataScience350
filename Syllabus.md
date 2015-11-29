@@ -42,6 +42,11 @@ Students are expected to use personal machines in class that are able to:
 ## Course Topics and Assignments by Date:
 (Topics and Dates are tentative and alwasy subject to change)
 
+| Lecture        | Date           | Topic  | Reading  |
+| -------------- |----------------| -------| ---------|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+
 ## Student Assessment
 Students **MUST** attend at least 8 of 10 classes.  Your grade will be based on eight homework assignments and one individual project. Details on these will be handed out/distributed on the first day.
 
