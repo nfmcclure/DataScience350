@@ -28,3 +28,16 @@ No required textbooks. All required reading will be available online as articles
 * Further Fun Reading (optional):
   * "The Signal and the Noise." By Nate Silver. Penguin Press HC, 2012. [Amazon Link](http://www.amazon.com/Signal-Noise-Many-Predictions-Fail--but/dp/0143125087/)
   * "Dataclysm". By Christian Rudder. Crown Publishing Group, 2014. [Amazon Link](http://www.amazon.com/Dataclysm-Identity--What-Online-Offline-Selves-ebook/dp/B00J1IQUX8)
+
+## Technical Requirements
+Students are expected to use personal machines in class that are able to:
+* Run R [http://cran.r-project.org/] and R-Studio IDE [http://www.rstudio.com/]
+* We will spend one day exploring other free tools, such as:
+  * [Python V2.X](http://www.python.org/)
+  * [Gephi](http://gephi.hithub.io/) (Note: Gephi is paticular on a type of Java. Last I checked, it required >= Java 1.6).
+
+## Program Webpage:
+( Insert New Webpage Here)
+
+## Course Topics and Assignments by Date:
+(Topics and Dates are tentative and alwasy subject to change)
