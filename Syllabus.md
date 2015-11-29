@@ -21,10 +21,10 @@ Each course session will be a mixture of lecture and in-class exercises. Typical
 No required textbooks. All required reading will be available online as articles or free pdf's.  There will also be additional optional reading if students wish to read more on a subject, which may invlude books or textbooks.
 
 * Required Reading Sources:
---* “An Introduction to Data Science.” By Jeffrey Stanton. [https://drive.google.com/file/d/0B6iefdnF22XQeVZDSkxjZ0Z5VUE/edit]
---* “Statistical Thinking for Programmers.” By Allen B. Downey. [http://greenteapress.com/thinkstats/thinkstats.pdf]
+⋅⋅* “An Introduction to Data Science.” By Jeffrey Stanton. [https://drive.google.com/file/d/0B6iefdnF22XQeVZDSkxjZ0Z5VUE/edit]
+⋅⋅* “Statistical Thinking for Programmers.” By Allen B. Downey. [http://greenteapress.com/thinkstats/thinkstats.pdf]
 * Additional Resources (optional):
---* “Computational Statistics Using R and R Studio: An Introduction for Scientists” by Randall Pruim. [http://www.calvin.edu/~rpruim/talks/SC11/Seattle/RatSC11/Master-StatsForScience.pdf]
+⋅⋅* “Computational Statistics Using R and R Studio: An Introduction for Scientists” by Randall Pruim. [http://www.calvin.edu/~rpruim/talks/SC11/Seattle/RatSC11/Master-StatsForScience.pdf]
 * Further Fun Reading (optional):
---* "The Signal and the Noise." By Nate Silver. Penguin Press HC, 2012.
---* "Dataclysm". By Christian Rudder. Crown Publishing Group, 2014.
+⋅⋅* "The Signal and the Noise." By Nate Silver. Penguin Press HC, 2012.
+⋅⋅* "Dataclysm". By Christian Rudder. Crown Publishing Group, 2014.
