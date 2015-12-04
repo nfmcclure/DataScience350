@@ -40,7 +40,7 @@ Students are expected to use personal machines in class that are able to:
 * https://canvas.uw.edu/courses/1026608
 
 ## Course Topics and Assignments by Date:
-(Topics and Dates are tentative and alwasy subject to change)
+(Topics and Dates are tentative and subject to change)
 
 | Lecture | Date       | Topic  | Reading  |
 | --------|------------| -------| ---------|
