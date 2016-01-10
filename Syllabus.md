@@ -38,7 +38,7 @@ Students are expected to use personal machines in class that are able to:
 * Run R [http://cran.r-project.org/] and R-Studio IDE [http://www.rstudio.com/]
 * We will spend one day exploring other free tools, such as:
   * [Python V2.X](http://www.python.org/)
-  * [Gephi](http://gephi.hithub.io/) (Note: Gephi is paticular on a type of Java. Last I checked, it required >= Java 1.6).
+  * [Gephi](http://gephi.github.io/) (Note: Gephi is paticular on a type of Java. Last I checked, it required >= Java 1.6).
 
 ## Program Webpage:
 * https://canvas.uw.edu/courses/1026608
