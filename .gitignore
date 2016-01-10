@@ -1,3 +1,4 @@
+solutions/
 *.Rdata
 *.Rhistory
 *.pptx
@@ -16,4 +17,7 @@
 *.tar
 *.gz
 *.dll
-
+twitter_cred.*
+.httr_oath
+WorldCup*
+.gitignore~
