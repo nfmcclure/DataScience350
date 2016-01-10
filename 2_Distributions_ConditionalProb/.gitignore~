@@ -16,4 +16,7 @@
 *.tar
 *.gz
 *.dll
-solutions/
+solutions/*
+twitter_cred.*
+.httr_oath
+WorldCup*
