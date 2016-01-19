@@ -1,0 +1,3174 @@
+Stcd,Cntycd,Office Name,City,ST
+01,000,Alabama State USDA Office,Montgomery,AL
+01,001,Autauga County USDA Serv Cntr,Autaugaville,AL
+01,003,Baldwin County USDA Serv Cntr,Bay Minette,AL
+01,005,Barbour County USDA Serv Cntr,Clayton,AL
+01,007,Bibb County FSA Office,Marion,AL
+01,009,Blount County USDA Serv Cntr,Oneonta,AL
+01,011,Bullock County FSA Office,Troy,AL
+01,013,Butler County USDA Serv Cntr,Greenville,AL
+01,015,Calhoun County USDA Serv Cntr,Anniston,AL
+01,017,Chambers County FSA Office,Opelika,AL
+01,019,Cherokee County USDA Serv Cntr,Centre,AL
+01,021,Chilton County USDA Serv Cntr,Clanton,AL
+01,023,Choctaw County FSA Office,Linden,AL
+01,025,Clarke County USDA Serv Cntr,Jackson,AL
+01,027,Clay County FSA Office,Wedowee,AL
+01,029,Cleburne County FSA Office,Anniston,AL
+01,031,Coffee County USDA Serv Cntr,New Brockton,AL
+01,033,Colbert County USDA Serv Cntr,Tuscumbia,AL
+01,035,Conecuh County USDA Serv Cntr,Evergreen,AL
+01,037,Coosa County FSA Office,Alexander City,AL
+01,039,Covington County USDA Serv Cntr,Andalusia,AL
+01,041,Crenshaw County USDA Serv Cntr,Luverne,AL
+01,043,Cullman County USDA Serv Cntr,Cullman,AL
+01,045,Dale County USDA Serv Cntr,Ozark,AL
+01,047,Dallas County USDA Serv Cntr,Selma,AL
+01,049,Dekalb County USDA Serv Cntr,Rainsville,AL
+01,051,Elmore County USDA Serv Cntr,Wetumpka,AL
+01,053,Escambia County USDA Serv Cntr,Brewton,AL
+01,055,Etowah County USDA Serv Cntr,Gadsden,AL
+01,057,Fayette County USDA Serv Cntr,Fayette,AL
+01,059,Franklin County FSA Office,Tuscumbia,AL
+01,061,Geneva County USDA Serv Cntr,Geneva,AL
+01,063,Greene County USDA Serv Cntr,Eutaw,AL
+01,065,Hale County USDA Serv Cntr,Greensboro,AL
+01,067,Henry County USDA Serv Cntr,Abbeville,AL
+01,069,Houston County USDA Serv Cntr,Dothan,AL
+01,071,Jackson County USDA Serv Cntr,Scottsboro,AL
+01,073,Jefferson County FSA Office,Oneonta,AL
+01,075,Lamar County USDA Serv Cntr,Vernon,AL
+01,077,Lauderdale County USDA Serv Cntr,Florence,AL
+01,079,Lawrence County USDA Serv Cntr,Moulton,AL
+01,081,Lee County USDA Serv Cntr,Opelika,AL
+01,083,Limestone County USDA Serv Cntr,Athens,AL
+01,085,Lowndes County FSA Office,Selma,AL
+01,087,Macon County USDA Serv Cntr,Tuskegee,AL
+01,089,Madison County USDA Serv Cntr,Huntsville,AL
+01,091,Marengo County USDA Serv Cntr,Linden,AL
+01,093,Marion County USDA Serv Cntr,Hamilton,AL
+01,095,Marshall County USDA Serv Cntr,Guntersville,AL
+01,097,Mobile County FSA Office,Bay Minette,AL
+01,099,Monroe County USDA Serv Cntr,Monroeville,AL
+01,101,Montgomery County FSA Office,Wetumpka,AL
+01,103,Morgan County USDA Serv Cntr,Hartselle,AL
+01,105,Perry County USDA Serv Cntr,Marion,AL
+01,107,Pickens County USDA Serv Cntr,Carrollton,AL
+01,109,Pike County USDA Serv Cntr,Troy,AL
+01,111,Randolph County USDA Serv Cntr,Wedowee,AL
+01,113,Russell County USDA Serv Cntr,Phenix City,AL
+01,115,St Clair County FSA Office,Gadsden,AL
+01,117,Shelby County FSA Office,Talladega,AL
+01,119,Sumter County FSA Office,Eutaw,AL
+01,121,Talladega County USDA Serv Cntr,Talladega,AL
+01,123,Tallapoosa County USDA Serv Cntr,Alexander City,AL
+01,125,Tuscaloosa County USDA Serv Cntr,Tuscaloosa,AL
+01,127,Walker County FSA Office,Oneonta,AL
+01,129,Washington County FSA Office,Jackson,AL
+01,131,Wilcox County USDA Serv Cntr,Camden,AL
+01,133,Winston County FSA Office,Hamilton,AL
+01,702,USA - LSA,Prattvillle,AL
+01,801,Autauga Quality Cotton Association,Prattvillle,AL
+01,805,Tennessee Valley,Madison,AL
+02,000,Alaska State USDA Office,Palmer,AK
+02,002,Delta County USDA Serv Cntr,Delta Junction,AK
+02,001,Fairbanks County USDA Serv Cntr,Fairbanks,AK
+02,003,Homer County USDA Serv Cntr,Homer,AK
+02,005,Palmer County USDA Serv Cntr,Wasilla,AK
+04,000,Arizona State USDA Office,Phoenix,AZ
+04,001,Apache County USDA Serv Cntr,St. Johns,AZ
+04,003,Cochise County USDA Serv Cntr,Willcox,AZ
+04,005,Coconino County USDA Serv Cntr,Flagstaff,AZ
+04,007,Gila County FSA Office,Holbrook,AZ
+04,009,Graham County USDA Serv Cntr,Safford,AZ
+04,011,Greenlee County FSA Office,Safford,AZ
+04,012,La Paz County FSA Office,Yuma,AZ
+04,013,Maricopa County USDA Serv Cntr,Phoenix,AZ
+04,015,Mojave County FSA Office,Flagstaff,AZ
+04,017,Navajo County USDA Serv Cntr,Holbrook,AZ
+04,019,Pima County USDA Serv Cntr,Tucson,AZ
+04,021,Pinal County USDA Serv Cntr,Casa Grande,AZ
+04,023,Santa Cruz County FSA Office,Tucson,AZ
+04,025,Yavapai County FSA Office,Flagstaff,AZ
+04,027,Yuma County USDA Serv Cntr,Yuma,AZ
+04,804,Desert Wheat Growers Cooperative,Maricopa,AZ
+05,000,Arkansas State USDA Office,Little Rock,AR
+05,001,Arkansas County USDA Serv Cntr,DeWitt,AR
+05,003,Ashley County USDA Serv Cntr,Hamburg,AR
+05,005,Baxter County USDA Serv Cntr,Mountain Home,AR
+05,007,Benton County USDA Serv Cntr,Bentonville,AR
+05,009,Boone County USDA Serv Cntr,Harrison,AR
+05,011,Bradley County USDA Serv Cntr,Warren,AR
+05,013,Calhoun County FSA Office,Warren,AR
+05,015,Carroll County USDA Serv Cntr,Berryville,AR
+05,017,Chicot County USDA Serv Cntr,Lake Village,AR
+05,019,Clark County USDA Serv Cntr,Arkadelphia,AR
+05,021,Clay County USDA Serv Cntr,Piggott,AR
+05,023,Cleburne County USDA Serv Cntr,Heber Springs,AR
+05,025,Cleveland County FSA Office,Fordyce,AR
+05,027,Columbia County FSA Office,Lewisville,AR
+05,029,Conway County USDA Serv Cntr,Morrilton,AR
+05,031,Craighead County USDA Serv Cntr,Jonesboro,AR
+05,033,Crawford County FSA Office,Fort Smith,AR
+05,035,Crittenden County USDA Serv Cntr,Marion,AR
+05,037,Cross County USDA Serv Cntr,Wynne,AR
+05,039,Dallas County USDA Serv Cntr,Fordyce,AR
+05,041,Desha County USDA Serv Cntr,McGehee,AR
+05,043,Drew County USDA Serv Cntr,Monticello,AR
+05,045,Faulkner County USDA Serv Cntr,Conway,AR
+05,047,Franklin County USDA Serv Cntr,Ozark,AR
+05,049,Fulton County USDA Serv Cntr,Salem,AR
+05,051,Garland County USDA Serv Cntr,Hot Springs,AR
+05,053,Grant County FSA Office,Benton,AR
+05,055,Greene County USDA Serv Cntr,Paragould,AR
+05,057,Hempstead County USDA Serv Cntr,Hope,AR
+05,059,Hot Spring County USDA Serv Cntr,Malvern,AR
+05,061,Howard County USDA Serv Cntr,Nashville,AR
+05,063,Independence County USDA Serv Cntr,Batesville,AR
+05,065,Izard County USDA Serv Cntr,Melbourne,AR
+05,067,Jackson County USDA Serv Cntr,Newport,AR
+05,069,Jefferson County USDA Serv Cntr,Pine Bluff,AR
+05,071,Johnson County USDA Serv Cntr,Clarksville,AR
+05,073,LaFayette County USDA Serv Cntr,Lewisville,AR
+05,075,Lawrence County USDA Serv Cntr,Walnut Ridge,AR
+05,077,Lee County USDA Serv Cntr,Marianna,AR
+05,079,Lincoln County USDA Serv Cntr,Star City,AR
+05,081,Little River County USDA Serv Cntr,Ashdown,AR
+05,083,Logan County USDA Serv Cntr,Paris,AR
+05,085,Lonoke County USDA Serv Cntr,Lonoke,AR
+05,087,Madison County USDA Serv Cntr,Huntsville,AR
+05,089,Marion County,Mountain Home,AR
+05,091,Miller County USDA Serv Cntr,Texarkana,AR
+05,093,Mississippi County USDA Serv Cntr,Osceola,AR
+05,095,Monroe County USDA Serv Cntr,Clarendon,AR
+05,097,Montgomery County,Hot Springs,AR
+05,099,Nevada County,Hope,AR
+05,101,Newton County FSA Office,Harrison,AR
+05,103,Ouachita County USDA Serv Cntr,Camden,AR
+05,105,Perry County ,Conway,AR
+05,107,Phillips County USDA Serv Cntr,Helena,AR
+05,109,Pike County FSA Office,Nashville,AR
+05,111,Poinsett County USDA Serv Cntr,Harrisburg,AR
+05,113,Polk County USDA Serv Cntr,Mena,AR
+05,115,Pope County USDA Serv Cntr,Russellville,AR
+05,117,Prairie County USDA Serv Cntr,Hazen,AR
+05,119,Pulaski County USDA Serv Cntr,North Little Rock,AR
+05,121,Randolph County USDA Serv Cntr,Pocahontas,AR
+05,123,St. Francis County USDA Serv Cntr,Forrest City,AR
+05,125,Saline County USDA Serv Cntr,Benton,AR
+05,127,Scott County FSA Office,Fort Smith,AR
+05,129,Searcy County USDA Serv Cntr,Marshall,AR
+05,131,Sebastian County USDA Serv Cntr,Fort Smith,AR
+05,133,Sevier County USDA Serv Cntr,De Queen,AR
+05,135,Sharp County USDA Serv Cntr,Ash Flat,AR
+05,137,Stone County USDA Serv Cntr,Mountain View,AR
+05,139,Union County FSA Office,Camden,AR
+05,141,Van Buren County USDA Serv Cntr,Clinton,AR
+05,143,Washington County USDA Serv Cntr,Fayetteville,AR
+05,145,White County USDA Serv Cntr,Searcy,AR
+05,147,Woodruff County USDA Serv Cntr,Augusta,AR
+05,149,Yell County USDA Serv Cntr,Danville,AR
+05,704,Adams Land Company ,Leachville,AR
+05,802,"Riceland Foods, Inc.",Stuttgart,AR
+05,803,"Producers Rice Mill, Inc",Stuttgart,AR
+05,805,Cooperative Marketing Alliance/DBA CoMark,Memphis,TN
+06,000,California State USDA Office,Davis,CA
+06,001,Alameda County FSA Office,Concord,CA
+06,003,Alpine County FSA Office,Minden,NV
+06,005,Amador County FSA Office,Elk Grove,CA
+06,007,Butte County USDA Serv Cntr,Oroville,CA
+06,009,Calaveras County FSA Office,Stockton,CA
+06,011,Colusa County USDA Serv Cntr,Colusa,CA
+06,013,Contra Costa County USDA Serv Cntr,Concord,CA
+06,015,Del Norte County FSA Office,Eureka,CA
+06,017,El Dorado County FSA Office,Auburn,CA
+06,019,Fresno County USDA Serv Cntr,Fresno,CA
+06,021,Glenn County USDA Serv Cntr,Willows,CA
+06,023,Humboldt County USDA Serv Cntr,Eureka,CA
+06,025,Imperial County USDA Serv Cntr,El Centro,CA
+06,027,Inyo County FSA Office,Minden,NV
+06,029,Kern County USDA Serv Cntr,Bakersfield,CA
+06,031,Kings County USDA Serv Cntr,Hanford,CA
+06,033,Lake County FSA Office,Ukiah,CA
+06,035,Lassen County USDA Serv Cntr,Susanville,CA
+06,037,Los Angeles County USDA Serv Cntr,Lancaster,CA
+06,039,Madera County USDA Serv Cntr,Madera,CA
+06,041,Marin County FSA Office,Petaluma,CA
+06,043,Mariposa County FSA Office,Merced,CA
+06,045,Mendocino County USDA Serv Cntr,Ukiah,CA
+06,047,Merced County USDA Serv Cntr,Merced,CA
+06,049,Modoc County USDA Serv Cntr,Alturas,CA
+06,051,Mono County FSA Office,Minden,NV
+06,053,Monterey County FSA Office,Salinas,CA
+06,055,NAPA County FSA Office,Dixon,CA
+06,057,Nevada County FSA Office,Auburn,CA
+06,059,Orange County FSA Office,Lancaster,CA
+06,061,Placer County USDA Serv Cntr,Auburn,CA
+06,063,Plumas County FSA Office,Susanville,CA
+06,065,Riverside County USDA Serv Cntr,Indio,CA
+06,067,Sacramento County USDA Serv Cntr,Elk Grove,CA
+06,069,San Benito County USDA Serv Cntr,Hollister,CA
+06,071,San Bernadino County FSA Office,Lancaster,CA
+06,073,San Diego County FSA Office,Indio,CA
+06,077,San Joaquin County USDA Serv Cntr,Stockton,CA
+06,079,San Luis Obispo County USDA Serv Cntr,Templeton,CA
+06,081,San Mateo County FSA Office,Salinas,CA
+06,083,Santa Barbara County USDA Serv Cntr,Santa Maria,CA
+06,085,Santa Clara County FSA Office,Hollister,CA
+06,087,Santa Cruz County FSA Office,Salinas,CA
+06,089,Shasta County USDA Serv Cntr,Redding,CA
+06,091,Sierra County FSA Office,Susanville,CA
+06,093,Siskiyou County USDA Serv Cntr,Yreka,CA
+06,095,Solano County USDA Serv Cntr,Dixon,CA
+06,097,Sonoma County USDA Serv Cntr,Petaluma,CA
+06,099,Stanislaus County USDA Serv Cntr,Modesto,CA
+06,101,Sutter County USDA Serv Cntr,Yuba City,CA
+06,103,Tehama County USDA Serv Cntr,Red Bluff,CA
+06,105,Trinity County FSA Office,Redding,CA
+06,107,Tulare County USDA Serv Cntr,Visalia,CA
+06,109,Tuolumne County FSA Office,Modesto,CA
+06,111,Ventura County FSA Office,Santa Maria,CA
+06,113,Yolo County USDA Serv Cntr,Woodland,CA
+06,115,Yuba County FSA Office,Yuba City,CA
+06,703,Fambro Warehouse Company (LSA),Fresno,CA
+06,704,"Links LSA, Inc. (LSA)",Bakersfield,CA
+06,706,"Bakersfield Cotton Warehouse, LLC",Bakersfield,CA
+06,801,Farmers' Rice Cooperative,Sacramento,CA
+06,804,"CALCOT, LTD",Bakersfield,CA
+08,000,Colorado State USDA Office,Lakewood,CO
+08,001,Adams County USDA Serv Cntr,Brighton,CO
+08,003,Alamosa County USDA Serv Cntr,Alamosa,CO
+08,005,Arapahoe County USDA Serv Cntr,Byers,CO
+08,007,Archuleta County FSA Office,Durango,CO
+08,009,Baca County USDA Serv Cntr,Springfield,CO
+08,011,Bent County USDA Serv Cntr,Las Animas,CO
+08,013,Boulder County USDA Serv Cntr,Longmont,CO
+08,014,Adams County FSA Office,Broomfield,CO
+08,015,Chaffee County FSA Office,Canon City,CO
+08,017,Cheyenne County USDA Serv Cntr,Cheyenne Wells,CO
+08,021,Conejos County USDA Serv Cntr,La Jara,CO
+08,023,Costilla County FSA Office,La Jara,CO
+08,025,Crowley County FSA Office,Rocky Ford,CO
+08,027,Custer County FSA Office,Canon City,CO
+08,029,Delta County USDA Serv Cntr,Delta,CO
+08,031,Adams County FSA Office,Denver,CO
+08,033,Dolores County USDA Serv Cntr,Dove Creek,CO
+08,035,Douglas County FSA Office,Simla,CO
+08,037,Eagle County FSA Office,Glenwood Springs,CO
+08,041,El Paso County USDA Serv Cntr,Colorado Springs,CO
+08,039,Elbert County USDA Serv Cntr,Simla,CO
+08,043,Fremont County USDA Serv Cntr,Canon City,CO
+08,045,Garfield County USDA Serv Cntr,Glenwood Springs,CO
+08,047,Gilpin,,CO
+08,049,Grand County FSA Office,Steamboat Springs,CO
+08,051,Gunnison Colorado County FSA Office,Montrose,CO
+08,053,Hinsdale County FSA Office,Monte Vista,CO
+08,055,Huerfano County FSA Office,Trinidad,CO
+08,057,Jackson County FSA Office,Steamboat Springs,CO
+08,059,Jefferson County FSA Office,Longmont,CO
+08,061,Kiowa County USDA Serv Cntr,Eads,CO
+08,063,Kit Carson County USDA Serv Cntr,Burlington,CO
+08,065,Lake County FSA Office,Canon City,CO
+08,067,La Plata County USDA Serv Cntr,Durango,CO
+08,069,Larimer County USDA Serv Cntr,Fort Collins,CO
+08,071,Las Animas County USDA Serv Cntr,Trinidad,CO
+08,073,Lincoln County USDA Serv Cntr,Hugo,CO
+08,075,Logan County USDA Serv Cntr,Sterling,CO
+08,077,Mesa County USDA Serv Cntr,Grand Junction,CO
+08,079,Mineral County FSA Office,Monte Vista,CO
+08,081,Moffat County USDA Serv Cntr,Craig,CO
+08,083,Montezuma County USDA Serv Cntr,Cortez,CO
+08,085,Montrose County USDA Serv Cntr,Montrose,CO
+08,087,Morgan County USDA Serv Cntr,Fort Morgan,CO
+08,089,Otero County USDA Serv Cntr,Rocky Ford,CO
+08,091,Ouray Colorado County FSA Office,Montrose,CO
+08,093,Park County FSA Office,Colorado Springs,CO
+08,095,Phillips County USDA Serv Cntr,Holyoke,CO
+08,097,Pitkin County FSA Office,Glenwood Springs,CO
+08,099,Prowers County USDA Serv Cntr,Lamar,CO
+08,101,Pueblo County USDA Serv Cntr,Pueblo,CO
+08,103,Rio Blanco County USDA Serv Cntr,Meeker,CO
+08,105,Rio Grande County USDA Serv Cntr,Monte Vista,CO
+08,107,Routt County USDA Serv Cntr,Steamboat Springs,CO
+08,109,Saguache County FSA Office,Monte Vista,CO
+08,113,San Miguel County FSA Office,Dove Creek,CO
+08,115,Sedgwick County USDA Serv Cntr,Julesburg,CO
+08,117,Summit County FSA Office,Steamboat Springs,CO
+08,119,Teller County FSA Office,Colorado Springs,CO
+08,121,Washington County USDA Serv Cntr,Akron,CO
+08,123,Weld County USDA Serv Cntr,Greeley,CO
+08,125,Yuma County USDA Serv Cntr,Wray,CO
+09,000,Connecticut State USDA Office,Tolland,CT
+09,001,Fairfield County FSA Office,Torrington,CT
+09,003,Hartford County USDA Serv Cntr,Windsor,CT
+09,005,Litchfield County USDA Serv Cntr,Torrington,CT
+09,007,Middlesex County FSA Office,Wallingford,CT
+09,009,New Haven County USDA Serv Cntr,Wallingford,CT
+09,011,New London County USDA Serv Cntr,Norwich,CT
+09,013,Tolland County FSA Office,Windsor,CT
+09,015,Windham County USDA Serv Cntr,Brooklyn,CT
+10,000,Delaware State USDA Office,Dover,DE
+10,001,Kent County USDA Serv Cntr,Dover,DE
+10,003,New Castle County USDA Serv Cntr,Newark,DE
+10,005,Sussex County USDA Serv Cntr,Georgetown,DE
+12,000,Florida State USDA Office,Gainesville,FL
+12,001,Alachua County USDA Serv Cntr,Gainesville,FL
+12,003,Baker County FSA Office,Baldwin,FL
+12,005,Bay County FSA Office,Chipley,FL
+12,007,Bradford County FSA Office,Gainesville,FL
+12,009,Brevard County FSA Office,Kissimmee,FL
+12,011,Broward County FSA Office,West Palm Beach,FL
+12,013,Calhoun County USDA Serv Cntr,Blountstown,FL
+12,015,Charlotte County FSA Office,Fort Myers,FL
+12,017,Citrus County FSA Office,Bushnell,FL
+12,019,Clay County FSA Office,East Palatka,FL
+12,021,Collier County FSA Office,Clewiston,FL
+12,023,Columbia County USDA Serv Cntr,Lake City,FL
+12,025,Dade County USDA Serv Cntr,Homestead,FL
+12,027,Desoto County FSA Office,Wauchula,FL
+12,029,Dixie County FSA Office,Trenton,FL
+12,031,Duval County USDA Serv Cntr,Baldwin,FL
+12,033,Escambia County USDA Serv Cntr,Molino,FL
+12,035,Flagler County FSA Office,East Palatka,FL
+12,037,Franklin County FSA Office,Blountstown,FL
+12,039,Gadsden County USDA Serv Cntr,Quincy,FL
+12,041,Gilchrist County USDA Serv Cntr,Trenton,FL
+12,043,Glades County FSA Office,Okeechobee,FL
+12,045,Gulf County FSA Office,Blountstown,FL
+12,047,Hamilton County USDA Serv Cntr,Jasper,FL
+12,049,Hardee County USDA Serv Cntr,Wauchula,FL
+12,051,Hendry County USDA Serv Cntr,Clewiston,FL
+12,053,Hernando County FSA Office,San Antonio,FL
+12,055,Highlands County USDA Serv Cntr,Sebring,FL
+12,057,Hillsborough County USDA Serv Cntr,Plant City,FL
+12,059,Holmes County USDA Serv Cntr,Bonifay,FL
+12,061,Indian River County FSA Office,Fort Pierce,FL
+12,063,Jackson County USDA Serv Cntr,Marianna,FL
+12,065,Jefferson County USDA Serv Cntr,Monticello,FL
+12,067,Lafayette County USDA Serv Cntr,Mayo,FL
+12,069,Lake County USDA Serv Cntr,Tavares,FL
+12,071,Lee County USDA Serv Cntr,Fort Myers,FL
+12,073,Jefferson Leon & Wakulla County FSA Office,Monticello,FL
+12,075,Levy County USDA Serv Cntr,Bronson,FL
+12,077,Liberty County FSA Office,Blountstown,FL
+12,079,Madison County USDA Serv Cntr,Madison,FL
+12,081,Manatee County FSA Office,Wauchula,FL
+12,083,Marion County USDA Serv Cntr,Ocala,FL
+12,085,Martin County FSA Office,Fort Pierce,FL
+12,089,Nassau County FSA Office,Baldwin,FL
+12,091,Okaloosa County USDA Serv Cntr,Crestview,FL
+12,093,Okeechobee County USDA Serv Cntr,Okeechobee,FL
+12,095,Orange County FSA Office,Kissimmee,FL
+12,097,Osceola County USDA Serv Cntr,Kissimmee,FL
+12,099,Palm Beach County USDA Serv Cntr,West Palm Beach,FL
+12,101,Pasco County USDA Serv Cntr,San Antonio,FL
+12,103,Pinellas County FSA Office,Plant City,FL
+12,105,Polk County USDA Serv Cntr,Bartow,FL
+12,107,Putnam County USDA Serv Cntr,East Palatka,FL
+12,109,St. Johns County FSA Office,East Palatka,FL
+12,113,Santa Rosa County USDA Serv Cntr,Milton,FL
+12,111,St. Lucie County USDA Serv Cntr,Fort Pierce,FL
+12,115,Sarasota County FSA Office,Wauchula,FL
+12,117,Seminole County FSA Office,Deland,FL
+12,119,Sumter County USDA Serv Cntr,Bushnell,FL
+12,121,Suwannee County USDA Serv Cntr,Live Oak,FL
+12,123,Taylor County FSA Office,Mayo,FL
+12,125,Union County FSA Office,Lake City,FL
+12,127,Volusia County USDA Serv Cntr,Deland,FL
+12,129,Wakulla County FSA Office,Monticello,FL
+12,131,Walton County USDA Serv Cntr,Defuniak Springs,FL
+12,133,Washington County USDA Serv Cntr,Chipley,FL
+13,000,Georgia State USDA Office,Athens,GA
+13,001,Appling County USDA Serv Cntr,Baxley,GA
+13,003,Atkinson County USDA Serv Cntr,Pearson,GA
+13,005,Bacon County USDA Serv Cntr,Alma,GA
+13,007,Baker County USDA Serv Cntr,Newton,GA
+13,009,Baldwin County FSA Office,Eatonton,GA
+13,011,Banks County FSA Office,Commerce,GA
+13,013,Barrow County FSA Office,Watkinsville,GA
+13,015,Bartow County FSA Office,Calhoun,GA
+13,017,Ben Hill County USDA Serv Cntr,Fitzgerald,GA
+13,019,Berrien County USDA Serv Cntr,Nashville,GA
+13,021,Bibb County FSA Office,Byron,GA
+13,023,Bleckley County USDA Serv Cntr,Cochran,GA
+13,025,Brantley County USDA Serv Cntr,Nahunta,GA
+13,027,Brooks County USDA Serv Cntr,Quitman,GA
+13,029,Bryan County FSA Office,Springfield,GA
+13,031,Bulloch County USDA Serv Cntr,Statesboro,GA
+13,033,Burke County USDA Serv Cntr,Waynesboro,GA
+13,035,Butts County FSA Office,McDonough,GA
+13,037,Calhoun County USDA Serv Cntr,Morgan,GA
+13,039,Camden County FSA Office,Jesup,GA
+13,043,Candler County USDA Serv Cntr,Metter,GA
+13,045,Carroll County USDA Serv Cntr,Carrollton,GA
+13,047,Catoosa County FSA Office,Lafayette,GA
+13,049,Charlton County FSA Office,Nahunta,GA
+13,051,Chatham County FSA Office,Springfield,GA
+13,053,Chattahoochee County FSA Office,Buena Vista,GA
+13,055,Chattooga County FSA Office,Lafayette,GA
+13,057,Cherokee County FSA Office,Calhoun,GA
+13,059,Clarke County FSA Office,Watkinsville,GA
+13,061,Clay County FSA Office,Cuthbert,GA
+13,063,Clayton County FSA Office,McDonough,GA
+13,065,Clinch County FSA Office,Lakeland,GA
+13,067,Cobb County FSA Office,Calhoun,GA
+13,069,Coffee County USDA Serv Cntr,Douglas,GA
+13,071,Colquitt County USDA Serv Cntr,Moultrie,GA
+13,073,Columbia County FSA Office,Thomson,GA
+13,075,Cook County USDA Serv Cntr,Adel,GA
+13,077,Coweta County USDA Serv Cntr,Newnan,GA
+13,079,Crawford County FSA Office,Byron,GA
+13,081,Crisp County USDA Serv Cntr,Cordele,GA
+13,083,Dade County FSA Office,Lafayette,GA
+13,085,Dawson County FSA Office,Gainesville,GA
+13,087,Decatur County USDA Serv Cntr,Bainbridge,GA
+13,089,Dekalb County FSA Office,Monroe,GA
+13,091,Dodge County USDA Serv Cntr,Eastman,GA
+13,093,Dooly County USDA Serv Cntr,Vienna,GA
+13,095,Dougherty County USDA Serv Cntr,Albany,GA
+13,097,Douglas County FSA Office,Carrollton,GA
+13,099,Early County USDA Serv Cntr,Blakely,GA
+13,101,Echols County FSA Office,Valdosta,GA
+13,103,Effingham County USDA Serv Cntr,Springfield,GA
+13,105,Elbert County USDA Serv Cntr,Elberton,GA
+13,107,Emanuel County USDA Serv Cntr,Swainsboro,GA
+13,109,Evans County USDA Serv Cntr,Claxton,GA
+13,111,Fannin County FSA Office,Blairsville,GA
+13,113,Fayette County FSA Office,McDonough,GA
+13,115,Floyd County USDA Serv Cntr,Rome,GA
+13,117,Forsyth County FSA Office,Gainesville,GA
+13,119,Franklyn County FSA Office,Hartwell,GA
+13,121,Fulton County FSA Office,Carrollton,GA
+13,123,Gilmer County FSA Office,Blairsville,GA
+13,125,Glascock County FSA Office,Louisville,GA
+13,127,Glynn County FSA Office,Jesup,GA
+13,129,Gordon County USDA Serv Cntr,Calhoun,GA
+13,131,Grady County USDA Serv Cntr,Cairo,GA
+13,133,Greene County USDA Serv Cntr,Greensboro,GA
+13,135,Gwinnett County FSA Office,Monroe,GA
+13,137,Habersham County USDA Serv Cntr,Clarkesville,GA
+13,139,Hall County USDA Serv Cntr,Gainesville,GA
+13,141,Hancock County FSA Office,Greensboro,GA
+13,143,Haralson County FSA Office,Carrollton,GA
+13,145,Harris County FSA Office,Buena Vista,GA
+13,147,Hart County USDA Serv Cntr,Hartwell,GA
+13,149,Heard County FSA Office,Newnan,GA
+13,151,Henry County USDA Serv Cntr,McDonough,GA
+13,153,Houston County USDA Serv Cntr,Perry,GA
+13,155,Irwin County USDA Serv Cntr,Ocilla,GA
+13,157,Jackson County USDA Serv Cntr,Commerce,GA
+13,159,Jasper County FSA Office,Madison,GA
+13,161,Jeff Davis County USDA Serv Cntr,Hazlehurst,GA
+13,163,Jefferson County USDA Serv Cntr,Louisville,GA
+13,165,Jenkins County USDA Serv Cntr,Millen,GA
+13,167,Johnson County USDA Serv Cntr,Wrightsville,GA
+13,169,Jones County FSA Office,Eatonton,GA
+13,171,Lamar County USDA Serv Cntr,Barnesville,GA
+13,173,Lanier County USDA Serv Cntr,Lakeland,GA
+13,175,Laurens County USDA Serv Cntr,Dublin,GA
+13,177,Lee County USDA Serv Cntr,Leesburg,GA
+13,179,Liberty County FSA Office,Jesup,GA
+13,181,Lincoln County FSA Office,Washington,GA
+13,183,Long County FSA Office,Jesup,GA
+13,185,Lowndes County USDA Serv Cntr,Valdosta,GA
+13,187,Lumpkin County FSA Office,Gainesville,GA
+13,189,McDuffie County USDA Serv Cntr,Thomson,GA
+13,191,MCIntosh County FSA Office,Jesup,GA
+13,193,Macon County USDA Serv Cntr,Oglethorpe,GA
+13,195,Madison County FSA Office,Commerce,GA
+13,197,Marion County USDA Serv Cntr,Buena Vista,GA
+13,199,Meriwether County FSA Office,Newnan,GA
+13,201,Miller County USDA Serv Cntr,Colquitt,GA
+13,205,Mitchell County USDA Serv Cntr,Camilla,GA
+13,207,Monroe County FSA Office,Barnesville,GA
+13,209,Montgomery County USDA Serv Cntr,Mount Vernon,GA
+13,211,Morgan County USDA Serv Cntr,Madison,GA
+13,213,Murray County FSA Office,Calhoun,GA
+13,215,Muscogee County FSA Office,Buena Vista,GA
+13,217,Newton County FSA Office,Madison,GA
+13,219,Oconee County USDA Serv Cntr,Watkinsville,GA
+13,221,Oglethorpe County FSA Office,Elberton,GA
+13,223,Paulding County FSA Office,Carrollton,GA
+13,225,Peach County USDA Serv Cntr,Byron,GA
+13,227,Pickens County FSA Office,Calhoun,GA
+13,229,Pierce County USDA Serv Cntr,Blackshear,GA
+13,231,Pike County FSA Office,Barnesville,GA
+13,233,Polk County FSA Office,Rome,GA
+13,235,Pulaski County USDA Serv Cntr,Hawkinsville,GA
+13,237,Putnam County USDA Serv Cntr,Eatonton,GA
+13,239,Quitman County FSA Office,Cuthbert,GA
+13,241,Rabun County FSA Office,Clarkesville,GA
+13,243,Randolph County USDA Serv Cntr,Cuthbert,GA
+13,245,Richmond County FSA Office,Thomson,GA
+13,247,Rockdale County FSA Office,Monroe,GA
+13,249,Schley County FSA Office,Americus,GA
+13,251,Screven County USDA Serv Cntr,Sylvania,GA
+13,253,Seminole County USDA Serv Cntr,Donalsonville,GA
+13,255,Spalding County FSA Office,McDonough,GA
+13,257,Stephens County FSA Office,Clarkesville,GA
+13,259,Stewart County FSA Office,Preston,GA
+13,261,Sumter County USDA Serv Cntr,Americus,GA
+13,263,Talbot County FSA Office,Buena Vista,GA
+13,265,Taliaferro County FSA Office,Greensboro,GA
+13,267,Tattnall County USDA Serv Cntr,Reidsville,GA
+13,269,Taylor County USDA Serv Cntr,Butler,GA
+13,271,Telfair County USDA Serv Cntr,McRae,GA
+13,273,Terrell County USDA Serv Cntr,Dawson,GA
+13,275,Thomas County USDA Serv Cntr,Thomasville,GA
+13,277,Tift County USDA Serv Cntr,Tifton,GA
+13,279,Toombs County USDA Serv Cntr,Lyons,GA
+13,281,Towns County FSA Office,Blairsville,GA
+13,283,Treutlen County FSA Office,Mount Vernon,GA
+13,285,Troup County FSA Office,Newnan,GA
+13,287,Turner County USDA Serv Cntr,Ashburn,GA
+13,289,Twiggs County FSA Office,Cochran,GA
+13,291,Union County USDA Serv Cntr,Blairsville,GA
+13,293,Upson County FSA Office,Barnesville,GA
+13,295,Walker County USDA Serv Cntr,Lafayette,GA
+13,297,Walton County USDA Serv Cntr,Monroe,GA
+13,299,Ware County USDA Serv Cntr,Waycross,GA
+13,301,Warren County FSA Office,Thomson,GA
+13,303,Washington County USDA Serv Cntr,Tennville,GA
+13,305,Wayne County USDA Serv Cntr,Jesup,GA
+13,307,Webster County USDA Serv Cntr,Preston,GA
+13,309,Wheeler County USDA Serv Cntr,Alamo,GA
+13,311,White County FSA Office,Clarkesville,GA
+13,313,Whitfield County FSA Office,Calhoun,GA
+13,315,Wilcox County USDA Serv Cntr,Rochelle,GA
+13,317,Wilkes County USDA Serv Cntr,Washington,GA
+13,319,Wilkinson County FSA OFFICe,Dublin,GA
+13,321,Worth County USDA Serv Cntr,Sylvester,GA
+13,701,"Concordia Allied Producers, LLC (LSA)",Ashburn,GA
+13,804,GFA Peanut Association,Camilla,GA
+13,805,Concordia LLC,Ashburn,GA
+13,806,"Concordia Allied Producers, LLC (DMA)",Ashburn,GA
+13,808,"American Peanut Marketing Association, LLC (DMA)",Leary,GA
+13,809,American Midland Cotton Cooperative Inc.,Mount Pleasant,SC
+15,000,Hawaii State USDA Office,Honolulu,HI
+15,001,Hawaii County USDA Serv Cntr,Hilo,HI
+15,003,Honolulu County USDA Serv Cntr,Aiea,HI
+15,007,Kauai County USDA Serv Cntr,Lihue,HI
+15,009,Maui County USDA Serv Cntr,Wailuku,HI
+16,000,Idaho State USDA Office,Boise,ID
+16,001,Ada County USDA Serv Cntr,Meridian,ID
+16,003,Adams County FSA Office,Weiser,ID
+16,005,Bannock County USDA Serv Cntr,Pocatello,ID
+16,007,Bear Lake County USDA Serv Cntr,Montpelier,ID
+16,009,Benewah County USDA Serv Cntr,Plummer,ID
+16,011,Bingham County USDA Serv Cntr,Blackfoot,ID
+16,013,Blaine County FSA Office,Shoshone,ID
+16,015,Boise County FSA Offcice,Emmett,ID
+16,017,Bonner County FSA Office,Bonners Ferry,ID
+16,019,Bonneville County USDA Serv Cntr,Idaho Falls,ID
+16,021,Boundary County USDA Serv Cntr,Bonners Ferry,ID
+16,023,Butte County USDA Serv Cntr,Arco,ID
+16,025,Camas County FSA Office,Gooding,ID
+16,027,Canyon County USDA Serv Cntr,Caldwell,ID
+16,029,Caribou County USDA Serv Cntr,Soda Springs,ID
+16,031,Cassia County USDA Serv Cntr,Burley,ID
+16,033,Clark County FSA Office,Rigby,ID
+16,035,Clearwater County USDA Serv Cntr,Orofino,ID
+16,037,Custer County FSA Office,Arco,ID
+16,039,Elmore County USDA Serv Cntr,Mountain Home,ID
+16,041,Franklin County USDA Serv Cntr,Preston,ID
+16,043,Fremont County USDA Serv Cntr,Saint Anthony,ID
+16,045,Gem County USDA Serv Cntr,Emmett,ID
+16,047,Gooding County USDA Serv Cntr,Gooding,ID
+16,049,Idaho County USDA Serv Cntr,Grangeville,ID
+16,051,Jefferson County USDA Serv Cntr,Rigby,ID
+16,053,Jerome County USDA Serv Cntr,Jerome,ID
+16,055,Kootenai County USDA Serv Cntr,Coeur d'Alene,ID
+16,057,Latah County USDA Serv Cntr,Moscow,ID
+16,059,Lemhi County USDA Serv Cntr,Salmon,ID
+16,061,Lewis County USDA Serv Cntr,Nezperce,ID
+16,063,Lincoln County USDA Serv Cntr,Shoshone,ID
+16,065,Madison County USDA Serv Cntr,Rexburg,ID
+16,067,Minidoka County USDA Serv Cntr,Rupert,ID
+16,069,Nez Perce County USDA Serv Cntr,Lewiston,ID
+16,071,Oneida County USDA Serv Cntr,Malad,ID
+16,073,Owyhee County USDA Serv Cntr,Marsing,ID
+16,075,Payette County USDA Serv Cntr,Payette,ID
+16,077,Power County USDA Serv Cntr,American Falls,ID
+16,081,Teton County USDA Serv Cntr,Driggs,ID
+16,083,Twin Falls County USDA Serv Cntr,Twin Falls,ID
+16,085,Valley County FSA Office,Emmett,ID
+16,087,Washington County USDA Serv Cntr,Weiser,ID
+17,000,Illinois State USDA Office,Springfield,IL
+17,001,Adams County USDA Serv Cntr,Quincy,IL
+17,003,Alexander County USDA Serv Cntr,Tamms,IL
+17,005,Bond County USDA Serv Cntr,Greenville,IL
+17,007,Boone County USDA Serv Cntr,Belvidere,IL
+17,009,Brown County USDA Serv Cntr,Mount Sterling,IL
+17,011,Bureau County USDA Serv Cntr,Princeton,IL
+17,013,Calhoun County USDA Serv Cntr,Hardin,IL
+17,015,Carroll County USDA Serv Cntr,Mount Carroll,IL
+17,017,Cass County USDA Serv Cntr,Virginia,IL
+17,019,Champaign County USDA Serv Cntr,Champaign,IL
+17,021,Christian County USDA Serv Cntr,Taylorville,IL
+17,023,Clark County USDA Serv Cntr,Martinsville,IL
+17,025,Clay County USDA Serv Cntr,Louisville,IL
+17,027,Clinton County USDA Serv Cntr,Breese,IL
+17,029,Coles County USDA Serv Cntr,Charleston,IL
+17,031,Cook County FSA Office,New Lenox,IL
+17,033,Crawford County USDA Serv Cntr,Robinson,IL
+17,035,Cumberland County USDA Serv Cntr,Toledo,IL
+17,037,DeKalb County USDA Serv Cntr,Sycamore,IL
+17,039,DeWitt County USDA Serv Cntr,Clinton,IL
+17,041,Douglas County USDA Serv Cntr,Tuscola,IL
+17,043,Dupage County FSA Office,St Charles,IL
+17,045,Edgar County USDA Serv Cntr,Paris,IL
+17,047,Edwards County FSA Office,Fairfield,IL
+17,049,Effingham County USDA Serv Cntr,Effingham,IL
+17,051,Fayette County USDA Serv Cntr,Vandalia,IL
+17,053,Ford County USDA Serv Cntr,Paxton,IL
+17,055,Franklin County USDA Serv Cntr,Benton,IL
+17,057,Fulton County USDA Serv Cntr,Lewistown,IL
+17,059,Gallatin County USDA Serv Cntr,Ridgway,IL
+17,061,Greene County USDA Serv Cntr,Carrollton,IL
+17,063,Grundy County USDA Serv Cntr,Morris,IL
+17,065,Hamilton County USDA Serv Cntr,McLeansboro,IL
+17,067,Hancock County USDA Serv Cntr,Carthage,IL
+17,069,Hardin County FSA Office,Ridgway,IL
+17,071,Henderson County USDA Serv Cntr,Stronghurst,IL
+17,073,Henry County USDA Serv Cntr,Cambridge,IL
+17,075,Iroquois County USDA Serv Cntr,Watseka,IL
+17,077,Jackson County USDA Serv Cntr,Murphysboro,IL
+17,079,Jasper County USDA Serv Cntr,Newton,IL
+17,081,Jefferson County USDA Serv Cntr,Mount Vernon,IL
+17,083,Jersey County USDA Serv Cntr,Jerseyville,IL
+17,085,JoDaviess County USDA Serv Cntr,Elizabeth,IL
+17,087,Johnson County USDA Serv Cntr,Vienna,IL
+17,089,Kane/Dupage County USDA Serv Cntr,St Charles,IL
+17,091,Kankakee County USDA Serv Cntr,Bourbonnais,IL
+17,093,Kendall County USDA Serv Cntr,Yorkville,IL
+17,095,Knox County USDA Serv Cntr,Galesburg,IL
+17,097,Lake County FSA Office,Woodstock,IL
+17,099,LaSalle County USDA Serv Cntr,Ottawa,IL
+17,101,Lawrence County USDA Serv Cntr,Lawrenceville,IL
+17,103,Lee County USDA Serv Cntr,Amboy,IL
+17,105,Livingston County USDA Serv Cntr,Pontiac,IL
+17,107,Logan County USDA Serv Cntr,Lincoln,IL
+17,109,McDonough County USDA Serv Cntr,Macomb,IL
+17,111,McHenry County USDA Serv Cntr,Woodstock,IL
+17,113,McLean County USDA Serv Cntr,Normal,IL
+17,115,Macon County USDA Serv Cntr,Decatur,IL
+17,117,Macoupin County USDA Serv Cntr,Carlinville,IL
+17,119,Madison County USDA Serv Cntr,Edwardsville,IL
+17,121,Marion County USDA Serv Cntr,Salem,IL
+17,123,Marshall County USDA Serv Cntr,Henry,IL
+17,125,Mason County USDA Serv Cntr,Havana,IL
+17,127,Massac County FSA Office,Vienna,IL
+17,129,Menard County USDA Serv Cntr,Petersburg,IL
+17,131,Mercer County USDA Serv Cntr,Aledo,IL
+17,133,Monroe County USDA Serv Cntr,Waterloo,IL
+17,135,Montgomery County USDA Serv Cntr,Hillsboro,IL
+17,137,Morgan County USDA Serv Cntr,Jacksonville,IL
+17,139,Moultrie County USDA Serv Cntr,Sullivan,IL
+17,141,Ogle County USDA Serv Cntr,Oregon,IL
+17,143,Peoria County USDA Serv Cntr,Peoria,IL
+17,145,Perry County USDA Serv Cntr,Pinckneyville,IL
+17,147,Piatt County USDA Serv Cntr,Monticello,IL
+17,149,Pike County USDA Serv Cntr,Pittsfield,IL
+17,151,Pope County FSA Office,Vienna,IL
+17,153,Pulaski County FSA Office,Tamms,IL
+17,155,Putnam County FSA Office,Henry,IL
+17,157,Randolph County USDA Serv Cntr,Sparta,IL
+17,159,Richland County USDA Serv Cntr,Olney,IL
+17,161,Rock Island County USDA Serv Cntr,Milan,IL
+17,163,St. Clair County USDA Serv Cntr,Belleville,IL
+17,165,Saline County USDA Serv Cntr,Harrisburg,IL
+17,167,Sangamon County USDA Serv Cntr,Springfield,IL
+17,169,Schuyler County USDA Serv Cntr,Rushville,IL
+17,171,Scott County USDA Serv Cntr,Winchester,IL
+17,173,Shelby County USDA Serv Cntr,Shelbyville,IL
+17,175,Stark County USDA Serv Cntr,Toulon,IL
+17,177,Stephenson County USDA Serv Cntr,Freeport,IL
+17,179,Tazewell County USDA Serv Cntr,Pekin,IL
+17,181,Union County USDA Serv Cntr,Anna,IL
+17,183,Vermilion County USDA Serv Cntr,Danville,IL
+17,185,Wabash County USDA Serv Cntr,Mt. Carmel,IL
+17,187,Warren County USDA Serv Cntr,Monmouth,IL
+17,189,Washington County USDA Serv Cntr,Nashville,IL
+17,191,Wayne County USDA Serv Cntr,Fairfield,IL
+17,193,White County USDA Serv Cntr,Carmi,IL
+17,195,Whiteside County USDA Serv Cntr,Morrison,IL
+17,197,Will County USDA Serv Cntr,New Lenox,IL
+17,199,Williamson County USDA Serv Cntr,Marion,IL
+17,201,Winnebago County USDA Serv Cntr,Rockford,IL
+17,203,Woodford County USDA Serv Cntr,Eureka,IL
+17,802,Topflight Grain Cooperative,Bement,IL
+18,000,Indiana State USDA Office,Indianapolis,IN
+18,001,Adams County USDA Serv Cntr,Decatur,IN
+18,003,Allen County USDA Serv Cntr,Fort Wayne,IN
+18,005,Barthlomew County USDA Serv Cntr,Columbus,IN
+18,007,Benton County USDA Serv Cntr,Fowler,IN
+18,009,Blackford County FSA Office,Muncie,IN
+18,011,Boone County USDA Serv Cntr,Lebanon,IN
+18,013,Brown County FSA Office,Bloomington,IN
+18,015,Carroll County USDA Serv Cntr,Delphi,IN
+18,017,Cass County USDA Serv Cntr,Logansport,IN
+18,019,Clark County USDA Serv Cntr,Charlestown,IN
+18,021,Clay County USDA Serv Cntr,Brazil,IN
+18,023,Clinton County USDA Serv Cntr,Frankfort,IN
+18,025,Crawford County FSA Office,Corydon,IN
+18,027,Daviess County USDA Serv Cntr,Washington,IN
+18,029,Dearborn County USDA Serv Cntr,Aurora,IN
+18,031,Decatur County USDA Serv Cntr,Greensburg,IN
+18,033,DeKalb County USDA Serv Cntr,Auburn,IN
+18,035,Delaware County USDA Serv Cntr,Muncie,IN
+18,037,Dubois County USDA Serv Cntr,Jasper,IN
+18,039,Elkhart County USDA Serv Cntr,Goshen,IN
+18,041,Fayette County USDA Serv Cntr,Connersville,IN
+18,043,Floyd County FSA Office,Corydon,IN
+18,045,Fountain County USDA Serv Cntr,Covington,IN
+18,047,Franklin County USDA Serv Cntr,Brookville,IN
+18,049,Fulton County USDA Serv Cntr,Rochester,IN
+18,051,Gibson County USDA Serv Cntr,Princeton,IN
+18,053,Grant County USDA Serv Cntr,Marion,IN
+18,055,Greene County USDA Serv Cntr,Bloomfield,IN
+18,057,Hamilton County USDA Serv Cntr,Noblesville,IN
+18,059,Hancock County USDA Serv Cntr,Greenfield,IN
+18,061,Harrison County USDA Serv Cntr,Corydon,IN
+18,063,Hendricks County USDA Serv Cntr,Danville,IN
+18,065,Henry County USDA Serv Cntr,New Castle,IN
+18,067,Howard County USDA Serv Cntr,Kokomo,IN
+18,069,Huntington County USDA Serv Cntr,Huntington,IN
+18,071,Jackson County USDA Serv Cntr,Brownstown,IN
+18,073,Jasper County USDA Serv Cntr,Rensselaer,IN
+18,075,Jay County USDA Serv Cntr,Portland,IN
+18,077,Jefferson County USDA Serv Cntr,Hanover,IN
+18,079,Jennings County USDA Serv Cntr,North Vernon,IN
+18,081,Johnson County USDA Serv Cntr,Franklin,IN
+18,083,Knox County USDA Serv Cntr,Vincennes,IN
+18,085,Kosciusko County USDA Serv Cntr,Warsaw,IN
+18,087,LaGrange County USDA Serv Cntr,LaGrange,IN
+18,089,Lake County USDA Serv Cntr,Crown Point,IN
+18,091,LaPorte County USDA Serv Cntr,LaPorte,IN
+18,093,Lawrence County USDA Serv Cntr,Bedford,IN
+18,095,Madison County USDA Serv Cntr,Anderson,IN
+18,097,Marion County FSA Office,Franklin,IN
+18,099,Marshall County USDA Serv Cntr,Plymouth,IN
+18,101,Martin County FSA Office,Washington,IN
+18,103,Miami County USDA Serv Cntr,Peru,IN
+18,105,Monroe County USDA Serv Cntr,Bloomington,IN
+18,107,Montgomery County USDA Serv Cntr,Crawfordsville,IN
+18,109,Morgan County USDA Serv Cntr,Martinsville,IN
+18,111,Newton County USDA Serv Cntr,Morocco,IN
+18,113,Noble County USDA Serv Cntr,Albion,IN
+18,115,Ohio County FSA Office,Aurora,IN
+18,117,Orange County USDA Serv Cntr,Paoli,IN
+18,119,Owen County FSA Office,Bloomington,IN
+18,121,Parke County USDA Serv Cntr,Rockville,IN
+18,123,Perry County FSA Office,Rockport,IN
+18,125,Pike County USDA Serv Cntr,Petersburg,IN
+18,127,Porter County USDA Serv Cntr,Valparaiso,IN
+18,129,Posey County USDA Serv Cntr,Mt. Vernon,IN
+18,131,Pulaski County USDA Serv Cntr,Winamac,IN
+18,133,Putnam County USDA Serv Cntr,Greencastle,IN
+18,135,Randolph County USDA Serv Cntr,Winchester,IN
+18,137,Ripley County USDA Serv Cntr,Versailles,IN
+18,139,Rush County USDA Serv Cntr,Rushville,IN
+18,141,St. Joseph County USDA Serv Cntr,South Bend,IN
+18,143,Scott County USDA Serv Cntr,Scottsburg,IN
+18,145,Shelby County USDA Serv Cntr,Shelbyville,IN
+18,147,Spencer County USDA Serv Cntr,Rockport,IN
+18,149,Starke County USDA Serv Cntr,Knox,IN
+18,151,Steuben County USDA Serv Cntr,Angola,IN
+18,153,Sullivan County USDA Serv Cntr,Sullivan,IN
+18,155,Switzerland County USDA Serv Cntr,Vevay,IN
+18,157,Tippecanoe County USDA Serv Cntr,Lafayette,IN
+18,159,Tipton County USDA Serv Cntr,Tipton,IN
+18,161,Union County FSA Office,Connersville,IN
+18,163,Vanderburgh County USDA Serv Cntr,Evansville,IN
+18,165,Vermillion County FSA Office,Rockville,IN
+18,167,Vigo County USDA Serv Cntr,Terre Haute,IN
+18,169,Wabash County USDA Serv Cntr,Wabash,IN
+18,171,Warren County USDA Serv Cntr,Williamsport,IN
+18,173,Warrick County USDA Serv Cntr,Boonville,IN
+18,175,Washington County USDA Serv Cntr,Salem,IN
+18,177,Wayne County USDA Serv Cntr,Richmond,IN
+18,179,Wells County USDA Serv Cntr,Bluffton,IN
+18,181,White County USDA Serv Cntr,Monticello,IN
+18,183,Whitley County USDA Serv Cntr,Columbia City,IN
+19,000,Iowa State USDA Office,Des Moines,IA
+19,001,Adair County USDA Serv Cntr,Greenfield,IA
+19,003,Adams County USDA Serv Cntr,Corning,IA
+19,005,Allamakee County USDA Serv Cntr,Waukon,IA
+19,007,Appanoose County USDA Serv Cntr,Centerville,IA
+19,009,Audubon County USDA Serv Cntr,Audubon,IA
+19,011,Benton County USDA Serv Cntr,Vinton,IA
+19,013,Black Hawk County USDA Serv Cntr,Waterloo,IA
+19,015,Boone County USDA Serv Cntr,Boone,IA
+19,017,Bremer County USDA Serv Cntr,Waverly,IA
+19,019,Buchanan County USDA Serv Cntr,Independence,IA
+19,021,Buena Vista County USDA Serv Cntr,Storm Lake,IA
+19,023,Butler County USDA Serv Cntr,Allison,IA
+19,025,Calhoun County USDA Serv Cntr,Rockwell City,IA
+19,027,Carroll County USDA Serv Cntr,Carroll,IA
+19,029,Cass County USDA Serv Cntr,Atlantic,IA
+19,031,Cedar County USDA Serv Cntr,Tipton,IA
+19,033,Cerro Gordo County USDA Serv Cntr,Mason City,IA
+19,035,Cherokee County USDA Serv Cntr,Cherokee,IA
+19,037,Chickasaw County USDA Serv Cntr,New Hampton,IA
+19,039,Clarke County USDA Serv Cntr,Osceola,IA
+19,041,Clay County USDA Serv Cntr,Spencer,IA
+19,043,Clayton County USDA Serv Cntr,Elkader,IA
+19,045,Clinton County USDA Serv Cntr,DeWitt,IA
+19,047,Crawford County USDA Serv Cntr,Denison,IA
+19,049,Dallas County USDA Serv Cntr,Adel,IA
+19,051,Davis County USDA Serv Cntr,Bloomfield,IA
+19,053,Decatur County USDA Serv Cntr,Leon,IA
+19,055,Delaware County USDA Serv Cntr,Manchester,IA
+19,057,Des Moines County USDA Serv Cntr,West Burlington,IA
+19,059,Dickinson County USDA Serv Cntr,Spirit Lake,IA
+19,061,Dubuque County USDA Serv Cntr,Epworth,IA
+19,063,Emmet County USDA Serv Cntr,Estherville,IA
+19,065,Fayette County USDA Serv Cntr,West Union,IA
+19,067,Floyd County USDA Serv Cntr,Charles City,IA
+19,069,Franklin County USDA Serv Cntr,Hampton,IA
+19,071,Fremont County USDA Serv Cntr,Sidney,IA
+19,073,Greene County USDA Serv Cntr,Jefferson,IA
+19,075,Grundy County USDA Serv Cntr,Grundy Center,IA
+19,077,Guthrie County USDA Serv Cntr,Guthrie Center,IA
+19,079,Hamilton County USDA Serv Cntr,Webster City,IA
+19,081,Hancock County USDA Serv Cntr,Garner,IA
+19,083,Hardin County USDA Serv Cntr,Iowa Falls,IA
+19,085,Harrison County USDA Serv Cntr,Logan,IA
+19,087,Henry County USDA Serv Cntr,Mount Pleasant,IA
+19,089,Howard County USDA Serv Cntr,Cresco,IA
+19,091,Humboldt County USDA Serv Cntr,Humboldt,IA
+19,093,Ida County USDA Serv Cntr,Ida Grove,IA
+19,095,Iowa County USDA Serv Cntr,Williamsburg,IA
+19,097,Jackson County USDA Serv Cntr,Maquoketa,IA
+19,099,Jasper County USDA Serv Cntr,Newton,IA
+19,101,Jefferson County USDA Serv Cntr,Fairfield,IA
+19,103,Johnson County USDA Serv Cntr,Iowa City,IA
+19,105,Jones County USDA Serv Cntr,Anamosa,IA
+19,107,Keokuk County USDA Serv Cntr,Sigourney,IA
+19,109,Kossuth County USDA Serv Cntr,Algona,IA
+19,111,Lee County USDA Serv Cntr,Donnellson,IA
+19,113,Linn County USDA Serv Cntr,Marion,IA
+19,115,Louisa County USDA Serv Cntr,Wapello,IA
+19,117,Lucas County USDA Serv Cntr,Chariton,IA
+19,119,Lyon County USDA Serv Cntr,Rock Rapids,IA
+19,121,Madison County USDA Serv Cntr,Winterset,IA
+19,123,Mahaska County USDA Serv Cntr,Oskaloosa,IA
+19,125,Marion County USDA Serv Cntr,Knoxville,IA
+19,127,Marshall County USDA Serv Cntr,Marshalltown,IA
+19,129,Mills County USDA Serv Cntr,Malvern,IA
+19,131,Mitchell County USDA Serv Cntr,Osage,IA
+19,133,Monona County USDA Serv Cntr,Onawa,IA
+19,135,Monroe County USDA Serv Cntr,Albia,IA
+19,137,Montgomery County USDA Serv Cntr,Red Oak,IA
+19,139,Muscatine County USDA Serv Cntr,Muscatine,IA
+19,141,O'Brien County USDA Serv Cntr,Primghar,IA
+19,143,Osceola County USDA Serv Cntr,Sibley,IA
+19,145,Page County USDA Serv Cntr,Clarinda,IA
+19,147,Palo Alto County USDA Serv Cntr,Emmetsburg,IA
+19,149,Plymouth County USDA Serv Cntr,LeMars,IA
+19,151,Pocahontas County USDA Serv Cntr,Pocahontas,IA
+19,153,Polk County USDA Serv Cntr,Ankeny,IA
+19,155,E. Pottawattamie County USDA Serv Cntr,Oakland,IA
+19,156,W. Pottawattamie County USDA Serv Cntr,Council Bluffs,IA
+19,157,Poweshiek County USDA Serv Cntr,Malcom,IA
+19,159,Ringgold County USDA Serv Cntr,Mount Ayr,IA
+19,161,Sac County USDA Serv Cntr,Sac City,IA
+19,163,Scott County USDA Serv Cntr,Davenport,IA
+19,165,Shelby County USDA Serv Cntr,Harlan,IA
+19,167,Sioux County USDA Serv Cntr,Orange City,IA
+19,169,Story County USDA Serv Cntr,Nevada,IA
+19,171,Tama County USDA Serv Cntr,Toledo,IA
+19,173,Taylor County USDA Serv Cntr,Bedford,IA
+19,175,Union County USDA Serv Cntr,Creston,IA
+19,177,Van Buren County USDA Serv Cntr,Keosauqua,IA
+19,179,Wapello County USDA Serv Cntr,Ottumwa,IA
+19,181,Warren County USDA Serv Cntr,Indianola,IA
+19,183,Washington County USDA Serv Cntr,Washington,IA
+19,185,Wayne County USDA Serv Cntr,Corydon,IA
+19,187,Webster County USDA Serv Cntr,Fort Dodge,IA
+19,189,Winnebago County USDA Serv Cntr,Thompson,IA
+19,191,Winneshiek County USDA Serv Cntr,Decorah,IA
+19,193,Woodbury County USDA Serv Cntr,Sergeant Bluff,IA
+19,195,Worth County USDA Serv Cntr,Northwood,IA
+19,197,Wright County USDA Serv Cntr,Clarion,IA
+20,000,Kansas State USDA Office,Manhattan,KS
+20,001,Allen County USDA Serv Cntr,Iola,KS
+20,003,Anderson County USDA Serv Cntr,Garnett,KS
+20,005,Atchison County USDA Serv Cntr,Effingham,KS
+20,007,Barber County USDA Serv Cntr,Medicine Lodge,KS
+20,009,Barton County USDA Serv Cntr,Great Bend,KS
+20,011,Bourbon County USDA Serv Cntr,Fort Scott,KS
+20,013,Brown County USDA Serv Cntr,Hiawatha,KS
+20,015,Butler County USDA Serv Cntr,El Dorado,KS
+20,017,Chase County USDA Serv Cntr,Cottonwood Falls,KS
+20,019,Chautauqua County USDA Serv Cntr,Sedan,KS
+20,021,Cherokee County USDA Serv Cntr,Columbus,KS
+20,023,Cheyenne County USDA Serv Cntr,St Francis,KS
+20,025,Clark County USDA Serv Cntr,Ashland,KS
+20,027,Clay County USDA Serv Cntr,Clay Center,KS
+20,029,Cloud County USDA Serv Cntr,Concordia,KS
+20,031,Coffey County USDA Serv Cntr,Burlington,KS
+20,033,Comanche County USDA Serv Cntr,Coldwater,KS
+20,035,Cowley County USDA Serv Cntr,Winfield,KS
+20,037,Crawford County USDA Serv Cntr,Girard,KS
+20,039,Decatur County USDA Serv Cntr,Oberlin,KS
+20,041,Dickinson County USDA Serv Cntr,Abilene,KS
+20,043,Doniphan County USDA Serv Cntr,Troy,KS
+20,045,Douglas County USDA Serv Cntr,Lawrence,KS
+20,047,Edwards County USDA Serv Cntr,Kinsley,KS
+20,049,Elk County USDA Serv Cntr,Howard,KS
+20,051,Ellis County USDA Serv Cntr,Hays,KS
+20,053,Ellsworth County USDA Serv Cntr,Ellsworth,KS
+20,055,Finney County USDA Serv Cntr,Garden City,KS
+20,057,Ford County USDA Serv Cntr,Dodge City,KS
+20,059,Franklin County USDA Serv Cntr,Ottawa,KS
+20,061,Geary County USDA Serv Cntr,Junction City,KS
+20,063,Gove County USDA Serv Cntr,Gove,KS
+20,065,Graham County USDA Serv Cntr,Hill City,KS
+20,067,Grant County USDA Serv Cntr,Ulysses,KS
+20,069,Gray County USDA Serv Cntr,Cimarron,KS
+20,071,Greeley County USDA Serv Cntr,Tribune,KS
+20,073,Greenwood County USDA Serv Cntr,Eureka,KS
+20,075,Hamilton County USDA Serv Cntr,Syracuse,KS
+20,077,Harper County USDA Serv Cntr,Anthony,KS
+20,079,Harvey County USDA Serv Cntr,Newton,KS
+20,081,Haskell County USDA Serv Cntr,Sublette,KS
+20,083,Hodgeman County USDA Serv Cntr,Jetmore,KS
+20,085,Jackson County USDA Serv Cntr,Holton,KS
+20,087,Jefferson County USDA Serv Cntr,Oskaloosa,KS
+20,089,Jewell County USDA Serv Cntr,Mankato,KS
+20,091,Johnson County USDA Serv Cntr,Olathe,KS
+20,093,Kearny County USDA Serv Cntr,Lakin,KS
+20,095,Kingman County USDA Serv Cntr,Kingman,KS
+20,097,Kiowa County USDA Serv Cntr,Greensburg,KS
+20,099,Labette County USDA Serv Cntr,Altamont,KS
+20,101,Lane County USDA Serv Cntr,Dighton,KS
+20,103,Leavenworth County USDA Serv Cntr,Leavenworth,KS
+20,105,Lincoln County USDA Serv Cntr,Lincoln,KS
+20,107,Linn County USDA Serv Cntr,Mound City,KS
+20,109,Logan County USDA Serv Cntr,Oakley,KS
+20,111,Lyon County USDA Serv Cntr,Emporia,KS
+20,113,Mcpherson County USDA Serv Cntr,McPherson,KS
+20,115,Marion County USDA Serv Cntr,Marion,KS
+20,117,Marshall County USDA Serv Cntr,Marysville,KS
+20,119,Meade County USDA Serv Cntr,Meade,KS
+20,121,Miami County USDA Serv Cntr,Paola,KS
+20,123,Mitchell County USDA Serv Cntr,Beloit,KS
+20,125,Montgomery County USDA Serv Cntr,Independence,KS
+20,127,Morris County USDA Serv Cntr,Council Grove,KS
+20,129,Morton County USDA Serv Cntr,Elkhart,KS
+20,131,Nemaha County USDA Serv Cntr,Seneca,KS
+20,133,Neosho County USDA Serv Cntr,Erie,KS
+20,135,Ness County USDA Serv Cntr,Ness City,KS
+20,137,Norton County USDA Serv Cntr,Norton,KS
+20,139,Osage County USDA Serv Cntr,Lyndon,KS
+20,141,Osborne County USDA Serv Cntr,Osborne,KS
+20,143,Ottawa County USDA Serv Cntr,Minneapolis,KS
+20,145,Pawnee County USDA Serv Cntr,Larned,KS
+20,147,Phillips County USDA Serv Cntr,Phillipsburg,KS
+20,149,Pottawatomie County USDA Serv Cntr,Westmoreland,KS
+20,151,Pratt County USDA Serv Cntr,Pratt,KS
+20,153,Rawlins County USDA Serv Cntr,Atwood,KS
+20,155,Reno County USDA Serv Cntr,South Hutchinson,KS
+20,157,Republic County USDA Serv Cntr,Belleville,KS
+20,159,Rice County USDA Serv Cntr,Lyons,KS
+20,161,Riley County USDA Serv Cntr,Manhattan,KS
+20,163,Rooks County USDA Serv Cntr,Stockton,KS
+20,165,Rush County USDA Serv Cntr,Lacrosse,KS
+20,167,Russell County USDA Serv Cntr,Russell,KS
+20,169,Saline County USDA Serv Cntr,Salina,KS
+20,171,Scott County USDA Serv Cntr,Scott City,KS
+20,173,Sedgwick County USDA Serv Cntr,Wichita,KS
+20,175,Seward County USDA Serv Cntr,Liberal,KS
+20,177,Shawnee County USDA Serv Cntr,Topeka,KS
+20,179,Sheridan County USDA Serv Cntr,Hoxie,KS
+20,181,Sherman County USDA Serv Cntr,Goodland,KS
+20,183,Smith County USDA Serv Cntr,Smith Center,KS
+20,185,Stafford County USDA Serv Cntr,St John,KS
+20,187,Stanton County USDA Serv Cntr,Johnson,KS
+20,189,Stevens County USDA Serv Cntr,Hugoton,KS
+20,191,Sumner County USDA Serv Cntr,Wellington,KS
+20,193,Thomas County USDA Serv Cntr,Colby,KS
+20,195,Trego County USDA Serv Cntr,Wakeeney,KS
+20,197,Wabaunsee County USDA Serv Cntr,Alma,KS
+20,199,Wallace County USDA Serv Cntr,Sharon Springs,KS
+20,201,Washington County USDA Serv Cntr,Washington,KS
+20,203,Wichita County USDA Serv Cntr,Leoti,KS
+20,205,Wilson County USDA Serv Cntr,Fredonia,KS
+20,207,Woodson County USDA Serv Cntr,Yates Center,KS
+20,209,Wyandotte County FSA Office,Leavenworth,KS
+20,875,"Team Marketing Alliance, LLC",Moundridge,KS
+20,884,Pawnee County Cooperative Association,Larned,KS
+21,000,Kentucky State USDA Office,Lexington,KY
+21,001,Adair County USDA Serv Cntr,Columbia,KY
+21,003,Allen County USDA Serv Cntr,Scottsville,KY
+21,005,Anderson County USDA Serv Cntr,Lawrenceburg,KY
+21,007,Ballard County USDA Serv Cntr,La Center,KY
+21,009,Barren County USDA Serv Cntr,Glasgow,KY
+21,011,Bath County USDA Serv Cntr,Owingsville,KY
+21,013,Bell County FSA Office,Barbourville,KY
+21,015,Boone County USDA Serv Cntr,Burlington,KY
+21,017,Bourbon County USDA Serv Cntr,Paris,KY
+21,019,Boyd County FSA Office,Grayson,KY
+21,021,Boyle County USDA Serv Cntr,Danville,KY
+21,023,Bracken County USDA Serv Cntr,Brooksville,KY
+21,025,Breathitt County USDA Serv Cntr,Jackson,KY
+21,027,Breckinridge County USDA Serv Cntr,Hardinsburg,KY
+21,029,Bullitt County USDA Serv Cntr,Mt. Washington,KY
+21,031,Butler County USDA Serv Cntr,Morgantown,KY
+21,033,Caldwell County USDA Serv Cntr,Princeton,KY
+21,035,Calloway County USDA Serv Cntr,Murray,KY
+21,037,Campbell County FSA Office,Burlington,KY
+21,039,Carlisle County USDA Serv Cntr,Bardwell,KY
+21,041,Carroll County USDA Serv Cntr,Carrollton,KY
+21,043,Carter County USDA Serv Cntr,Grayson,KY
+21,045,Casey County USDA Serv Cntr,Liberty,KY
+21,047,Christian County USDA Serv Cntr,Hopkinsville,KY
+21,049,Clark County USDA Serv Cntr,Winchester,KY
+21,051,Cllay County FSA Office,Barbourville,KY
+21,053,Clinton County USDA Serv Cntr,Albany,KY
+21,055,Crittenden County USDA Serv Cntr,Marion,KY
+21,057,Cumberland County USDA Serv Cntr,Burkesville,KY
+21,059,Daviess County USDA Serv Cntr,Owensboro,KY
+21,061,Edmonson County FSA Office,Bowling Green,KY
+21,063,Elliott County FSA Office,Grayson,KY
+21,065,Estill County USDA Serv Cntr,Irvine,KY
+21,067,Fayette County USDA Serv Cntr,Lexington,KY
+21,069,Fleming County USDA Serv Cntr,Flemingsburg,KY
+21,071,Floyd County FSA Office,Paintsville,KY
+21,073,Franklin County USDA Serv Cntr,Frankfort,KY
+21,075,Fulton County USDA Serv Cntr,Hickman,KY
+21,077,Gallatin County FSA Office,Carrollton,KY
+21,079,Garrard County USDA Serv Cntr,Lancaster,KY
+21,081,Grant County USDA Serv Cntr,Williamstown,KY
+21,083,Graves County USDA Serv Cntr,Mayfield,KY
+21,085,Grayson County USDA Serv Cntr,Leitchfield,KY
+21,087,Green County USDA Serv Cntr,Greensburg,KY
+21,089,Greenup County USDA Serv Cntr,Greenup,KY
+21,091,Hancock County USDA Serv Cntr,Hawesville,KY
+21,093,Hardin County USDA Serv Cntr,Elizabethtown,KY
+21,095,Harlan County FSA Office,Barbourville,KY
+21,097,Harrison County USDA Serv Cntr,Cynthiana,KY
+21,099,Hart County USDA Serv Cntr,Munfordville,KY
+21,101,Henderson County USDA Serv Cntr,Henderson,KY
+21,103,Henry County USDA Serv Cntr,New Castle,KY
+21,105,Hickman County USDA Serv Cntr,Clinton,KY
+21,107,Hopkins County USDA Serv Cntr,Madisonville,KY
+21,109,Jackson County USDA Serv Cntr,McKee,KY
+21,111,Jefferson County FSA Office,Mt. Washington,KY
+21,113,Jessamine County USDA Serv Cntr,Nicholasville,KY
+21,115,Johnson County USDA Serv Cntr,Paintsville,KY
+21,117,Kenton County FSA Office,Burlington,KY
+21,119,Knott County FSA Office,Hazard,KY
+21,121,Knox County USDA Serv Cntr,Barbourville,KY
+21,123,LaRue County USDA Serv Cntr,Hodgenville,KY
+21,125,Laurel County USDA Serv Cntr,London,KY
+21,127,Lawrence County FSA Office,Grayson,KY
+21,129,Lee County USDA Serv Cntr,Beattyville,KY
+21,131,Leslie County FSA Office,Hazard,KY
+21,133,Letcher County FSA Office,Hazard,KY
+21,135,Lewis County USDA Serv Cntr,Vanceburg,KY
+21,137,Lincoln County USDA Serv Cntr,Stanford,KY
+21,139,Livingston County USDA Serv Cntr,Salem,KY
+21,141,Logan County USDA Serv Cntr,Russellville,KY
+21,143,Caldwell Lyon County FSA Office,Princeton,KY
+21,145,McCracken County USDA Serv Cntr,Paducah,KY
+21,147,Mccreary County FSA Office,Williamsburg,KY
+21,149,McLean County USDA Serv Cntr,Calhoun,KY
+21,151,Madison County USDA Serv Cntr,Richmond,KY
+21,153,Magoffin County FSA Office,West Liberty,KY
+21,155,Marion County USDA Serv Cntr,Lebanon,KY
+21,157,Marshall County USDA Serv Cntr,Benton,KY
+21,159,Martin County FSA Office,Paintsville,KY
+21,161,Mason County USDA Serv Cntr,Maysville,KY
+21,163,Meade County USDA Serv Cntr,Brandenburg,KY
+21,165,Menifee County FSA Office,Mount Sterling,KY
+21,167,Mercer County USDA Serv Cntr,Harrodsburg,KY
+21,169,Metcalfe County USDA Serv Cntr,Edmonton,KY
+21,171,Monroe County USDA Serv Cntr,Tompkinsville,KY
+21,173,Montgomery County USDA Serv Cntr,Mount Sterling,KY
+21,175,Morgan County USDA Serv Cntr,West Liberty,KY
+21,177,Muhlenberg County USDA Serv Cntr,Greenville,KY
+21,179,Nelson County USDA Serv Cntr,Bardstown,KY
+21,181,Nicholas County FSA Office,Paris,KY
+21,183,Ohio County USDA Serv Cntr,Hartford,KY
+21,185,Oldham County FSA Office,New Castle,KY
+21,187,Owen County USDA Serv Cntr,Owenton,KY
+21,189,Owsley County FSA Office,Beattyville,KY
+21,191,Pendleton County USDA Serv Cntr,Falmouth,KY
+21,193,Perry County USDA Serv Cntr,Hazard,KY
+21,195,Pike County FSA Office,Paintsville,KY
+21,197,Powell County FSA Office,Campton,KY
+21,199,Pulaski County USDA Serv Cntr,Somerset,KY
+21,201,Robertson County FSA Office,Maysville,KY
+21,203,Rockcastle County USDA Serv Cntr,Mt Vernon,KY
+21,205,Rowan County USDA Serv Cntr,Morehead,KY
+21,207,Russell County USDA Serv Cntr,Jamestown,KY
+21,209,Scott County USDA Serv Cntr,Georgetown,KY
+21,211,Shelby County USDA Serv Cntr,Shelbyville,KY
+21,213,Simpson County USDA Serv Cntr,Franklin,KY
+21,215,Spencer County FSA Office,Mt. Washington,KY
+21,217,Taylor County USDA Serv Cntr,Campbellsville,KY
+21,219,Todd County USDA Serv Cntr,Elkton,KY
+21,221,Trigg County USDA Serv Cntr,Cadiz,KY
+21,223,Trimble County FSA Office,Carrollton,KY
+21,225,Union County USDA Serv Cntr,Morganfield,KY
+21,227,Warren County USDA Serv Cntr,Bowling Green,KY
+21,229,Washington County USDA Serv Cntr,Springfield,KY
+21,231,Wayne County USDA Serv Cntr,Monticello,KY
+21,233,Webster County USDA Serv Cntr,Dixon,KY
+21,235,Whitley County USDA Serv Cntr,Williamsburg,KY
+21,237,Wolfe County USDA Serv Cntr,Campton,KY
+21,239,Woodford County USDA Serv Cntr,Versailles,KY
+22,000,Louisiana State USDA Office,Alexandria,LA
+22,001,Acadia County USDA Serv Cntr,Crowley,LA
+22,003,Allen County USDA Serv Cntr,Oberlin,LA
+22,005,Ascension County USDA Serv Cntr,Donaldsonville,LA
+22,007,Assumption County FSA Office,Thibodaux,LA
+22,009,Avoyelles County USDA Serv Cntr,Marksville,LA
+22,011,Beauregard County USDA Serv Cntr,Deridder,LA
+22,013,Bienville County FSA Office,Minden,LA
+22,015,Bossier County USDA Serv Cntr,Benton,LA
+22,017,Caddo County USDA Serv Cntr,Shreveport,LA
+22,019,Calcasieu County USDA Serv Cntr,Lake Charles,LA
+22,021,Caldwell County USDA Serv Cntr,Columbia,LA
+22,023,Cameron County  FSA Office,Lake Charles,LA
+22,025,Catahoula County USDA Serv Cntr,Jonesville,LA
+22,027,Claiborne County FSA Office,Minden,LA
+22,029,Concordia County USDA Serv Cntr,Ferriday,LA
+22,031,Desoto County USDA Serv Cntr,Mansfield,LA
+22,033,East Baton Rouge County FSA Office,Denham Springs,LA
+22,035,East Carroll County USDA Serv Cntr,Lake Providence,LA
+22,037,East Feliciana County USDA Serv Cntr,Clinton,LA
+22,039,Evangeline County USDA Serv Cntr,Ville Platte,LA
+22,041,Franklin County USDA Serv Cntr,Winnsboro,LA
+22,043,Grant County USDA Serv Cntr,Colfax,LA
+22,045,Iberia County USDA Serv Cntr,New Iberia,LA
+22,047,Iberville County FSA Office,Addis,LA
+22,049,Jackson County FSA Office,Arcadia,LA
+22,051,Jefferson County FSA Office,Edgard,LA
+22,053,Jefferson Davis County USDA Serv Cntr,Jennings,LA
+22,055,Lafayette County USDA Serv Cntr,Lafayette,LA
+22,057,Lafourche County USDA Serv Cntr,Thibodaux,LA
+22,059,Lasalle County FSA Office,Jonesville,LA
+22,061,Lincoln County USDA Serv Cntr,Ruston,LA
+22,063,Livingston County USDA Serv Cntr,Denham Springs,LA
+22,065,Madison County USDA Serv Cntr,Tallulah,LA
+22,067,Morehouse County USDA Serv Cntr,Bastrop,LA
+22,069,Natchitoches County USDA Serv Cntr,Natchitoches,LA
+22,071,Orleans County FSA Office,Edgard,LA
+22,073,Ouachita County USDA Serv Cntr,Monroe,LA
+22,075,Plaquemines County FSA Office,Edgard,LA
+22,077,Pointe Coupee County USDA Serv Cntr,New Roads,LA
+22,079,Rapides County USDA Serv Cntr,Alexandria,LA
+22,081,Red River County USDA Serv Cntr,Coushatta,LA
+22,083,Richland County USDA Serv Cntr,Rayville,LA
+22,085,Sabine County FSA Office,Natchitoches,LA
+22,087,St. Bernard County FSA Office,Edgard,LA
+22,089,St. Charles County FSA Office,Edgard,LA
+22,091,St. Helena County FSA Office,Amite,LA
+22,093,St. James County FSA Office,Donaldsonville,LA
+22,095,St John County USDA Serv Cntr,Edgard,LA
+22,097,St Landry County USDA Serv Cntr,Opelousas,LA
+22,099,St Martin County USDA Serv Cntr,Breaux Bridge,LA
+22,101,St Mary County USDA Serv Cntr,Franklin,LA
+22,103,St. Tammany County FSA Office,Franklinton,LA
+22,105,Tangipahoa County USDA Serv Cntr,Amite,LA
+22,107,Tensas County USDA Serv Cntr,St. Joseph,LA
+22,109,Terrebonne County FSA Office,Thibodaux,LA
+22,111,Union County FSA Office,Ruston,LA
+22,113,Vermilion County USDA Serv Cntr,Abbeville,LA
+22,115,Vernon County FSA Office,Deridder,LA
+22,117,Washington County USDA Serv Cntr,Franklinton,LA
+22,119,Webster County USDA Serv Cntr,Minden,LA
+22,121,West Baton Rouge County USDA Serv Cntr,Addis,LA
+22,123,West Carroll County USDA Serv Cntr,Oak Grove,LA
+22,125,West Feliciana County FSA Office,Clinton,LA
+22,127,Winn County FSA Office,Colfax,LA
+23,000,Maine State USDA Office,Bangor,ME
+23,001,Androscoggin County USDA Serv Cntr,Lewiston,ME
+23,002,Houlton County USDA Serv Cntr,Houlton,ME
+23,003,Aroostook County USDA Serv Cntr,Presque Isle,ME
+23,005,Cumberland County USDA Serv Cntr,Gorham,ME
+23,004,Fort Kent County USDA Serv Cntr,Fort Kent,ME
+23,007,Franklin County USDA Serv Cntr,Farmington,ME
+23,009,Hancock County USDA Serv Cntr,Ellsworth,ME
+23,011,Kennebec County USDA Serv Cntr,Augusta,ME
+23,013,Knox County USDA Serv Cntr,Warren,ME
+23,015,Lincoln County FSA Office,Warren,ME
+23,017,Oxford County USDA Serv Cntr,Oxford,ME
+23,019,Penobscot County USDA Serv Cntr,Bangor,ME
+23,021,Piscataquis County USDA Serv Cntr,Dover-Foxcroft,ME
+23,023,Sagadahoc County FSA Office,Lewiston,ME
+23,025,Somerset County USDA Serv Cntr,Skowhegan,ME
+23,027,Waldo County USDA Serv Cntr,Belfast,ME
+23,029,Washington County USDA Serv Cntr,Machias,ME
+23,031,Cumberland and York County FSA Office,Gorham,ME
+24,000,Maryland State USDA Office,Columbia,MD
+24,001,Allegany County USDA Serv Cntr,Cumberland,MD
+24,003,Anne Arundel County FSA Office,Upper Marlboro,MD
+24,005,Baltimore County USDA Serv Cntr,Cockeysville,MD
+24,009,Calvert County USDA Serv Cntr,Prince Frederick,MD
+24,011,Caroline County USDA Serv Cntr,Denton,MD
+24,013,Carroll County USDA Serv Cntr,Westminster,MD
+24,015,Cecil County USDA Serv Cntr,Elkton,MD
+24,017,Charles County USDA Serv Cntr,La Plata,MD
+24,019,Dorchester County USDA Serv Cntr,Cambridge,MD
+24,021,Frederick County USDA Serv Cntr,Frederick,MD
+24,023,Garrett County USDA Serv Cntr,Mt. Lake Park,MD
+24,025,Harford County USDA Serv Cntr,Forest Hill,MD
+24,027,Howard County FSA Office,Elliott City,MD
+24,029,Kent County USDA Serv Cntr,Chestertown,MD
+24,031,Montgomery County USDA Serv Cntr,Derwood,MD
+24,033,Prince George's County USDA Serv Cntr,Upper Marlboro,MD
+24,035,Queen Anne's County USDA Serv Cntr,Centreville,MD
+24,037,St Mary's County USDA Serv Cntr,Leonardtown,MD
+24,039,Somerset County USDA Serv Cntr,Princess Anne,MD
+24,041,Talbot County USDA Serv Cntr,Easton,MD
+24,043,Washington County USDA Serv Cntr,Hagerstown,MD
+24,045,Wicomico County USDA Serv Cntr,Salisbury,MD
+24,047,Worcester County USDA Serv Cntr,Snow Hill,MD
+25,000,Massachusetts State USDA Office,Amherst,MA
+25,001,Barnstable County FSA Office,West Wareham,MA
+25,003,Berkshire County USDA Serv Cntr,Pittsfield,MA
+25,005,Bristol County USDA Serv Cntr,Dighton,MA
+25,007,Dukes County FSA Office,West Wareham,MA
+25,009,Essex County FSA Office,Westford,MA
+25,011,Franklin County USDA Serv Cntr,Greenfield,MA
+25,013,Hampden County FSA Office,Northampton,MA
+25,015,Hampshire County USDA Serv Cntr,Northampton,MA
+25,017,Middlesex County USDA Serv Cntr,Westford,MA
+25,019,Nantucket County FSA Office,West Wareham,MA
+25,021,Norfolk County FSA Office,Dighton,MA
+25,023,Plymouth County USDA Serv Cntr,West Wareham,MA
+25,027,Worcester County USDA Serv Cntr,Holden,MA
+26,000,Michigan State USDA Office,East Lansing,MI
+26,001,Alcona County FSA Office,Alpena,MI
+26,003,Alger County FSA Office,Gladstone,MI
+26,005,Allegan County USDA Serv Cntr,Allegan,MI
+26,007,Alpena County USDA Serv Cntr,Alpena,MI
+26,009,Antrim/Otsego County USDA Serv Cntr,Bellaire,MI
+26,011,Arenac County USDA Serv Cntr,Standish,MI
+26,013,Baraga County USDA Serv Cntr,Baraga,MI
+26,015,Barry County USDA Serv Cntr,Hastings,MI
+26,017,Bay County USDA Serv Cntr,Bay City,MI
+26,019,Benzie County FSA Office,Cadillac,MI
+26,021,Berrien County USDA Serv Cntr,Berrien Springs,MI
+26,023,Branch County USDA Serv Cntr,Coldwater,MI
+26,025,Calhoun County USDA Serv Cntr,Marshall,MI
+26,027,Cass County USDA Serv Cntr,Cassopolis,MI
+26,029,Charlevoix County FSA Office,Petoskey,MI
+26,031,Cheboygan County FSA Office,Onaway,MI
+26,033,Chippewa County USDA Serv Cntr,Sault Ste. Marie,MI
+26,035,Clare County FSA Office,Gladwin,MI
+26,037,Clinton County USDA Serv Cntr,St. Johns,MI
+26,039,Crawford County FSA Office,West Branch,MI
+26,041,Delta County USDA Serv Cntr,Gladstone,MI
+26,043,Dickinson/Iron County USDA Serv Cntr,Kingsford,MI
+26,045,Eaton County USDA Serv Cntr,Charlotte,MI
+26,047,Emmet County USDA Serv Cntr,Petoskey,MI
+26,049,Genesee County USDA Serv Cntr,Flint,MI
+26,051,Gladwin County USDA Serv Cntr,Gladwin,MI
+26,053,Gogebic County FSA Office,Baraga,MI
+26,055,Grand Traverse County USDA Serv Cntr,Traverse City,MI
+26,057,Gratiot County USDA Serv Cntr,Ithaca,MI
+26,059,Hillsdale County USDA Serv Cntr,Jonesville,MI
+26,061,Houghton County FSA Office,Baraga,MI
+26,063,Huron County USDA Serv Cntr,Bad Axe,MI
+26,065,Ingham County USDA Serv Cntr,Mason,MI
+26,067,Ionia County USDA Serv Cntr,Ionia,MI
+26,069,Iosco County USDA Serv Cntr,Tawas City,MI
+26,071,Iron County FSA Office,Kingsford,MI
+26,073,Isabella County USDA Serv Cntr,Mt Pleasant,MI
+26,075,Jackson County USDA Serv Cntr,Jackson,MI
+26,077,Kalamazoo County USDA Serv Cntr,Portage,MI
+26,079,Kalkaska County FSA Office,Traverse City,MI
+26,081,Kent County USDA Serv Cntr,Grand Rapids,MI
+26,083,Keweenaw County FSA Office,Baraga,MI
+26,085,Lake County FSA Office,Reed City,MI
+26,087,Lapeer County USDA Serv Cntr,Lapeer,MI
+26,089,Leelanau County FSA Office,Traverse City,MI
+26,091,Lenawee County USDA Serv Cntr,Adrian,MI
+26,093,Livingston County FSA Office,Mason,MI
+26,095,Luce County FSA Office,Sault Ste. Marie,MI
+26,097,Mackinac County FSA Office,Sault Ste. Marie,MI
+26,099,Macomb County FSA Office,Kimball,MI
+26,101,Manistee County FSA Office,Cadillac,MI
+26,103,Marquette County FSA Office,Gladstone,MI
+26,105,Mason County USDA Serv Cntr,Scottville,MI
+26,107,Mecosta County USDA Serv Cntr,Big Rapids,MI
+26,109,Menominee County USDA Serv Cntr,Stephenson,MI
+26,111,Midland County USDA Serv Cntr,Midland,MI
+26,113,Missaukee County FSA Office,Cadillac,MI
+26,115,Monroe County USDA Serv Cntr,Monroe,MI
+26,117,Montcalm County USDA Serv Cntr,Stanton,MI
+26,119,Montmorency County FSA Office,Alpena,MI
+26,121,Muskegon County FSA Office,Fremont,MI
+26,123,Newaygo County USDA Serv Cntr,Fremont,MI
+26,125,Oakland County FSA Office,Lapeer,MI
+26,127,Oceana County FSA Office,Scottville,MI
+26,129,Ogemaw County USDA Serv Cntr,West Branch,MI
+26,131,Ontonagon County FSA Office,Baraga,MI
+26,133,Osceola County FSA Office,Reed City,MI
+26,135,Oscoda County FSA Office,West Branch,MI
+26,137,Otsego County FSA Office,Bellaire,MI
+26,139,Ottawa County USDA Serv Cntr,Grand Haven,MI
+26,141,Presque Isle County USDA Serv Cntr,Onaway,MI
+26,143,Roscommon County FSA Office,West Branch,MI
+26,145,Saginaw County USDA Serv Cntr,Saginaw,MI
+26,147,St Clair County USDA Serv Cntr,Kimball,MI
+26,149,St Joseph County USDA Serv Cntr,Centreville,MI
+26,151,Sanilac County USDA Serv Cntr,Sandusky,MI
+26,153,Schoolcraft County FSA Office,Gladstone,MI
+26,155,Shiawassee County USDA Serv Cntr,Owosso,MI
+26,157,Tuscola County USDA Serv Cntr,Caro,MI
+26,159,Van Buren County USDA Serv Cntr,Paw Paw,MI
+26,161,Washtenaw County USDA Serv Cntr,Ann Arbor,MI
+26,163,Wayne County FSA Office,Ann Arbor,MI
+26,165,Wexford County USDA Serv Cntr,Cadillac,MI
+27,000,Minnesota State USDA Office,St. Paul,MN
+27,001,Aitkin County USDA Serv Cntr,Aitkin,MN
+27,003,Anoka County FSA Office,Elk River,MN
+27,005,Becker County USDA Serv Cntr,Detroit Lakes,MN
+27,007,Beltrami County USDA Serv Cntr,Bemidji,MN
+27,009,Benton County USDA Serv Cntr,Foley,MN
+27,011,Big Stone County USDA Serv Cntr,Ortonville,MN
+27,013,Blue Earth County USDA Serv Cntr,Mankato,MN
+27,015,Brown County USDA Serv Cntr,Sleepy Eye,MN
+27,017,Carlton County FSA Office,Duluth,MN
+27,019,Carver County USDA Serv Cntr,Waconia,MN
+27,021,Cass County FSA Office,Brainerd,MN
+27,023,Chippewa County USDA Serv Cntr,Montevideo,MN
+27,025,Chisago County USDA Serv Cntr,North Branch,MN
+27,027,Clay County USDA Serv Cntr,Moorhead,MN
+27,029,Clearwater County USDA Serv Cntr,Bagley,MN
+27,031,Cook County FSA Office,Duluth,MN
+27,033,Cottonwood County USDA Serv Cntr,Windom,MN
+27,035,Crow Wing County USDA Serv Cntr,Brainerd,MN
+27,037,Dakota County USDA Serv Cntr,Farmington,MN
+27,039,Dodge County USDA Serv Cntr,Dodge Center,MN
+27,041,Douglas County USDA Serv Cntr,Alexandria,MN
+27,043,Faribault County USDA Serv Cntr,Blue Earth,MN
+27,045,Fillmore County USDA Serv Cntr,Preston,MN
+27,047,Freeborn County USDA Serv Cntr,Albert Lea,MN
+27,049,Goodhue County USDA Serv Cntr,Goodhue,MN
+27,051,Grant County USDA Serv Cntr,Elbow Lake,MN
+27,053,Hennepin County FSA Office,Elk River,MN
+27,055,Houston County USDA Serv Cntr,Caledonia,MN
+27,057,Hubbard County USDA Serv Cntr,Park Rapids,MN
+27,059,Isanti County USDA Serv Cntr,Cambridge,MN
+27,061,Itasca County FSA Office,Aitkin,MN
+27,063,Jackson County USDA Serv Cntr,Lakefield,MN
+27,065,Kanabec County USDA Serv Cntr,Mora,MN
+27,067,Kandiyohi County USDA Serv Cntr,Willmar,MN
+27,069,Kittson County USDA Serv Cntr,Hallock,MN
+27,071,Koochiching County FSA Office,Baudette,MN
+27,073,Lac Qui Parle County USDA Serv Cntr,Madison,MN
+27,075,Lake County FSA Office,Duluth,MN
+27,077,Lake Of The Woods County USDA Serv Cntr,Baudette,MN
+27,079,Le Sueur County USDA Serv Cntr,Le Center,MN
+27,081,Lincoln County USDA Serv Cntr,Ivanhoe,MN
+27,083,Lyon County USDA Serv Cntr,Marshall,MN
+27,085,McLeod County USDA Serv Cntr,Glencoe,MN
+27,087,Mahnomen County USDA Serv Cntr,Mahnomen,MN
+27,089,Marshall County USDA Serv Cntr,Warren,MN
+27,091,Martin County USDA Serv Cntr,Fairmont,MN
+27,093,Meeker County USDA Serv Cntr,Litchfield,MN
+27,095,Mille Lacs County FSA Office,Foley,MN
+27,097,Morrison County USDA Serv Cntr,Little Falls,MN
+27,099,Mower County USDA Serv Cntr,Austin,MN
+27,101,Murray County USDA Serv Cntr,Slayton,MN
+27,103,Nicollet County USDA Serv Cntr,St. Peter,MN
+27,105,Nobles County USDA Serv Cntr,Worthington,MN
+27,107,Norman County USDA Serv Cntr,Ada,MN
+27,109,Olmsted County USDA Serv Cntr,Rochester,MN
+27,111,East Otter Tail County USDA Serv Cntr,Perham,MN
+27,112,West Otter Tail County USDA Serv Cntr,Fergus Falls,MN
+27,113,Pennington County USDA Serv Cntr,Thief River Falls,MN
+27,115,Pine County USDA Serv Cntr,Hinckley,MN
+27,117,Pipestone County USDA Serv Cntr,Pipestone,MN
+27,119,East Polk County USDA Serv Cntr,McIntosh,MN
+27,120,West Polk County USDA Serv Cntr,Crookston,MN
+27,121,Pope County USDA Serv Cntr,Glenwood,MN
+27,123,Ramsey County FSA Office,Stillwater,MN
+27,125,Red Lake County USDA Serv Cntr,Red Lake Falls,MN
+27,127,Redwood County USDA Serv Cntr,Redwood Falls,MN
+27,129,Renville County USDA Serv Cntr,Olivia,MN
+27,131,Rice County USDA Serv Cntr,Faribault,MN
+27,133,Rock County USDA Serv Cntr,Luverne,MN
+27,135,Roseau County USDA Serv Cntr,Roseau,MN
+27,137,North St. Louis County USDA Serv Cntr,Virginia,MN
+27,138,South St. Louis County USDA Serv Cntr,Duluth,MN
+27,139,Scott County USDA Serv Cntr,Jordan,MN
+27,141,Sherburne County USDA Serv Cntr,Elk River,MN
+27,143,Sibley County USDA Serv Cntr,Gaylord,MN
+27,145,Stearns County USDA Serv Cntr,Waite Park,MN
+27,147,Steele County USDA Serv Cntr,Owatonna,MN
+27,149,Stevens County USDA Serv Cntr,Morris,MN
+27,151,Swift County USDA Serv Cntr,Benson,MN
+27,153,Todd County USDA Serv Cntr,Long Prairie,MN
+27,155,Traverse County USDA Serv Cntr,Wheaton,MN
+27,157,Wabasha County USDA Serv Cntr,Wabasha,MN
+27,159,Wadena County USDA Serv Cntr,Wadena,MN
+27,161,Waseca County USDA Serv Cntr,Waseca,MN
+27,163,Washington County USDA Serv Cntr,Stillwater,MN
+27,165,Watonwan County USDA Serv Cntr,St James,MN
+27,167,Wilkin County USDA Serv Cntr,Breckenridge,MN
+27,169,Winona County USDA Serv Cntr,Lewiston,MN
+27,171,Wright County USDA Serv Cntr,Buffalo,MN
+27,173,Yellow Medicine County USDA Serv Cntr,Clarkfield,MN
+27,801,CHS Inc.,St. Paul,MN
+28,000,Mississippi State USDA Office,Jackson,MS
+28,001,Adams County USDA Serv Cntr,Natchez,MS
+28,003,Alcorn County USDA Serv Cntr,Corinth,MS
+28,005,Amite County USDA Serv Cntr,Liberty,MS
+28,007,Attala County USDA Serv Cntr,Kosciusko,MS
+28,009,Benton County USDA Serv Cntr,Ashland,MS
+28,011,Bolivar County USDA Serv Cntr,Cleveland,MS
+28,013,Calhoun County USDA Serv Cntr,Calhoun City,MS
+28,015,Carroll County USDA Serv Cntr,Carrollton,MS
+28,017,Chickasaw County USDA Serv Cntr,Houston,MS
+28,019,Choctaw County USDA Serv Cntr,Ackerman,MS
+28,021,Claiborne County USDA Serv Cntr,Port Gibson,MS
+28,023,Clarke County USDA Serv Cntr,Quitman,MS
+28,025,Clay County USDA Serv Cntr,West Point,MS
+28,027,Coahoma County USDA Serv Cntr,Clarksdale,MS
+28,029,Copiah County USDA Serv Cntr,Hazlehurst,MS
+28,031,Covington County USDA Serv Cntr,Collins,MS
+28,033,Desoto County USDA Serv Cntr,Hernando,MS
+28,035,Forrest County USDA Serv Cntr,Hattiesburg,MS
+28,037,Lincoln Franklin County FSA Office,Brookhaven,MS
+28,039,George County USDA Serv Cntr,Lucedale,MS
+28,041,Greene County FSA Office,Waynesboro,MS
+28,043,Grenada County USDA Serv Cntr,Grenada,MS
+28,045,Hancock County FSA Office,Poplarville,MS
+28,047,Harrison County FSA Office,Wiggins,MS
+28,049,Hinds County USDA Serv Cntr,Jackson,MS
+28,051,Holmes County USDA Serv Cntr,Lexington,MS
+28,053,Humphreys County USDA Serv Cntr,Belzoni,MS
+28,055,Issaquena County FSA Office,Rolling Fork,MS
+28,057,Itawamba County USDA Serv Cntr,Fulton,MS
+28,059,Jackson County FSA Office,Lucedale,MS
+28,061,Jasper County USDA Serv Cntr,Bay Springs,MS
+28,063,Jefferson (Claiborne) County FSA Office,Port Gibson,MS
+28,065,Jefferson Davis County USDA Serv Cntr,Prentiss,MS
+28,067,Jones County USDA Serv Cntr,Laurel,MS
+28,069,Kemper County USDA Serv Cntr,Dekalb,MS
+28,071,Lafayette County USDA Serv Cntr,Oxford,MS
+28,073,Lamar County USDA Serv Cntr,Purvis,MS
+28,075,Lauderdale County USDA Serv Cntr,Meridian,MS
+28,077,Lawrence County USDA Serv Cntr,Monticello,MS
+28,079,Leake County USDA Serv Cntr,Carthage,MS
+28,081,Lee County USDA Serv Cntr,Tupelo,MS
+28,083,Leflore County USDA Serv Cntr,Greenwood,MS
+28,085,Lincoln County USDA Serv Cntr,Brookhaven,MS
+28,087,Lowndes County USDA Serv Cntr,Columbus,MS
+28,089,Madison County USDA Serv Cntr,Canton,MS
+28,091,Marion County USDA Serv Cntr,Columbia,MS
+28,093,Marshall County USDA Serv Cntr,Holly Springs,MS
+28,095,Monroe County USDA Serv Cntr,Aberdeen,MS
+28,097,Montgomery County USDA Serv Cntr,Winona,MS
+28,099,Neshoba County USDA Serv Cntr,Philadelphia,MS
+28,101,Newton County USDA Serv Cntr,Decatur,MS
+28,103,Noxubee County USDA Serv Cntr,Macon,MS
+28,105,Oktibbeha County USDA Serv Cntr,Starkville,MS
+28,107,Panola County USDA Serv Cntr,Batesville,MS
+28,109,Pearl River County USDA Serv Cntr,Poplarville,MS
+28,111,Perry County FSA Office,Hattiesburg,MS
+28,113,Pike County USDA Serv Cntr,Magnolia,MS
+28,115,Pontotoc County USDA Serv Cntr,Pontotoc,MS
+28,117,Prentiss County USDA Serv Cntr,Booneville,MS
+28,119,Quitman County USDA Serv Cntr,Marks,MS
+28,121,Rankin County USDA Serv Cntr,Brandon,MS
+28,123,Scott County USDA Serv Cntr,Forest,MS
+28,125,Sharkey County USDA Serv Cntr,Rolling Fork,MS
+28,127,Simpson County USDA Serv Cntr,Mendenhall,MS
+28,129,Smith County USDA Serv Cntr,Raleigh,MS
+28,131,Stone County USDA Serv Cntr,Wiggins,MS
+28,133,Sunflower County USDA Serv Cntr,Indianola,MS
+28,135,Tallahatchie County USDA Serv Cntr,Charleston,MS
+28,137,Tate County USDA Serv Cntr,Senatobia,MS
+28,139,Tippah County USDA Serv Cntr,Ripley,MS
+28,141,Tishomingo County FSA Office,Corinth,MS
+28,143,Tunica County USDA Serv Cntr,Tunica,MS
+28,145,Union County USDA Serv Cntr,New Albany,MS
+28,147,Walthall County USDA Serv Cntr,Tylertown,MS
+28,149,Warren County USDA Serv Cntr,Vicksburg,MS
+28,151,Washington County USDA Serv Cntr,Greenville,MS
+28,153,Wayne County USDA Serv Cntr,Waynesboro,MS
+28,155,Webster County USDA Serv Cntr,Eupora,MS
+28,157,Wilkinson (Amite) County FSA Office,Liberty,MS
+28,159,Winston County USDA Serv Cntr,Louisville,MS
+28,161,Yalobusha County USDA Serv Cntr,Coffeeville,MS
+28,163,Yazoo County USDA Serv Cntr,Yazoo City,MS
+28,801,Staplcotn,Greenwood,MS
+29,000,Missouri State USDA Office,Columbia,MO
+29,001,Adair County USDA Serv Cntr,Kirksville,MO
+29,003,Andrew County USDA Serv Cntr,Savannah,MO
+29,005,Atchison County USDA Serv Cntr,Rock Port,MO
+29,007,Audrain County USDA Serv Cntr,Mexico,MO
+29,009,Barry County USDA Serv Cntr,Cassville,MO
+29,011,Barton County USDA Serv Cntr,Lamar,MO
+29,013,Bates County USDA Serv Cntr,Butler,MO
+29,015,Benton County USDA Serv Cntr,Lincoln,MO
+29,017,Bollinger County USDA Serv Cntr,Marble Hill,MO
+29,019,Boone County USDA Serv Cntr,Columbia,MO
+29,021,Buchanan County USDA Serv Cntr,St. Joseph,MO
+29,023,Butler County USDA Serv Cntr,Poplar Bluff,MO
+29,025,Caldwell County USDA Serv Cntr,Kingston,MO
+29,027,Callaway County USDA Serv Cntr,Fulton,MO
+29,029,Camden County FSA Office,Lebanon,MO
+29,031,Cape Girardeau County USDA Serv Cntr,Jackson,MO
+29,033,Carroll County USDA Serv Cntr,Carrollton,MO
+29,035,Carter County FSA Office,Doniphan,MO
+29,037,Cass County USDA Serv Cntr,Harrisonville,MO
+29,039,Cedar County USDA Serv Cntr,Stockton,MO
+29,041,Chariton County USDA Serv Cntr,Keytesville,MO
+29,043,Christian County USDA Serv Cntr,Ozark,MO
+29,045,Clark County USDA Serv Cntr,Kahoka,MO
+29,047,Clay County FSA Office,Richmond,MO
+29,049,Clinton County USDA Serv Cntr,Plattsburg,MO
+29,051,Cole County USDA Serv Cntr,Jefferson City,MO
+29,053,Cooper County USDA Serv Cntr,Boonville,MO
+29,055,Crawford County FSA Office,Rolla,MO
+29,057,Dade County USDA Serv Cntr,Greenfield,MO
+29,059,Dallas County USDA Serv Cntr,Buffalo,MO
+29,061,Daviess County USDA Serv Cntr,Gallatin,MO
+29,063,DeKalb County USDA Serv Cntr,Maysville,MO
+29,065,Dent County FSA Office,Houston,MO
+29,067,Douglas County USDA Serv Cntr,Ava,MO
+29,069,Dunklin County USDA Serv Cntr,Kennett,MO
+29,071,Franklin County USDA Serv Cntr,Union,MO
+29,073,Gasconade County USDA Serv Cntr,Owensville,MO
+29,075,Gentry County USDA Serv Cntr,Albany,MO
+29,077,Greene County USDA Serv Cntr,Springfield,MO
+29,079,Grundy County USDA Serv Cntr,Trenton,MO
+29,081,Harrison County USDA Serv Cntr,Bethany,MO
+29,083,Henry County USDA Serv Cntr,Clinton,MO
+29,085,Hickory County USDA Serv Cntr,Hermitage,MO
+29,087,Holt County USDA Serv Cntr,Mound City,MO
+29,089,Howard County USDA Serv Cntr,Fayette,MO
+29,091,Howell County USDA Serv Cntr,West Plains,MO
+29,093,Iron County FSA Office,Farmington,MO
+29,095,Jackson County USDA Serv Cntr,Blue Springs,MO
+29,097,Jasper County USDA Serv Cntr,Carthage,MO
+29,099,Jefferson County USDA Serv Cntr,Hillsboro,MO
+29,101,Johnson County USDA Serv Cntr,Warrensburg,MO
+29,103,Knox County USDA Serv Cntr,Edina,MO
+29,105,Laclede County USDA Serv Cntr,Lebanon,MO
+29,107,Lafayette County USDA Serv Cntr,Higginsville,MO
+29,109,Lawrence County USDA Serv Cntr,Mt. Vernon,MO
+29,111,Lewis County USDA Serv Cntr,Monticello,MO
+29,113,Lincoln County USDA Serv Cntr,Troy,MO
+29,115,Linn County USDA Serv Cntr,Brookfield,MO
+29,117,Livingston County USDA Serv Cntr,Chillicothe,MO
+29,119,McDonald County FSA Office,Neosho,MO
+29,121,Macon County USDA Serv Cntr,Macon,MO
+29,123,Madison County FSA Office,Greenville,MO
+29,125,Maries County FSA Office,Linn,MO
+29,127,Marion County USDA Serv Cntr,Palmyra,MO
+29,129,Mercer County USDA Serv Cntr,Princeton,MO
+29,131,Miller County FSA Office,Jefferson City,MO
+29,133,Mississippi County USDA Serv Cntr,Charleston,MO
+29,135,Moniteau County USDA Serv Cntr,California,MO
+29,137,Monroe County USDA Serv Cntr,Paris,MO
+29,139,Montgomery County USDA Serv Cntr,Montgomery City,MO
+29,141,Morgan County USDA Serv Cntr,Versailles,MO
+29,143,New Madrid County USDA Serv Cntr,New Madrid,MO
+29,145,Newton County USDA Serv Cntr,Neosho,MO
+29,147,Nodaway County USDA Serv Cntr,Maryville,MO
+29,149,Oregon County USDA Serv Cntr,Alton,MO
+29,151,Osage County USDA Serv Cntr,Linn,MO
+29,153,Ozark County FSA Office,Ava,MO
+29,155,Pemiscot County USDA Serv Cntr,Carutherville,MO
+29,157,Perry County USDA Serv Cntr,Perryville,MO
+29,159,Pettis County USDA Serv Cntr,Sedalia,MO
+29,161,Phelps County USDA Serv Cntr,Rolla,MO
+29,163,Pike County USDA Serv Cntr,Bowling Green,MO
+29,165,Platte County USDA Serv Cntr,Platte City,MO
+29,167,Polk County USDA Serv Cntr,Bolivar,MO
+29,169,Pulaski County FSA Office,Lebanon,MO
+29,171,Putnam County USDA Serv Cntr,Unionville,MO
+29,173,Ralls County USDA Serv Cntr,New London,MO
+29,175,Randolph County USDA Serv Cntr,Moberly,MO
+29,177,Ray County USDA Serv Cntr,Richmond,MO
+29,179,Reynolds County FSA Office,Eminence,MO
+29,181,Ripley County USDA Serv Cntr,Doniphan,MO
+29,183,St Charles County USDA Serv Cntr,Saint Peters,MO
+29,185,St Clair County USDA Serv Cntr,Osceola,MO
+29,187,St Francois County USDA Serv Cntr,Farmington,MO
+29,189,St Louis County USDA Serv Cntr,St Louis,MO
+29,193,Ste Genevieve County USDA Serv Cntr,Ste Genevieve,MO
+29,195,Saline County USDA Serv Cntr,Marshall,MO
+29,197,Schuyler County USDA Serv Cntr,Lancaster,MO
+29,199,Scotland County USDA Serv Cntr,Memphis,MO
+29,201,Scott County USDA Serv Cntr,Benton,MO
+29,203,Shannon County USDA Serv Cntr,Eminence,MO
+29,205,Shelby County USDA Serv Cntr,Shelbyville,MO
+29,207,Stoddard County USDA Serv Cntr,Dexter,MO
+29,209,Stone County FSA Office,Ozark,MO
+29,211,Sullivan County USDA Serv Cntr,Milan,MO
+29,213,Taney County FSA Office,Ozark,MO
+29,215,Texas County USDA Serv Cntr,Houston,MO
+29,217,Vernon County USDA Serv Cntr,Nevada,MO
+29,219,Warren County USDA Serv Cntr,Warrenton,MO
+29,221,Washington County FSA Office,Hillsboro,MO
+29,223,Wayne County USDA Serv Cntr,Greenville,MO
+29,225,Webster County USDA Serv Cntr,Marshfield,MO
+29,227,Worth County USDA Serv Cntr,Grant City,MO
+29,229,Wright County USDA Serv Cntr,Hartville,MO
+30,000,Montana State USDA Office,Bozeman,MT
+30,001,Beaverhead County USDA Serv Cntr,Dillon,MT
+30,003,Big Horn County USDA Serv Cntr,Hardin,MT
+30,005,Blaine County USDA Serv Cntr,Chinook,MT
+30,007,Broadwater County USDA Serv Cntr,Townsend,MT
+30,009,Carbon County USDA Serv Cntr,Joliet,MT
+30,011,Carter County USDA Serv Cntr,Ekalaka,MT
+30,013,Cascade County USDA Serv Cntr,Great Falls,MT
+30,015,Chouteau County USDA Serv Cntr,Fort Benton,MT
+30,017,Custer County USDA Serv Cntr,Miles City,MT
+30,019,Daniels County USDA Serv Cntr,Scobey,MT
+30,021,Dawson County USDA Serv Cntr,Glendive,MT
+30,023,Deer Lodge County FSA Office,Deer Lodge,MT
+30,025,Fallon County USDA Serv Cntr,Baker,MT
+30,027,Fergus County USDA Serv Cntr,Lewistown,MT
+30,029,Flathead County USDA Serv Cntr,Kalispell,MT
+30,031,Gallatin County USDA Serv Cntr,Bozeman,MT
+30,033,Garfield County USDA Serv Cntr,Jordan,MT
+30,035,Glacier County USDA Serv Cntr,Cut Bank,MT
+30,037,Golden Valley County USDA Serv Cntr,Ryegate,MT
+30,039,Granite County FSA Office,Deer Lodge,MT
+30,041,Hill County USDA Serv Cntr,Havre,MT
+30,043,Jefferson County USDA Serv Cntr,Whitehall,MT
+30,045,Judith Basin County USDA Serv Cntr,Stanford,MT
+30,047,Lake County USDA Serv Cntr,Ronan,MT
+30,049,Lewis & Clark County USDA Serv Cntr,Helena,MT
+30,051,Liberty County USDA Serv Cntr,Chester,MT
+30,053,Lincoln County FSA Office,Kalispell,MT
+30,055,McCone County USDA Serv Cntr,Circle,MT
+30,057,Madison County FSA Office,Whitehall,MT
+30,059,Meagher County USDA Serv Cntr,White Sulphur Springs,MT
+30,061,Mineral County FSA Office,Missoula,MT
+30,063,Missoula County USDA Serv Cntr,Missoula,MT
+30,065,Musselshell County USDA Serv Cntr,Roundup,MT
+30,067,Park County USDA Serv Cntr,Livingston,MT
+30,069,Petroleum County FSA Office,Lewistown,MT
+30,071,Phillips County USDA Serv Cntr,Malta,MT
+30,073,Pondera County USDA Serv Cntr,Conrad,MT
+30,075,Powder River County USDA Serv Cntr,Broadus,MT
+30,077,Powell County USDA Serv Cntr,Deer Lodge,MT
+30,079,Prairie County USDA Serv Cntr,Terry,MT
+30,081,Ravalli County USDA Serv Cntr,Hamilton,MT
+30,083,Richland County USDA Serv Cntr,Sidney,MT
+30,085,Roosevelt County USDA Serv Cntr,Culbertson,MT
+30,087,Rosebud County USDA Serv Cntr,Forsyth,MT
+30,089,Sanders County USDA Serv Cntr,Plains,MT
+30,091,Sheridan County USDA Serv Cntr,Plentywood,MT
+30,093,Silver Bow County FSA Office,Whitehall,MT
+30,095,Stillwater County USDA Serv Cntr,Columbus,MT
+30,097,Sweet Grass County USDA Serv Cntr,Big Timber,MT
+30,099,Teton County USDA Serv Cntr,Choteau,MT
+30,101,Toole County USDA Serv Cntr,Shelby,MT
+30,103,Treasure County USDA Serv Cntr,Hysham,MT
+30,105,Valley County USDA Serv Cntr,Glasgow,MT
+30,107,Wheatland County USDA Serv Cntr,Harlowton,MT
+30,109,Wibaux County USDA Serv Cntr,Wibaux,MT
+30,111,Yellowstone County USDA Serv Cntr,Billings,MT
+31,000,Nebraska State USDA Office,Lincoln,NE
+31,001,Adams County USDA Serv Cntr,Hastings,NE
+31,003,Antelope County USDA Serv Cntr,Neligh,NE
+31,005,Arthur County FSA Office,Ogallala,NE
+31,007,Banner County USDA Serv Cntr,Harrisburg,NE
+31,009,Blaine County FSA Office,Thedford,NE
+31,011,Boone County USDA Serv Cntr,Albion,NE
+31,013,Box Butte County USDA Serv Cntr,Alliance,NE
+31,015,Boyd County USDA Serv Cntr,Spencer,NE
+31,017,Brown County USDA Serv Cntr,Ainsworth,NE
+31,019,Buffalo County USDA Serv Cntr,Kearney,NE
+31,021,Burt County USDA Serv Cntr,Tekamah,NE
+31,023,Butler County USDA Serv Cntr,David City,NE
+31,025,Cass County USDA Serv Cntr,Weeping Water,NE
+31,027,Cedar County USDA Serv Cntr,Hartington,NE
+31,029,Chase County USDA Serv Cntr,Imperial,NE
+31,031,Cherry County USDA Serv Cntr,Valentine,NE
+31,033,Cheyenne County USDA Serv Cntr,Sidney,NE
+31,035,Clay County USDA Serv Cntr,Clay Center,NE
+31,037,Colfax County USDA Serv Cntr,Schuyler,NE
+31,039,Cuming County USDA Serv Cntr,West Point,NE
+31,041,Custer County USDA Serv Cntr,Broken Bow,NE
+31,043,Dakota County USDA Serv Cntr,South Sioux City,NE
+31,045,Dawes County USDA Serv Cntr,Chadron,NE
+31,047,Dawson County USDA Serv Cntr,Lexington,NE
+31,049,Deuel County USDA Serv Cntr,Chappell,NE
+31,051,Dixon County USDA Serv Cntr,Ponca,NE
+31,053,Dodge County USDA Serv Cntr,Fremont,NE
+31,055,Douglas County FSA Office,Omaha,NE
+31,057,Dundy County USDA Serv Cntr,Benkelman,NE
+31,059,Fillmore County USDA Serv Cntr,Geneva,NE
+31,061,Franklin County USDA Serv Cntr,Franklin,NE
+31,063,Frontier County USDA Serv Cntr,Curtis,NE
+31,065,Furnas County USDA Serv Cntr,Beaver City,NE
+31,067,Gage County USDA Serv Cntr,Beatrice,NE
+31,069,Garden County USDA Serv Cntr,Oshkosh,NE
+31,071,Garfield County USDA Serv Cntr,Burwell,NE
+31,073,Gosper County USDA Serv Cntr,Elwood,NE
+31,075,Grant County FSA Office,Thedford,NE
+31,077,Greeley County USDA Serv Cntr,Greeley,NE
+31,079,Hall County USDA Serv Cntr,Grand Island,NE
+31,081,Hamilton County USDA Serv Cntr,Aurora,NE
+31,083,Harlan County USDA Serv Cntr,Alma,NE
+31,085,Hayes County USDA Serv Cntr,Hayes Center,NE
+31,087,Hitchcock County USDA Serv Cntr,Trenton,NE
+31,089,Holt County USDA Serv Cntr,O'Neill,NE
+31,091,Hooker County FSA Office,Thedford,NE
+31,093,Howard County USDA Serv Cntr,St Paul,NE
+31,095,Jefferson County USDA Serv Cntr,Fairbury,NE
+31,097,Johnson County USDA Serv Cntr,Tecumseh,NE
+31,099,Kearney County USDA Serv Cntr,Minden,NE
+31,101,Keith County USDA Serv Cntr,Ogallala,NE
+31,103,Keya Paha County FSA Office,Ainsworth,NE
+31,105,Kimball County USDA Serv Cntr,Kimball,NE
+31,107,Knox County USDA Serv Cntr,Bloomfield,NE
+31,109,Lancaster County USDA Serv Cntr,Lincoln,NE
+31,111,Lincoln County USDA Serv Cntr,North Platte,NE
+31,113,Logan County FSA Office,North Platte,NE
+31,115,Loup County FSA Office,Burwell,NE
+31,117,Mcpherson County FSA Office,North Platte,NE
+31,119,Madison County USDA Serv Cntr,Battle Creek,NE
+31,121,Merrick County USDA Serv Cntr,Central City,NE
+31,123,Morrill County USDA Serv Cntr,Bridgeport,NE
+31,125,Nance County USDA Serv Cntr,Fullerton,NE
+31,127,Nemaha County USDA Serv Cntr,Auburn,NE
+31,129,Nuckolls County USDA Serv Cntr,Nelson,NE
+31,131,Otoe County USDA Serv Cntr,Syracuse,NE
+31,133,Pawnee County USDA Serv Cntr,Pawnee City,NE
+31,135,Perkins County USDA Serv Cntr,Grant,NE
+31,137,Phelps County USDA Serv Cntr,Holdrege,NE
+31,139,Pierce County USDA Serv Cntr,Pierce,NE
+31,141,Platte County USDA Serv Cntr,Columbus,NE
+31,143,Polk County USDA Serv Cntr,Osceola,NE
+31,145,Red Willow County USDA Serv Cntr,McCook,NE
+31,147,Richardson County USDA Serv Cntr,Falls City,NE
+31,149,Rock County FSA Office,Ainsworth,NE
+31,151,Saline County USDA Serv Cntr,Wilber,NE
+31,153,Sarpy County USDA Serv Cntr,Omaha,NE
+31,155,Saunders County USDA Serv Cntr,Wahoo,NE
+31,157,Scotts Bluff County USDA Serv Cntr,Scottsbluff,NE
+31,159,Seward County USDA Serv Cntr,Seward,NE
+31,161,Sheridan County USDA Serv Cntr,Rushville,NE
+31,163,Sherman County USDA Serv Cntr,Loup City,NE
+31,165,Sioux County FSA Office,Scottsbluff,NE
+31,167,Stanton County USDA Serv Cntr,Stanton,NE
+31,169,Thayer County USDA Serv Cntr,Hebron,NE
+31,171,Thomas County USDA Serv Cntr,Thedford,NE
+31,173,Thurston County USDA Serv Cntr,Walthill,NE
+31,175,Valley County USDA Serv Cntr,Ord,NE
+31,177,Washington County USDA Serv Cntr,Blair,NE
+31,179,Wayne County USDA Serv Cntr,Wayne,NE
+31,181,Webster County USDA Serv Cntr,Red Cloud,NE
+31,183,Wheeler County FSA Office,Burwell,NE
+31,185,York County USDA Serv Cntr,York,NE
+31,848,Aurora Cooperative Elevator Company,Aurora,NE
+31,893,Heartland Co-op,Hastings,NE
+31,894,Midland Co-op,Funk,NE
+32,000,Nevada State USDA Office,Reno,NV
+32,001,Churchill County USDA Serv Cntr,Fallon,NV
+32,003,Clark County FSA Office,St. George,UT
+32,005,Douglas County USDA Serv Cntr,Minden,NV
+32,007,Elko County USDA Serv Cntr,Elko,NV
+32,009,Esmeralda County FSA Office,Yerington,NV
+32,011,Eureka County FSA Office,Elko,NV
+32,013,Humboldt County USDA Serv Cntr,Winnemucca,NV
+32,015,Lander County FSA Office,Winnemucca,NV
+32,017,Lincoln County USDA Serv Cntr,Ely,NV
+32,019,Lyon County USDA Serv Cntr,Yerington,NV
+32,021,Mineral County FSA Office,Yerington,NV
+32,023,Nye County FSA Office,Fallon,NV
+32,027,Pershing County USDA Serv Cntr,Lovelock,NV
+32,029,Storey County FSA Office,Fallon,NV
+32,031,Washoe County FSA Office,Fallon,NV
+32,033,White Pine County USDA Serv Cntr,Ely,NV
+32,035,Southeast Nye County USDA Serv Cntr,Ely,NV
+32,510,Carson County FSA Office,Minden,NV
+33,000,New Hampshire State USDA Office,Concord,NH
+33,001,Belknap County FSA Office,Concord,NH
+33,003,Carroll County,Lancaster,NH
+33,005,Cheshire County USDA Serv Cntr,Walpole,NH
+33,007,Coos County USDA Serv Cntr,Lancaster,NH
+33,009,Grafton County USDA Serv Cntr,Woodsville,NH
+33,011,Hillsboro County USDA Serv Cntr,Milford,NH
+33,013,Merrimack County USDA Serv Cntr,Concord,NH
+33,015,Rockingham County USDA Serv Cntr,Epping,NH
+33,017,Strafford County FSA Office,Epping,NH
+33,019,Sullivan County FSA Office,Walpole,NH
+34,000,New Jersey State USDA Office,Bordentown,NJ
+34,001,Atlantic County FSA Office,Vineland,NJ
+34,005,Burlington County USDA Serv Cntr,Mount Holly,NJ
+34,007,Camden County FSA Office,Mount Holly,NJ
+34,009,Cape May County FSA Office,Vineland,NJ
+34,011,Cumberland County USDA Serv Cntr,Vineland,NJ
+34,015,Gloucester County FSA Office,Woodstown,NJ
+34,019,Hunterdon County USDA Serv Cntr,Flemington,NJ
+34,021,Mercer County FSA Office,Freehold,NJ
+34,023,Middlesex County FSA Office,Freehold,NJ
+34,025,Monmouth County USDA Serv Cntr,Freehold,NJ
+34,027,Morris County FSA Office,Hackettstown,NJ
+34,029,Ocean County FSA Office,Mount Holly,NJ
+34,033,Salem County USDA Serv Cntr,Woodstown,NJ
+34,035,Somerset County FSA Office,Flemington,NJ
+34,037,Sussex County FSA Office,Hackettstown,NJ
+34,041,Warren County USDA Serv Cntr,Hackettstown,NJ
+35,000,New Mexico State USDA Office,Albuquerque,NM
+35,001,Bernalillo County USDA Serv Cntr,Albuquerque,NM
+35,003,Catron County FSA Office,Socorro,NM
+35,005,Chaves County USDA Serv Cntr,Roswell,NM
+35,006,Cibola County FSA Office,Los Lunas,NM
+35,007,Colfax County USDA Serv Cntr,Raton,NM
+35,009,Curry County USDA Serv Cntr,Clovis,NM
+35,011,De Baca County USDA Serv Cntr,Fort Sumner,NM
+35,013,Dona Ana County USDA Serv Cntr,Las Cruces,NM
+35,015,Eddy County USDA Serv Cntr,Carlsbad,NM
+35,017,Grant County FSA Office,Deming,NM
+35,019,Guadalupe County USDA Serv Cntr,Santa Rosa,NM
+35,021,Harding County USDA Serv Cntr,Mosquero,NM
+35,023,Hidalgo County USDA Serv Cntr,Lordsburg,NM
+35,025,Lea County USDA Serv Cntr,Lovington,NM
+35,027,Lincoln County FSA Office,Alamogordo,NM
+35,029,Luna County USDA Serv Cntr,Deming,NM
+35,031,McKinley County USDA Serv Cntr,Gallup,NM
+35,033,Mora County FSA Office,Las Vegas,NM
+35,035,Otero County USDA Serv Cntr,Alamogordo,NM
+35,037,Quay County USDA Serv Cntr,Tucumcari,NM
+35,039,Rio Arriba County USDA Serv Cntr,Espanola,NM
+35,041,Roosevelt County USDA Serv Cntr,Portales,NM
+35,043,Sandoval County FSA Office,Albuquerque,NM
+35,045,San Juan County USDA Serv Cntr,Aztec,NM
+35,047,San Miguel County USDA Serv Cntr,Las Vegas,NM
+35,049,Santa Fe County USDA Serv Cntr,Santa Fe,NM
+35,051,Sierra County USDA Serv Cntr,Truth or Consequence,NM
+35,053,Socorro County USDA Serv Cntr,Socorro,NM
+35,055,Taos County USDA Serv Cntr,Taos,NM
+35,057,Torrance County USDA Serv Cntr,Estancia,NM
+35,059,Union County USDA Serv Cntr,Clayton,NM
+35,061,Valencia County USDA Serv Cntr,Los Lunas,NM
+36,000,New York State USDA Office,Syracuse,NY
+36,001,Albany County USDA Serv Cntr,Voorheesville,NY
+36,003,Allegany County USDA Serv Cntr,Belmont,NY
+36,007,Broome County USDA Serv Cntr,Binghamton,NY
+36,009,Cattaraugus County USDA Serv Cntr,Ellicottville,NY
+36,011,Cayuga County USDA Serv Cntr,Auburn,NY
+36,013,Chautauqua County USDA Serv Cntr,Jamestown,NY
+36,015,Chemung County FSA Office,Waverly,NY
+36,017,Chenango County USDA Serv Cntr,Norwich,NY
+36,019,Clinton County USDA Serv Cntr,Plattsburgh,NY
+36,021,Columbia County USDA Serv Cntr,Ghent,NY
+36,023,Cortland County USDA Serv Cntr,Cortland,NY
+36,025,Delaware County USDA Serv Cntr,Walton,NY
+36,027,Dutchess County USDA Serv Cntr,Millbrook,NY
+36,029,Erie County USDA Serv Cntr,East Aurora,NY
+36,031,Essex County FSA Office,Plattsburgh,NY
+36,033,Franklin County USDA Serv Cntr,Malone,NY
+36,035,Fulton County USDA Serv Cntr,Johnstown,NY
+36,037,Genesee County USDA Serv Cntr,Batavia,NY
+36,039,Greene County FSA Office,Ghent,NY
+36,041,Hamilton County FSA Office,Johnstown,NY
+36,043,Herkimer County USDA Serv Cntr,Herkimer,NY
+36,045,Jefferson County USDA Serv Cntr,Watertown,NY
+36,049,Lewis County USDA Serv Cntr,Lowville,NY
+36,051,Livingston County USDA Serv Cntr,Leicester,NY
+36,053,Madison County USDA Serv Cntr,Morrisville,NY
+36,055,Monroe County USDA Serv Cntr,Rochester,NY
+36,057,Montgomery County USDA Serv Cntr,Fultonville,NY
+36,063,Niagara County USDA Serv Cntr,Lockport,NY
+36,065,Oneida County USDA Serv Cntr,Marcy,NY
+36,067,Onondaga County USDA Serv Cntr,LaFayette,NY
+36,069,Ontario County USDA Serv Cntr,Canandaigua,NY
+36,071,Orange County USDA Serv Cntr,Middletown,NY
+36,073,Orleans County USDA Serv Cntr,Albion,NY
+36,075,Oswego County USDA Serv Cntr,Mexico,NY
+36,077,Otsego County USDA Serv Cntr,Cooperstown,NY
+36,079,Putnam County FSA Office,Millbrook,NY
+36,083,Renssalaer County USDA Serv Cntr,Troy,NY
+36,089,St Lawrence County USDA Serv Cntr,Canton,NY
+36,091,Saratoga County USDA Serv Cntr,Ballston Spa,NY
+36,093,Schenectady County FSA Office,Cobleskill,NY
+36,095,Schoharie County USDA Serv Cntr,Cobleskill,NY
+36,097,Schuyler County FSA Office,Ithaca,NY
+36,099,Seneca County USDA Serv Cntr,Seneca Falls,NY
+36,101,Steuben County USDA Serv Cntr,Bath,NY
+36,103,Suffolk County USDA Serv Cntr,Riverhead,NY
+36,105,Sullivan County USDA Serv Cntr,Liberty,NY
+36,107,Tioga County USDA Serv Cntr,Waverly,NY
+36,109,Tompkins County USDA Serv Cntr,Ithaca,NY
+36,111,Ulster County FSA Office,Millbrook,NY
+36,113,Warren County FSA Office,Greenwich,NY
+36,115,Washington County USDA Serv Cntr,Greenwich,NY
+36,117,Wayne County USDA Serv Cntr,Lyons,NY
+36,119,Westchester County FSA Office,Millbrook,NY
+36,121,Wyoming County USDA Serv Cntr,Warsaw,NY
+36,123,Yates County USDA Serv Cntr,Penn Yan,NY
+37,000,North Carolina State USDA Office,Raleigh,NC
+37,001,Alamance County USDA Serv Cntr,Burlington,NC
+37,003,Alexander County FSA Office,Statesville,NC
+37,005,Alleghany County FSA Office,Jefferson,NC
+37,007,Anson County USDA Serv Cntr,Wadesboro,NC
+37,009,Ashe County USDA Serv Cntr,Jefferson,NC
+37,011,Avery County FSA Office,Boone,NC
+37,013,Beaufort County USDA Serv Cntr,Washington,NC
+37,015,Bertie County USDA Serv Cntr,Windsor,NC
+37,017,Bladen County USDA Serv Cntr,Elizabethtown,NC
+37,019,Brunswick County USDA Serv Cntr,Bolivia,NC
+37,021,Buncombe County USDA Serv Cntr,Asheville,NC
+37,023,Burke County USDA Serv Cntr,Morganton,NC
+37,025,Cabarrus County USDA Serv Cntr,Concord,NC
+37,027,Caldwell County FSA Office,Morganton,NC
+37,029,Camden County FSA Office,Elizabeth City,NC
+37,031,Carteret County FSA Office,New Bern,NC
+37,033,Caswell County USDA Serv Cntr,Yanceyville,NC
+37,035,Catawba County USDA Serv Cntr,Newton,NC
+37,037,Chatham County USDA Serv Cntr,Pittsboro,NC
+37,039,Cherokee County USDA Serv Cntr,Murphy,NC
+37,041,Chowan County USDA Serv Cntr,Edenton,NC
+37,043,Clay County FSA Office,Murphy,NC
+37,045,Cleveland County USDA Serv Cntr,Shelby,NC
+37,047,Columbus County USDA Serv Cntr,Whiteville,NC
+37,049,Craven County USDA Serv Cntr,New Bern,NC
+37,051,Cumberland County USDA Serv Cntr,Fayetteville,NC
+37,053,Currituck County FSA Office,Elizabeth City,NC
+37,055,Dare County FSA Office,Columbia,NC
+37,057,Davidson County USDA Serv Cntr,Lexington,NC
+37,059,Davie County FSA Office,Lexington,NC
+37,061,Duplin County USDA Serv Cntr,Kenansville,NC
+37,063,Durham County USDA Serv Cntr,Durham,NC
+37,065,Edgecombe County USDA Serv Cntr,Tarboro,NC
+37,067,Forsyth County USDA Serv Cntr,Winston-Salem,NC
+37,069,Franklin County USDA Serv Cntr,Louisburg,NC
+37,071,Gaston County USDA Serv Cntr,Dallas,NC
+37,073,Gates County USDA Serv Cntr,Gatesville,NC
+37,075,Graham County FSA Office,Murphy,NC
+37,077,Granville County USDA Serv Cntr,Oxford,NC
+37,079,Greene County USDA Serv Cntr,Snow Hill,NC
+37,081,Guilford County USDA Serv Cntr,Greensboro,NC
+37,083,Halifax County USDA Serv Cntr,Halifax,NC
+37,085,Harnett County USDA Serv Cntr,Lillington,NC
+37,087,Haywood County USDA Serv Cntr,Waynesville,NC
+37,089,Henderson County USDA Serv Cntr,Hendersonville,NC
+37,091,Hertford County USDA Serv Cntr,Winton,NC
+37,093,Hoke County USDA Serv Cntr,Raeford,NC
+37,095,Hyde County FSA Office,Washington,NC
+37,097,Iredell County USDA Serv Cntr,Statesville,NC
+37,099,Jackson County FSA Office,Bryson City,NC
+37,101,Johnston County USDA Serv Cntr,Smithfield,NC
+37,103,Jones County USDA Serv Cntr,Trenton,NC
+37,105,Lee County USDA Serv Cntr,Sanford,NC
+37,107,Lenoir County USDA Serv Cntr,Kinston,NC
+37,109,Lincoln County FSA Office,Dallas,NC
+37,111,McDowell County FSA Office,Morganton,NC
+37,113,Macon County USDA Serv Cntr,Franklin,NC
+37,115,Madison County USDA Serv Cntr,Marshall,NC
+37,117,Martin County USDA Serv Cntr,Williamston,NC
+37,119,Mecklenburg County FSA Office,Concord,NC
+37,121,Mitchell County USDA Serv Cntr,Spruce Pine,NC
+37,123,Montgomery County FSA Office,Sanford,NC
+37,125,Moore County USDA Serv Cntr,Carthage,NC
+37,127,Nash County USDA Serv Cntr,Nashville,NC
+37,129,New Hanover County FSA Office,Burgaw,NC
+37,131,Northampton County USDA Serv Cntr,Jackson,NC
+37,133,Onslow County USDA Serv Cntr,Jacksonville,NC
+37,135,Orange County USDA Serv Cntr,Hillsborough,NC
+37,137,Pamlico County USDA Serv Cntr,Alliance,NC
+37,139,Pasquotank County USDA Serv Cntr,Elizabeth City,NC
+37,141,Pender County USDA Serv Cntr,Burgaw,NC
+37,143,Perquimans County USDA Serv Cntr,Hertford,NC
+37,145,Person County USDA Serv Cntr,Roxboro,NC
+37,147,Pitt County USDA Serv Cntr,Greenville,NC
+37,149,Polk County FSA Office,Hendersonville,NC
+37,151,Randolph County USDA Serv Cntr,Asheboro,NC
+37,153,Richmond County USDA Serv Cntr,Rockingham,NC
+37,155,Robeson County USDA Serv Cntr,Lumberton,NC
+37,157,Rockingham County USDA Serv Cntr,Reidsville,NC
+37,159,Rowan County USDA Serv Cntr,Salisbury,NC
+37,161,Rutherford County USDA Serv Cntr,Rutherfordton,NC
+37,163,Sampson County USDA Serv Cntr,Clinton,NC
+37,165,Scotland County FSA Office,Lumberton,NC
+37,167,Stanly County USDA Serv Cntr,Albemarle,NC
+37,169,Stokes County USDA Serv Cntr,Danbury,NC
+37,171,Surry County USDA Serv Cntr,Dobson,NC
+37,173,Swain County USDA Serv Cntr,Bryson City,NC
+37,175,Transylvania County FSA Office,Hendersonville,NC
+37,177,Tyrrell-Dare County USDA Serv Cntr,Columbia,NC
+37,179,Union County USDA Serv Cntr,Monroe,NC
+37,181,Vance County USDA Serv Cntr,Henderson,NC
+37,183,Wake County USDA Serv Cntr,Raleigh,NC
+37,185,Warren County USDA Serv Cntr,Warrenton,NC
+37,187,Washington County USDA Serv Cntr,Plymouth,NC
+37,189,Watauga County USDA Serv Cntr,Boone,NC
+37,191,Wayne County USDA Serv Cntr,Goldsboro,NC
+37,193,Wilkes County USDA Serv Cntr,Wilkesboro,NC
+37,195,Wilson County USDA Serv Cntr,Wilson,NC
+37,197,Yadkin County USDA Serv Cntr,Yadkinville,NC
+37,199,Yancey County FSA Office,Spruce Pine,NC
+37,701,ISSI: Intelligent Storage Services ,Raleigh,NC
+37,801,Carolinas Cotton Growers Coop,Garner,NC
+37,802,Coastal Quality Cotton Coop,Cordova,TN
+37,803,Quality Cotton Cooperative,Plymouth,NC
+38,000,North Dakota State USDA Office,Fargo,ND
+38,001,Adams County USDA Serv Cntr,Hettinger,ND
+38,003,Barnes County USDA Serv Cntr,Valley City,ND
+38,005,Benson County USDA Serv Cntr,Minnewaukan,ND
+38,007,Billings County FSA Office,Dickinson,ND
+38,009,Bottineau County USDA Serv Cntr,Bottineau,ND
+38,011,Bowman County USDA Serv Cntr,Bowman,ND
+38,013,Burke County USDA Serv Cntr,Bowbells,ND
+38,015,Burleigh County USDA Serv Cntr,Bismarck,ND
+38,017,Cass County USDA Serv Cntr,Fargo,ND
+38,019,Cavalier County USDA Serv Cntr,Langdon,ND
+38,021,Dickey County USDA Serv Cntr,Ellendale,ND
+38,023,Divide County USDA Serv Cntr,Crosby,ND
+38,025,Dunn County USDA Serv Cntr,Killdeer,ND
+38,027,Eddy County USDA Serv Cntr,New Rockford,ND
+38,029,Emmons County USDA Serv Cntr,Linton,ND
+38,031,Foster County USDA Serv Cntr,Carrington,ND
+38,033,Golden Valley County USDA Serv Cntr,Beach,ND
+38,035,Grand Forks County USDA Serv Cntr,Grand Forks,ND
+38,037,Grant County USDA Serv Cntr,Carson,ND
+38,039,Griggs County USDA Serv Cntr,Cooperstown,ND
+38,041,Hettinger County USDA Serv Cntr,Mott,ND
+38,043,Kidder County USDA Serv Cntr,Steele,ND
+38,045,LaMoure County USDA Serv Cntr,Lamoure,ND
+38,047,Logan County USDA Serv Cntr,Napoleon,ND
+38,049,Mc Henry County USDA Serv Cntr,Towner,ND
+38,055,Mc Lean County USDA Serv Cntr,Garrison,ND
+38,051,McIntosh County USDA Serv Cntr,Ashley,ND
+38,053,McKenzie County USDA Serv Cntr,Watford City,ND
+38,057,Mercer County USDA Serv Cntr,Beulah,ND
+38,059,Morton County USDA Serv Cntr,Mandan,ND
+38,061,Mountrail County USDA Serv Cntr,Stanley,ND
+38,063,Nelson County USDA Serv Cntr,Lakota,ND
+38,065,Oliver County USDA Serv Cntr,Center,ND
+38,067,Pembina County USDA Serv Cntr,Cavalier,ND
+38,069,Pierce County USDA Serv Cntr,Rugby,ND
+38,071,Ramsey County USDA Serv Cntr,Devils Lake,ND
+38,073,Ransom County USDA Serv Cntr,Lisbon,ND
+38,075,Renville County USDA Serv Cntr,Mohall,ND
+38,077,Richland County USDA Serv Cntr,Wahpeton,ND
+38,079,Rolette County USDA Serv Cntr,Rolla,ND
+38,081,Sargent County USDA Serv Cntr,Forman,ND
+38,083,Sheridan County USDA Serv Cntr,McClusky,ND
+38,085,Sioux County USDA Serv Cntr,Selfridge,ND
+38,087,Slope County USDA Serv Cntr,Amidon,ND
+38,089,Stark/Billings County USDA Serv Cntr,Dickinson,ND
+38,091,Steele County USDA Serv Cntr,Finley,ND
+38,093,Stutsman County USDA Serv Cntr,Jamestown,ND
+38,095,Towner County USDA Serv Cntr,Cando,ND
+38,097,Traill County USDA Serv Cntr,Hillsboro,ND
+38,099,Walsh County USDA Serv Cntr,Park River,ND
+38,101,Ward County USDA Serv Cntr,Minot,ND
+38,103,Wells County USDA Serv Cntr,Fessenden,ND
+38,105,Williams County USDA Serv Cntr,Williston,ND
+39,000,Ohio State USDA Office,Columbus,OH
+39,001,Adams County USDA Serv Cntr,West Union,OH
+39,003,Allen County USDA Serv Cntr,Lima,OH
+39,005,Ashland County USDA Serv Cntr,Ashland,OH
+39,007,Ashtabula County USDA Serv Cntr,Orwell,OH
+39,009,Athens County USDA Serv Cntr,The Plains,OH
+39,011,Auglaize County USDA Serv Cntr,Wapakoneta,OH
+39,013,Belmont County USDA Serv Cntr,Barnsville,OH
+39,015,Brown County USDA Serv Cntr,Georgetown,OH
+39,017,Butler County USDA Serv Cntr,Hamilton,OH
+39,019,Carroll County USDA Serv Cntr,Carrollton,OH
+39,021,Champaign County USDA Serv Cntr,Urbana,OH
+39,023,Clark County USDA Serv Cntr,Springfield,OH
+39,025,Clermont County USDA Serv Cntr,Owensville,OH
+39,027,Clinton County USDA Serv Cntr,Wilmington,OH
+39,029,Columbiana County USDA Serv Cntr,Salem,OH
+39,031,Coshocton County USDA Serv Cntr,Coshocton,OH
+39,033,Crawford County USDA Serv Cntr,Bucyrus,OH
+39,035,Cuyahoga County FSA Office,Medina,OH
+39,037,Darke County USDA Serv Cntr,Greenville,OH
+39,039,Defiance County USDA Serv Cntr,Defiance,OH
+39,041,Delaware County USDA Serv Cntr,Delaware,OH
+39,043,Erie County USDA Serv Cntr,Sandusky,OH
+39,045,Fairfield County USDA Serv Cntr,Lancaster,OH
+39,047,Fayette County USDA Serv Cntr,Washington Crthouse,OH
+39,049,Franklin County USDA Serv Cntr,Grove City,OH
+39,051,Fulton County USDA Serv Cntr,Wauseon,OH
+39,053,Gallia County USDA Serv Cntr,Gallipolis,OH
+39,055,Geauga County FSA Office,Orwell,OH
+39,057,Greene County USDA Serv Cntr,Xenia,OH
+39,059,Guernsey County USDA Serv Cntr,Cambridge,OH
+39,061,Hamilton County FSA Office,Hamilton,OH
+39,063,Hancock County USDA Serv Cntr,Findlay,OH
+39,065,Hardin County USDA Serv Cntr,West Kenton,OH
+39,067,Harrison County USDA Serv Cntr,Hopedale,OH
+39,069,Henry County USDA Serv Cntr,Napoleon,OH
+39,071,Highland County USDA Serv Cntr,Hillsboro,OH
+39,073,Hocking County FSA Office,The Plains,OH
+39,075,Holmes County USDA Serv Cntr,Millersburg,OH
+39,077,Huron County USDA Serv Cntr,Norwalk,OH
+39,079,Jackson County USDA Serv Cntr,Jackson,OH
+39,081,Jefferson County FSA Office,Hopedale,OH
+39,083,Knox County USDA Serv Cntr,Mt. Vernon,OH
+39,085,Lake County FSA Office,Orwell,OH
+39,087,Lawrence County FSA Office,Gallipolis,OH
+39,089,Licking County USDA Serv Cntr,Newark,OH
+39,091,Logan County USDA Serv Cntr,Bellefontaine,OH
+39,093,Lorain County USDA Serv Cntr,Elyria,OH
+39,094,Lucas East County FSA Office,Oak Harbor,OH
+39,095,Lucas West County FSA Office,Wauseon,OH
+39,097,Madison County USDA Serv Cntr,London,OH
+39,099,Mahoning County FSA Office,Salem,OH
+39,101,Marion County USDA Serv Cntr,Marion,OH
+39,103,Medina County USDA Serv Cntr,Medina,OH
+39,105,Meigs County USDA Serv Cntr,Pomeroy,OH
+39,107,Mercer County USDA Serv Cntr,Celina,OH
+39,109,Miami County USDA Serv Cntr,Troy,OH
+39,111,Monroe County FSA Office,Barnsville,OH
+39,113,Montgomery County USDA Serv Cntr,New Lebanon,OH
+39,115,Morgan County FSA Office,Zanesville,OH
+39,117,Morrow County USDA Serv Cntr,Mount Gilead,OH
+39,119,Muskingum County USDA Serv Cntr,Zanesville,OH
+39,121,Noble County FSA Office,Cambridge,OH
+39,123,Ottawa County USDA Serv Cntr,Oak Harbor,OH
+39,125,Paulding County USDA Serv Cntr,Paulding,OH
+39,127,Perry County USDA Serv Cntr,Somerset,OH
+39,129,Pickaway County USDA Serv Cntr,Circleville,OH
+39,131,Pike County USDA Serv Cntr,Waverly,OH
+39,133,Portage County USDA Serv Cntr,Ravenna,OH
+39,135,Preble County USDA Serv Cntr,Eaton,OH
+39,137,Putnam County USDA Serv Cntr,Ottawa,OH
+39,139,Richland County USDA Serv Cntr,Mansfield,OH
+39,141,Ross County USDA Serv Cntr,Chillicothe,OH
+39,143,Sandusky County USDA Serv Cntr,Fremont,OH
+39,145,Scioto County USDA Serv Cntr,Portsmouth,OH
+39,147,Seneca County USDA Serv Cntr,Tiffin,OH
+39,149,Shelby County USDA Serv Cntr,Sidney,OH
+39,151,Stark County USDA Serv Cntr,Canton,OH
+39,153,Summit County FSA Office,Ravenna,OH
+39,155,Trumbull County USDA Serv Cntr,Cortland,OH
+39,157,Tuscarawas County USDA Serv Cntr,New Philadelphia,OH
+39,159,Union County USDA Serv Cntr,Marysville,OH
+39,161,Van Wert County USDA Serv Cntr,Van Wert,OH
+39,163,Vinton County FSA Office,Jackson,OH
+39,165,Warren County USDA Serv Cntr,Lebanon,OH
+39,167,Washington County USDA Serv Cntr,Marietta,OH
+39,169,Wayne County USDA Serv Cntr,Wooster,OH
+39,171,Williams County USDA Serv Cntr,Bryan,OH
+39,173,Wood County USDA Serv Cntr,Bowling Green,OH
+39,175,Wyandot County USDA Serv Cntr,Upper Sandusky,OH
+40,000,Oklahoma State USDA Office,Stillwater,OK
+40,001,Adair County FSA Office,Tahlequah,OK
+40,003,Alfalfa County USDA Serv Cntr,Cherokee,OK
+40,005,Atoka County USDA Serv Cntr,Atoka,OK
+40,007,Beaver County USDA Serv Cntr,Beaver,OK
+40,009,Beckham County USDA Serv Cntr,Sayre,OK
+40,011,Blaine County USDA Serv Cntr,Watonga,OK
+40,013,Bryan County USDA Serv Cntr,Durant,OK
+40,015,Caddo County USDA Serv Cntr,Anadarko,OK
+40,017,Canadian County USDA Serv Cntr,El Reno,OK
+40,019,Carter County FSA Office,Marietta,OK
+40,021,Cherokee County USDA Serv Cntr,Tahlequah,OK
+40,023,Choctaw County USDA Serv Cntr,Hugo,OK
+40,025,Cimarron County USDA Serv Cntr,Boise City,OK
+40,027,Cleveland County USDA Serv Cntr,Norman,OK
+40,029,Coal County FSA Office,Atoka,OK
+40,031,Comanche County USDA Serv Cntr,Lawton,OK
+40,033,Cotton County USDA Serv Cntr,Walters,OK
+40,035,Craig County USDA Serv Cntr,Vinita,OK
+40,037,Creek County FSA Office,Okemah,OK
+40,039,Custer County USDA Serv Cntr,Clinton,OK
+40,041,Delaware County USDA Serv Cntr,Jay,OK
+40,043,Dewey County USDA Serv Cntr,Taloga,OK
+40,045,Ellis County USDA Serv Cntr,Arnett,OK
+40,047,Garfield County USDA Serv Cntr,Enid,OK
+40,049,Garvin County USDA Serv Cntr,Pauls Valley,OK
+40,051,Grady County USDA Serv Cntr,Chickasha,OK
+40,053,Grant County USDA Serv Cntr,Medford,OK
+40,055,Greer County USDA Serv Cntr,Mangum,OK
+40,057,Harmon County USDA Serv Cntr,Hollis,OK
+40,059,Harper County USDA Serv Cntr,Buffalo,OK
+40,061,Haskell County USDA Serv Cntr,Stigler,OK
+40,063,Hughes County USDA Serv Cntr,Holdenville,OK
+40,065,Jackson County USDA Serv Cntr,Altus,OK
+40,067,Jefferson County USDA Serv Cntr,Waurika,OK
+40,069,Johnston County USDA Serv Cntr,Tishomingo,OK
+40,071,Kay County USDA Serv Cntr,Newkirk,OK
+40,073,Kingfisher County USDA Serv Cntr,Kingfisher,OK
+40,075,Kiowa County USDA Serv Cntr,Hobart,OK
+40,077,Latimer County FSA Office,McAlester,OK
+40,079,Leflore County USDA Serv Cntr,Poteau,OK
+40,081,Lincoln County USDA Serv Cntr,Chandler,OK
+40,083,Logan County USDA Serv Cntr,Guthrie,OK
+40,085,Love County USDA Serv Cntr,Marietta,OK
+40,093,Major County USDA Serv Cntr,Fairview,OK
+40,097,Mayes County USDA Serv Cntr,Pryor,OK
+40,087,McClain County USDA Serv Cntr,Purcell,OK
+40,089,McCurtain County USDA Serv Cntr,Idabel,OK
+40,091,McIntosh County FSA Office,McAlester,OK
+40,095,Marshall County FSA Office,Marietta,OK
+40,099,Murray County FSA Office,Pauls Valley,OK
+40,101,Muskogee County USDA Serv Cntr,Muskogee,OK
+40,103,Noble County USDA Serv Cntr,Perry,OK
+40,105,Nowata County USDA Serv Cntr,Nowata,OK
+40,107,Okfuskee County USDA Serv Cntr,Okemah,OK
+40,109,Oklahoma County FSA Office,Guthrie,OK
+40,111,Okmulgee County USDA Serv Cntr,Okmulgee,OK
+40,113,Osage County USDA Serv Cntr,Pawhuska,OK
+40,115,Ottawa County USDA Serv Cntr,Miami,OK
+40,117,Pawnee County USDA Serv Cntr,Pawnee,OK
+40,119,Payne County USDA Serv Cntr,Stillwater,OK
+40,121,Pittsburg County USDA Serv Cntr,McAlester,OK
+40,123,Pontotoc County USDA Serv Cntr,Ada,OK
+40,125,Pottawatomie County USDA Serv Cntr,Shawnee,OK
+40,127,Pushmataha County USDA Serv Cntr,Antlers,OK
+40,129,Roger Mills County USDA Serv Cntr,Cheyenne,OK
+40,131,Rogers County USDA Serv Cntr,Claremore,OK
+40,133,Seminole County USDA Serv Cntr,Wewoka,OK
+40,135,Sequoyah County FSA Office,Tahlequah,OK
+40,137,Stephens County USDA Serv Cntr,Duncan,OK
+40,139,Texas County USDA Serv Cntr,Guymon,OK
+40,141,Tillman County USDA Serv Cntr,Frederick,OK
+40,143,Tulsa County FSA Office,Claremore,OK
+40,145,Wagoner County USDA Serv Cntr,Wagoner,OK
+40,147,Washington County USDA Serv Cntr,Nowata,OK
+40,149,Washita County USDA Serv Cntr,Cordell,OK
+40,151,Woods County USDA Serv Cntr,Alva,OK
+40,153,Woodward County USDA Serv Cntr,Woodward,OK
+40,806,Blackwell Cooperative Elevator Association,Blackwell,OK
+41,000,Oregon State USDA Office,Tualatin,OR
+41,001,Baker County USDA Serv Cntr,Baker City,OR
+41,003,Benton County FSA Office,Tangent,OR
+41,005,Clackamas County USDA Serv Cntr,Oregon City,OR
+41,007,Clatsop County FSA Office,Tillamook,OR
+41,009,Columbia County FSA Office,Hillsboro,OR
+41,011,Coos County USDA Serv Cntr,Coquille,OR
+41,013,Crook County FSA Office,Redmond,OR
+41,015,Curry County FSA Office,Coquille,OR
+41,017,Deshutes County USDA Serv Cntr,Redmond,OR
+41,019,Douglas County USDA Serv Cntr,Roseburg,OR
+41,021,Gilliam County USDA Serv Cntr,Condon,OR
+41,023,Grant County USDA Serv Cntr,John Day,OR
+41,025,Harney County USDA Serv Cntr,Hines,OR
+41,027,Hood River County FSA Office,The Dalles,OR
+41,029,Jackson County USDA Serv Cntr,Medford,OR
+41,031,Jefferson County FSA Office,Redmond,OR
+41,033,Josephine County FSA Office,Medford,OR
+41,035,Klamath County USDA Serv Cntr,Klamath Falls,OR
+41,037,Lake County USDA Serv Cntr,Lakeview,OR
+41,039,Lane County USDA Serv Cntr,Eugene,OR
+41,041,Lincoln County FSA Office,Tangent,OR
+41,043,Linn County USDA Serv Cntr,Tangent,OR
+41,045,Malheur County USDA Serv Cntr,Ontario,OR
+41,047,Marion County USDA Serv Cntr,Salem,OR
+41,049,Morrow County USDA Serv Cntr,Heppner,OR
+41,051,Multnomah County FSA Office,Oregon City,OR
+41,053,Polk County USDA Serv Cntr,Dallas,OR
+41,055,Sherman County USDA Serv Cntr,Moro,OR
+41,057,Tillamook County USDA Serv Cntr,Tillamook,OR
+41,059,Umatilla County USDA Serv Cntr,Pendleton,OR
+41,061,Union County USDA Serv Cntr,La Grande,OR
+41,063,Wallowa County USDA Serv Cntr,Enterprise,OR
+41,065,Wasco County USDA Serv Cntr,The Dalles,OR
+41,067,Washington County USDA Serv Cntr,Hillsboro,OR
+41,069,Wheeler County FSA Office,Condon,OR
+41,071,Yamhill County USDA Serv Cntr,McMinnville,OR
+42,000,Pennsylvania State USDA Office,Harrisburg,PA
+42,001,Adams County USDA Serv Cntr,Gettysburg,PA
+42,003,Allegheny County FSA Office,Beaver,PA
+42,005,Armstrong County USDA Serv Cntr,Kittanning,PA
+42,007,Beaver County USDA Serv Cntr,Beaver,PA
+42,009,Bedford County USDA Serv Cntr,Bedford,PA
+42,011,Berks County USDA Serv Cntr,Leesport,PA
+42,013,Blair County USDA Serv Cntr,Hollidaysburg,PA
+42,015,Bradford County USDA Serv Cntr,Towanda,PA
+42,017,Bucks County USDA Serv Cntr,Chalfont,PA
+42,019,Butler County USDA Serv Cntr,Butler,PA
+42,021,Cambria County USDA Serv Cntr,Ebensburg,PA
+42,023,Cameron County FSA Office,Coudersport,PA
+42,025,Carbon County USDA Serv Cntr,Lehighton,PA
+42,027,Centre County FSA Office,Mill Hall,PA
+42,029,Chester County USDA Serv Cntr,West Chester,PA
+42,031,Clarion County USDA Serv Cntr,Clarion,PA
+42,033,Clearfield County USDA Serv Cntr,Dubois,PA
+42,035,Clinton County USDA Serv Cntr,Mill Hall,PA
+42,037,Columbia County USDA Serv Cntr,Bloomsburg,PA
+42,039,Crawford County USDA Serv Cntr,Meadville,PA
+42,041,Cumberland County USDA Serv Cntr,Carlisle,PA
+42,043,Dauphin County USDA Serv Cntr,Dauphin,PA
+42,045,Delaware County FSA Office,West Chester,PA
+42,047,Elk County FSA Office,Dubois,PA
+42,049,Erie County USDA Serv Cntr,Waterford,PA
+42,051,Fayette County USDA Serv Cntr,Lemont Furnance,PA
+42,053,Forest County FSA Office,Franklin,PA
+42,055,Franklin County USDA Serv Cntr,Chambersburg,PA
+42,057,Fulton County USDA Serv Cntr,Mc Connellsburg,PA
+42,059,Greene County FSA Office,Lemont Furnance,PA
+42,061,Huntingdon County USDA Serv Cntr,Huntingdon,PA
+42,063,Indiana County USDA Serv Cntr,Indiana,PA
+42,065,Jefferson County FSA Office,Dubois,PA
+42,067,Juniata County USDA Serv Cntr,Mifflintown,PA
+42,069,Lackawanna County USDA Serv Cntr,Mayfield,PA
+42,071,Lancaster County USDA Serv Cntr,Lancaster,PA
+42,073,Lawrence County USDA Serv Cntr,New Castle,PA
+42,075,Lebanon County USDA Serv Cntr,Lebanon,PA
+42,077,Lehigh County USDA Serv Cntr,Allentown,PA
+42,079,Luzerne County USDA Serv Cntr,Plymouth,PA
+42,081,Lycoming County USDA Serv Cntr,Montoursville,PA
+42,083,McKean County FSA Office,Coudersport,PA
+42,085,Mercer County USDA Serv Cntr,Mercer,PA
+42,087,Mifflin County USDA Serv Cntr,Burnham,PA
+42,089,Monroe County FSA Office,Lehighton,PA
+42,091,Montgomery County USDA Serv Cntr,Collegeville,PA
+42,093,Montour County FSA Office,Bloomsburg,PA
+42,095,Northampton County USDA Serv Cntr,Nazareth,PA
+42,097,Northumberland County USDA Serv Cntr,Sunbury,PA
+42,099,Perry County USDA Serv Cntr,New Bloomfield,PA
+42,101,Philadelphia County FSA Office,Chalfont,PA
+42,103,Pike County FSA Office,Mayfield,PA
+42,105,Potter County USDA Serv Cntr,Coudersport,PA
+42,107,Schuylkill County USDA Serv Cntr,Pottsville,PA
+42,109,Snyder County USDA Serv Cntr,Middleburg,PA
+42,111,Somerset County USDA Serv Cntr,Somerset,PA
+42,113,Sullivan County FSA Office,Tunkhannock,PA
+42,115,Susquehana County USDA Serv Cntr,Montrose,PA
+42,117,Tioga County USDA Serv Cntr,Wellsboro,PA
+42,119,Union County FSA Office,Middleburg,PA
+42,121,Venango County USDA Serv Cntr,Franklin,PA
+42,123,Warren County FSA Office,Franklin,PA
+42,125,Washington County USDA Serv Cntr,Washington,PA
+42,127,Wayne County FSA Office,Mayfield,PA
+42,129,Westmorland County USDA Serv Cntr,Greensburg,PA
+42,131,Wyoming County USDA Serv Cntr,Tunkhannock,PA
+42,133,York County USDA Serv Cntr,York,PA
+44,000,Rhode Island State USDA Office,Warwick,RI
+44,001,Bristol County FSA Office,Warwick,RI
+44,003,Kent County USDA Serv Cntr,Warwick,RI
+44,005,Newport County FSA Office,Warwick,RI
+44,007,Providence County FSA Office,Warwick,RI
+44,009,Washington County USDA Serv Cntr,Warwick,RI
+45,000,South Carolina State USDA Office,Columbia,SC
+45,001,Abbeville County USDA Serv Cntr,Abbeville,SC
+45,003,Aiken County USDA Serv Cntr,Aiken,SC
+45,005,Allendale County USDA Serv Cntr,Allendale,SC
+45,007,Anderson County USDA Serv Cntr,Anderson,SC
+45,009,Bamberg County USDA Serv Cntr,Bamberg,SC
+45,011,Barnwell County USDA Serv Cntr,Barnwell,SC
+45,013,Beaufort County FSA Office,Ridgeland,SC
+45,015,Berkeley County FSA Office,North Charleston,SC
+45,017,Calhoun County USDA Serv Cntr,St. Matthews,SC
+45,019,Charleston County USDA Serv Cntr,North Charleston,SC
+45,021,Cherokee County FSA Office,Spartanburg,SC
+45,023,Chester County USDA Serv Cntr,Chester,SC
+45,025,Chesterfield County USDA Serv Cntr,Chesterfield,SC
+45,027,Clarendon County USDA Serv Cntr,Manning,SC
+45,029,Colleton County USDA Serv Cntr,Walterboro,SC
+45,031,Darlington County USDA Serv Cntr,Darlington,SC
+45,033,Dillon County USDA Serv Cntr,Dillon,SC
+45,035,Dorchester County USDA Serv Cntr,St George,SC
+45,037,Edgefield County USDA Serv Cntr,Edgefield,SC
+45,039,Fairfield County FSA Office,Chester,SC
+45,041,Florence County USDA Serv Cntr,Florence,SC
+45,043,Georgetown County USDA Serv Cntr,Georgetown,SC
+45,045,Greenville County USDA Serv Cntr,Greenville,SC
+45,047,Greenwood County FSA Office,Abbeville,SC
+45,049,Hampton County USDA Serv Cntr,Hampton,SC
+45,051,Horry County USDA Serv Cntr,Conway,SC
+45,053,Jasper County USDA Serv Cntr,Ridgeland,SC
+45,055,Kershaw County USDA Serv Cntr,Camden,SC
+45,057,Lancaster County USDA Serv Cntr,Lancaster,SC
+45,059,Laurens County USDA Serv Cntr,Laurens,SC
+45,061,Lee County USDA Serv Cntr,Bishopville,SC
+45,063,Lexington County USDA Serv Cntr,Lexington,SC
+45,065,McCormick County FSA Office,Abbeville,SC
+45,067,Marion County USDA Serv Cntr,Marion,SC
+45,069,Marlboro County USDA Serv Cntr,Bennettsville,SC
+45,071,Newberry County USDA Serv Cntr,Newberry,SC
+45,073,Oconee County USDA Serv Cntr,Walhalla,SC
+45,075,Orangeburg County USDA Serv Cntr,Orangeburg,SC
+45,077,Pickens County FSA Office,Greenville,SC
+45,079,Richland County FSA Office,St. Matthews,SC
+45,081,Saluda County USDA Serv Cntr,Saluda,SC
+45,083,Spartanburg County USDA Serv Cntr,Spartanburg,SC
+45,085,Sumter County USDA Serv Cntr,Sumter,SC
+45,087,Union County FSA Office,Spartanburg,SC
+45,089,Williamsburg County USDA Serv Cntr,Kingstree,SC
+45,091,York County USDA Serv Cntr,York,SC
+46,000,South Dakota State USDA Office,Huron,SD
+46,003,Aurora County USDA Serv Cntr,Plankinton,SD
+46,005,Beadle County USDA Serv Cntr,Huron,SD
+46,007,Bennett County USDA Serv Cntr,Martin,SD
+46,009,Bon Homme County USDA Serv Cntr,Tyndall,SD
+46,011,Brookings County USDA Serv Cntr,Brookings,SD
+46,013,Brown County USDA Serv Cntr,Aberdeen,SD
+46,015,Brule County USDA Serv Cntr,Chamberlain,SD
+46,017,Buffalo County FSA Office,Chamberlain,SD
+46,019,Butte County USDA Serv Cntr,Belle Fourche,SD
+46,021,Campbell County USDA Serv Cntr,Mound City,SD
+46,023,Charles Mix County USDA Serv Cntr,Lake Andes,SD
+46,025,Clark County USDA Serv Cntr,Clark,SD
+46,027,Clay County USDA Serv Cntr,Vermillion,SD
+46,029,Codington County USDA Serv Cntr,Watertown,SD
+46,031,Corson County USDA Serv Cntr,McIntosh,SD
+46,033,Custer County FSA Office,Hot Springs,SD
+46,035,Davison County USDA Serv Cntr,Mitchell,SD
+46,037,Day County USDA Serv Cntr,Webster,SD
+46,039,Deuel County USDA Serv Cntr,Clear Lake,SD
+46,041,Dewey County USDA Serv Cntr,Timber Lake,SD
+46,043,Douglas County USDA Serv Cntr,Armour,SD
+46,045,Edmunds County USDA Serv Cntr,Ipswich,SD
+46,047,Fall River County USDA Serv Cntr,Hot Springs,SD
+46,049,Faulk County USDA Serv Cntr,Faulkton,SD
+46,051,Grant County USDA Serv Cntr,Milbank,SD
+46,053,Gregory County USDA Serv Cntr,Burke,SD
+46,055,Haakon County USDA Serv Cntr,Philip,SD
+46,057,Hamlin County USDA Serv Cntr,Hayti,SD
+46,059,Hand County USDA Serv Cntr,Miller,SD
+46,061,Hanson County FSA Office,Mitchell,SD
+46,063,Harding County USDA Serv Cntr,Buffalo,SD
+46,065,Hughes County USDA Serv Cntr,Pierre,SD
+46,067,Hutchinson County USDA Serv Cntr,Parkston,SD
+46,069,Hyde County USDA Serv Cntr,Highmore,SD
+46,071,Jackson County USDA Serv Cntr,Kadoka,SD
+46,073,Jerauld County USDA Serv Cntr,Wessington Springs,SD
+46,075,Jones County USDA Serv Cntr,Murdo,SD
+46,077,Kingsbury County USDA Serv Cntr,De Smet,SD
+46,079,Lake County USDA Serv Cntr,Madison,SD
+46,081,Lawrence County FSA Office,Belle Fourche,SD
+46,083,Lincoln County USDA Serv Cntr,Canton,SD
+46,085,Lyman County USDA Serv Cntr,Kennebec,SD
+46,087,McCook County USDA Serv Cntr,Salem,SD
+46,089,McPherson County USDA Serv Cntr,Leola,SD
+46,091,Marshall County USDA Serv Cntr,Britton,SD
+46,093,Meade County USDA Serv Cntr,Sturgis,SD
+46,095,Mellette County USDA Serv Cntr,White River,SD
+46,097,Miner County USDA Serv Cntr,Howard,SD
+46,099,Minnehaha County USDA Serv Cntr,Sioux Falls,SD
+46,101,Moody County USDA Serv Cntr,Flandreau,SD
+46,103,Pennington County USDA Serv Cntr,Rapid City,SD
+46,105,Perkins County USDA Serv Cntr,Bison,SD
+46,107,Potter County USDA Serv Cntr,Gettysburg,SD
+46,109,Roberts County USDA Serv Cntr,Sisseton,SD
+46,111,Sanborn County USDA Serv Cntr,Woonsocket,SD
+46,113,Shannon County FSA Office,Martin,SD
+46,115,Spink County USDA Serv Cntr,Redfield,SD
+46,117,Stanley County FSA Office,Pierre,SD
+46,119,Sully County USDA Serv Cntr,Onida,SD
+46,121,Todd County FSA Office,White River,SD
+46,123,Tripp County USDA Serv Cntr,Winner,SD
+46,125,Turner County USDA Serv Cntr,Parker,SD
+46,127,Union County USDA Serv Cntr,Elk Point,SD
+46,129,Walworth County USDA Serv Cntr,Selby,SD
+46,135,Yankton County USDA Serv Cntr,Yankton,SD
+46,137,Ziebach County USDA Serv Cntr,Dupree,SD
+47,000,Tennessee State USDA Office,Nashville,TN
+47,001,Anderson County USDA Serv Cntr,Clinton,TN
+47,003,Bedford County USDA Serv Cntr,Shelbyville,TN
+47,005,Benton County USDA Serv Cntr,Camden,TN
+47,007,Bledsoe County USDA Serv Cntr,Pikeville,TN
+47,009,Blount County FSA Office,Madisonville,TN
+47,011,Bradley County USDA Serv Cntr,Cleveland,TN
+47,013,Campbell County FSA Office,Clinton,TN
+47,015,Cannon County USDA Serv Cntr,Woodbury,TN
+47,017,Carroll County USDA Serv Cntr,Huntingdon,TN
+47,019,Carter County USDA Serv Cntr,Elizabethton,TN
+47,021,Cheatham County USDA Serv Cntr,Ashland City,TN
+47,023,Chester County FSA Office,Selmer,TN
+47,025,Claiborne County USDA Serv Cntr,Tazewell,TN
+47,027,Clay County FSA Office,Gainesboro,TN
+47,029,Cocke County USDA Serv Cntr,Newport,TN
+47,031,Coffee County USDA Serv Cntr,Manchester,TN
+47,033,Crockett County USDA Serv Cntr,Alamo,TN
+47,035,Cumberland County USDA Serv Cntr,Crossville,TN
+47,037,Davidson County FSA Office,Springfield,TN
+47,039,Decatur County FSA Office,Lexington,TN
+47,041,DeKalb County USDA Serv Cntr,Smithville,TN
+47,043,Dickson County USDA Serv Cntr,Dickson,TN
+47,045,Dyer County USDA Serv Cntr,Dyersburg,TN
+47,047,Fayette County USDA Serv Cntr,Somerville,TN
+47,049,Fentress County USDA Serv Cntr,Jamestown,TN
+47,051,Franklin County USDA Serv Cntr,Winchester,TN
+47,053,Gibson County USDA Serv Cntr,Trenton,TN
+47,055,Giles County USDA Serv Cntr,Pulaski,TN
+47,057,Grainger County FSA Office,Morristown,TN
+47,059,Greene County USDA Serv Cntr,Greeneville,TN
+47,061,Grundy County FSA Office,Manchester,TN
+47,063,Hamblen County USDA Serv Cntr,Morristown,TN
+47,065,Hamilton County USDA Serv Cntr,Chattanooga,TN
+47,067,Hancock County FSA Office,Rogersville,TN
+47,069,Hardeman County USDA Serv Cntr,Bolivar,TN
+47,071,Hardin County USDA Serv Cntr,Savannah,TN
+47,073,Hawkins County USDA Serv Cntr,Rogersville,TN
+47,075,Haywood County USDA Serv Cntr,Brownsville,TN
+47,077,Henderson County USDA Serv Cntr,Lexington,TN
+47,079,Henry County USDA Serv Cntr,Paris,TN
+47,081,Hickman County USDA Serv Cntr,Centerville,TN
+47,083,Houston County FSA Office,Dover,TN
+47,085,Humphreys County USDA Serv Cntr,Waverly,TN
+47,087,Jackson County USDA Serv Cntr,Gainesboro,TN
+47,089,Jefferson County USDA Serv Cntr,Dandridge,TN
+47,091,Johnson County USDA Serv Cntr,Mountain City,TN
+47,093,Knox County USDA Serv Cntr,Knoxville,TN
+47,095,Lake County USDA Serv Cntr,Tiptonville,TN
+47,097,Lauderdale County USDA Serv Cntr,Ripley,TN
+47,099,Lawrence County USDA Serv Cntr,Lawrenceburg,TN
+47,101,Lewis County FSA Office,Centerville,TN
+47,103,Lincoln County USDA Serv Cntr,Fayetteville,TN
+47,105,Loudon County FSA Office,Kingston,TN
+47,107,McMinn County USDA Serv Cntr,Athens,TN
+47,109,Mc Nairy County USDA Serv Cntr,Selmer,TN
+47,111,Macon County USDA Serv Cntr,Lafayette,TN
+47,113,Madison County USDA Serv Cntr,Jackson,TN
+47,115,Marion County USDA Serv Cntr,Jasper,TN
+47,117,Marshall County USDA Serv Cntr,Lewisburg,TN
+47,119,Maury County USDA Serv Cntr,Columbia,TN
+47,121,Meigs County FSA Office,Athens,TN
+47,123,Monroe County USDA Serv Cntr,Madisonville,TN
+47,125,Montgomery County USDA Serv Cntr,Clarksville,TN
+47,127,Moore County FSA Office,Shelbyville,TN
+47,129,Morgan County USDA Serv Cntr,Wartburg,TN
+47,131,Obion County USDA Serv Cntr,Union City,TN
+47,133,Overton County USDA Serv Cntr,Livingston,TN
+47,135,Perry County FSA Office,Centerville,TN
+47,137,Pickett County FSA Office,Jamestown,TN
+47,139,Polk County,Cleveland,TN
+47,141,Putnam County USDA Serv Cntr,Cookeville,TN
+47,143,Rhea County USDA Serv Cntr,Dayton,TN
+47,145,Roane County USDA Serv Cntr,Kingston,TN
+47,147,Robertson County USDA Serv Cntr,Springfield,TN
+47,149,Rutherford County USDA Serv Cntr,Murfreesboro,TN
+47,151,Scott County FSA Office,Wartburg,TN
+47,153,Sequatchie County FSA Office,Jasper,TN
+47,155,Sevier County USDA Serv Cntr,Sevierville,TN
+47,157,Shelby County USDA Serv Cntr,Memphis,TN
+47,159,Smith County USDA Serv Cntr,Carthage,TN
+47,161,Stewart County USDA Serv Cntr,Dover,TN
+47,163,Sullivan County USDA Serv Cntr,Blountville,TN
+47,165,Sumner County USDA Serv Cntr,Gallatin,TN
+47,167,Tipton County USDA Serv Cntr,Covington,TN
+47,169,Trousdale County USDA Serv Cntr,Hartsville,TN
+47,171,Unicoi County FSA Office,Jonesborough,TN
+47,173,Union County FSA Office,Tazewell,TN
+47,175,Van Buren County FSA Office,Sparta,TN
+47,177,Warren County USDA Serv Cntr,McMinnville,TN
+47,179,Washington County USDA Serv Cntr,Jonesborough,TN
+47,181,Wayne County FSA Office,Lawrenceburg,TN
+47,183,Weakley County USDA Serv Cntr,Dresden,TN
+47,185,White County USDA Serv Cntr,Sparta,TN
+47,187,Williamson County USDA Serv Cntr,Franklin,TN
+47,189,Wilson County USDA Serv Cntr,Lebanon,TN
+47,801,Beltwide Cotton Cooperative,Montgomery,AL
+47,802,National Quality Cotton Association,Prattville,AL
+47,803,Signia Cotton Cooperative,Bakersfield,CA
+48,000,Texas State USDA Office,College Station,TX
+48,001,Anderson County USDA Serv Cntr,Palestine,TX
+48,003,Andrews County USDA Serv Cntr,Andrews,TX
+48,005,Angelina County USDA Serv Cntr,Lufkin,TX
+48,007,Aransas County FSA Office,Sinton,TX
+48,009,Archer County USDA Serv Cntr,Archer City,TX
+48,011,Armstrong County FSA Office,Amarillo,TX
+48,013,Atascosa County USDA Serv Cntr,Pleasanton,TX
+48,015,Austin County USDA Serv Cntr,Bellville,TX
+48,017,Bailey County USDA Serv Cntr,Muleshoe,TX
+48,019,Bandera County FSA Office,Kerrville,TX
+48,021,Bastrop County USDA Serv Cntr,Bastrop,TX
+48,023,Baylor County USDA Serv Cntr,Seymour,TX
+48,025,Bee County USDA Serv Cntr,Beeville,TX
+48,027,Bell County USDA Serv Cntr,Belton,TX
+48,029,Bexar County USDA Serv Cntr,San Antonio,TX
+48,031,Blanco County USDA Serv Cntr,Johnson City,TX
+48,033,Borden County FSA Office,Post,TX
+48,035,Bosque County USDA Serv Cntr,Meridian,TX
+48,037,Bowie County USDA Serv Cntr,New Boston,TX
+48,039,Brazoria County USDA Serv Cntr,Angleton,TX
+48,041,Brazos County USDA Serv Cntr,Bryan,TX
+48,043,Brewster County USDA Serv Cntr,Alpine,TX
+48,045,Briscoe County USDA Serv Cntr,Silverton,TX
+48,047,Brooks County USDA Serv Cntr,Falfurrias,TX
+48,049,Brown County USDA Serv Cntr,Brownwood,TX
+48,051,Burleson County USDA Serv Cntr,Caldwell,TX
+48,053,Burnet County FSA Office,Lampasas,TX
+48,055,Caldwell County USDA Serv Cntr,Lockhart,TX
+48,057,Calhoun County USDA Serv Cntr,Port Lavaca,TX
+48,059,Callahan County USDA Serv Cntr,Baird,TX
+48,061,Cameron County USDA Serv Cntr,San Benito,TX
+48,063,Camp County FSA Office,Mount Pleasant,TX
+48,065,Carson County USDA Serv Cntr,Panhandle,TX
+48,067,Cass County USDA Serv Cntr,Linden,TX
+48,069,Castro County USDA Serv Cntr,Dimmitt,TX
+48,071,Chambers County USDA Serv Cntr,Anahuac,TX
+48,073,Cherokee County USDA Serv Cntr,Rusk,TX
+48,075,Childress County USDA Serv Cntr,Childress,TX
+48,077,Clay County USDA Serv Cntr,Henrietta,TX
+48,079,Cochran County USDA Serv Cntr,Morton,TX
+48,081,Coke County USDA Serv Cntr,Robert Lee,TX
+48,083,Coleman County USDA Serv Cntr,Coleman,TX
+48,085,Collin County USDA Serv Cntr,McKinney,TX
+48,087,Collingsworth County USDA Serv Cntr,Wellington,TX
+48,089,Colorado County USDA Serv Cntr,Columbus,TX
+48,091,Comal County FSA Office,San Marcos,TX
+48,093,Comanche County USDA Serv Cntr,Comanche,TX
+48,095,Concho County USDA Serv Cntr,Eden,TX
+48,097,Cooke County USDA Serv Cntr,Gainesville,TX
+48,099,Coryell County USDA Serv Cntr,Gatesville,TX
+48,101,Cottle County USDA Serv Cntr,Paducah,TX
+48,103,Crane County FSA Office,Odessa,TX
+48,105,Crockett County USDA Serv Cntr,Ozona,TX
+48,107,Crosby County USDA Serv Cntr,Crosbyton,TX
+48,109,Culberson County FSA Office,El Paso,TX
+48,111,Dallam County USDA Serv Cntr,Dalhart,TX
+48,113,Dallas County FSA Office,Forney,TX
+48,115,Dawson County USDA Serv Cntr,Lamesa,TX
+48,117,Deaf Smith County USDA Serv Cntr,Hereford,TX
+48,119,Delta County USDA Serv Cntr,Cooper,TX
+48,121,Denton County USDA Serv Cntr,Denton,TX
+48,123,Dewitt County USDA Serv Cntr,Cuero,TX
+48,125,Dickens County USDA Serv Cntr,Spur,TX
+48,127,Dimmit County USDA Serv Cntr,Corizzo Springs,TX
+48,129,Donley County USDA Serv Cntr,Clarendon,TX
+48,131,Duval County USDA Serv Cntr,Benavides,TX
+48,133,Eastland County USDA Serv Cntr,Eastland,TX
+48,135,Ector County USDA Serv Cntr,Odessa,TX
+48,137,Edwards County USDA Serv Cntr,Rocksprings,TX
+48,141,El Paso County USDA Serv Cntr,El Paso,TX
+48,139,Ellis County USDA Serv Cntr,Waxahachie,TX
+48,143,Erath County USDA Serv Cntr,Stephenville,TX
+48,145,Falls County USDA Serv Cntr,Marlin,TX
+48,147,Fannin County USDA Serv Cntr,Bonham,TX
+48,149,Fayette County USDA Serv Cntr,La Grange,TX
+48,151,Fisher County USDA Serv Cntr,Roby,TX
+48,153,Floyd County USDA Serv Cntr,Floydada,TX
+48,155,Foard County USDA Serv Cntr,Crowell,TX
+48,157,Fort Bend County USDA Serv Cntr,Rosenberg,TX
+48,159,Franklin County FSA Office,Mount Pleasant,TX
+48,161,Freestone County USDA Serv Cntr,Fairfield,TX
+48,163,Frio County USDA Serv Cntr,Pearsall,TX
+48,165,Gaines County USDA Serv Cntr,Seminole,TX
+48,167,Galveston County FSA Office,Angleton,TX
+48,169,Garza County USDA Serv Cntr,Post,TX
+48,171,Gillespie County USDA Serv Cntr,Fredericksburg,TX
+48,173,Glasscock County USDA Serv Cntr,Garden City,TX
+48,175,Goliad County USDA Serv Cntr,Goliad,TX
+48,177,Gonzales County USDA Serv Cntr,Gonzales,TX
+48,179,Gray County USDA Serv Cntr,Pampa,TX
+48,181,Grayson County USDA Serv Cntr,Sherman,TX
+48,183,Gregg County FSA Office,Gilmer,TX
+48,185,Grimes County FSA Office,Bryan,TX
+48,187,Guadalupe County USDA Serv Cntr,Seguin,TX
+48,189,Hale County USDA Serv Cntr,Plainview,TX
+48,191,Hall County USDA Serv Cntr,Memphis,TX
+48,193,Hamilton County USDA Serv Cntr,Hamilton,TX
+48,195,Hansford County USDA Serv Cntr,Spearman,TX
+48,197,Hardeman County USDA Serv Cntr,Quanah,TX
+48,199,Hardin County FSA Office,Liberty,TX
+48,201,Harris County USDA Serv Cntr,Cypress,TX
+48,203,Harrison County USDA Serv Cntr,Marshall,TX
+48,205,Hartley County USDA Serv Cntr,Hartley,TX
+48,207,Haskell County USDA Serv Cntr,Haskell,TX
+48,209,Hays County USDA Serv Cntr,San Marcos,TX
+48,211,Hemphill County USDA Serv Cntr,Canadian,TX
+48,213,Henderson County USDA Serv Cntr,Athens,TX
+48,215,Hidalgo County USDA Serv Cntr,Edinburg,TX
+48,217,Hill County USDA Serv Cntr,Hillsboro,TX
+48,219,Hockley County USDA Serv Cntr,Levelland,TX
+48,221,Hood County USDA Serv Cntr,Granbury,TX
+48,223,Hopkins County USDA Serv Cntr,Sulphur Springs,TX
+48,225,Houston County USDA Serv Cntr,Crockett,TX
+48,227,Howard County USDA Serv Cntr,Big Spring,TX
+48,229,Hudspeth County FSA Office,El Paso,TX
+48,231,Hunt County USDA Serv Cntr,Greenville,TX
+48,233,Hutchinson County USDA Serv Cntr,Stinnett,TX
+48,235,Irion County FSA Office,Big Lake,TX
+48,237,Jack County FSA Office,Mineral Wells,TX
+48,239,Jackson County USDA Serv Cntr,Edna,TX
+48,241,Jasper County USDA Serv Cntr,Jasper,TX
+48,243,Jeff Davis County FSA Office,Marfa,TX
+48,245,Jefferson County USDA Serv Cntr,Beaumont,TX
+48,247,Jim Hogg County FSA Office,Falfurrias,TX
+48,249,Jim Wells County USDA Serv Cntr,Alice,TX
+48,251,Johnson County USDA Serv Cntr,Cleburne,TX
+48,253,Jones County USDA Serv Cntr,Anson,TX
+48,255,Karnes County USDA Serv Cntr,Kenedy,TX
+48,257,Kaufman County USDA Serv Cntr,Forney,TX
+48,259,Kendall County FSA Office,Fredericksburg,TX
+48,261,Kenedy County FSA Office,Kingsville,TX
+48,263,Kent County USDA Serv Cntr,Jayton,TX
+48,265,Kerr County USDA Serv Cntr,Kerrville,TX
+48,267,Kimble County USDA Serv Cntr,Junction,TX
+48,269,King County FSA Office,Paducah,TX
+48,271,Kinney County FSA Office,Uvalde,TX
+48,273,Kleberg County USDA Serv Cntr,Kingsville,TX
+48,275,Knox County USDA Serv Cntr,Knox City,TX
+48,277,Lamar County USDA Serv Cntr,Paris,TX
+48,279,Lamb County USDA Serv Cntr,Littlefield,TX
+48,281,Lampasas County USDA Serv Cntr,Lampasas,TX
+48,283,Lasalle County USDA Serv Cntr,Cotulla,TX
+48,285,Lavaca County USDA Serv Cntr,Hallettsville,TX
+48,287,Lee County USDA Serv Cntr,Giddings,TX
+48,289,Leon County USDA Serv Cntr,Centerville,TX
+48,291,Liberty County USDA Serv Cntr,Liberty,TX
+48,293,Limestone County USDA Serv Cntr,Groesbeck,TX
+48,295,Lipscomb County USDA Serv Cntr,Follett,TX
+48,297,Live Oak County USDA Serv Cntr,George West,TX
+48,299,Llano County FSA Office,Mason,TX
+48,301,Loving County FSA Office,Pecos,TX
+48,303,Lubbock County USDA Serv Cntr,Lubbock,TX
+48,305,Lynn County USDA Serv Cntr,Tahoka,TX
+48,307,McCulloch County USDA Serv Cntr,Brady,TX
+48,309,McLennan County USDA Serv Cntr,Waco,TX
+48,311,McMullen County FSA Office,George West,TX
+48,313,Madison County USDA Serv Cntr,Madisonville,TX
+48,315,Marion County FSA Office,Linden,TX
+48,317,Martin County USDA Serv Cntr,Stanton,TX
+48,319,Mason County USDA Serv Cntr,Mason,TX
+48,321,Matagorda County USDA Serv Cntr,Bay City,TX
+48,323,Maverick County FSA Office,Uvalde,TX
+48,325,Medina County USDA Serv Cntr,Hondo,TX
+48,327,Menard County USDA Serv Cntr,Menard,TX
+48,329,Midland County USDA Serv Cntr,Midland,TX
+48,331,Milam County USDA Serv Cntr,Cameron,TX
+48,333,Mills County USDA Serv Cntr,Goldthwaite,TX
+48,335,Mitchell County USDA Serv Cntr,Colorado City,TX
+48,337,Montague County USDA Serv Cntr,Montague,TX
+48,339,Montgomery County FSA Office,Huntsville,TX
+48,341,Moore County USDA Serv Cntr,Dumas,TX
+48,343,Morris County FSA Office,Mount Pleasant,TX
+48,345,Motley County USDA Serv Cntr,Matador,TX
+48,347,Nacogdoches County USDA Serv Cntr,Nacogdoches,TX
+48,349,Navarro County USDA Serv Cntr,Corsicana,TX
+48,351,Newton County FSA Office,Jasper,TX
+48,353,Nolan County USDA Serv Cntr,Sweetwater,TX
+48,355,Nueces County USDA Serv Cntr,Robstown,TX
+48,357,Ochiltree County USDA Serv Cntr,Perryton,TX
+48,359,Oldham County USDA Serv Cntr,Vega,TX
+48,361,Orange County FSA Office,Beaumont,TX
+48,363,Palo Pinto County USDA Serv Cntr,Mineral Wells,TX
+48,365,Panola County USDA Serv Cntr,Carthage,TX
+48,367,Parker County USDA Serv Cntr,Weatherford,TX
+48,369,Parmer County USDA Serv Cntr,Farwell,TX
+48,371,Pecos County USDA Serv Cntr,Fort Stockton,TX
+48,373,Polk County USDA Serv Cntr,Livingston,TX
+48,375,Potter County USDA Serv Cntr,Amarillo,TX
+48,377,Presidio County USDA Serv Cntr,Marfa,TX
+48,379,Rains County FSA Office,Quitman,TX
+48,381,Randall County USDA Serv Cntr,Canyon,TX
+48,383,Reagan County USDA Serv Cntr,Big Lake,TX
+48,385,Real County FSA Office,Uvalde,TX
+48,387,Red River County USDA Serv Cntr,Clarksville,TX
+48,389,Reeves County USDA Serv Cntr,Pecos,TX
+48,391,Refugio County USDA Serv Cntr,Refugio,TX
+48,393,Roberts County USDA Serv Cntr,Miami,TX
+48,395,Robertson County USDA Serv Cntr,Franklin,TX
+48,397,Rockwall County FSA Office,Forney,TX
+48,399,Runnels County USDA Serv Cntr,Ballinger,TX
+48,401,Rusk County USDA Serv Cntr,Henderson,TX
+48,403,Sabine County FSA Office,San Augustine,TX
+48,405,San Augustine County USDA Serv Cntr,San Augustine,TX
+48,407,San Jacinto County FSA Office,Livingston,TX
+48,409,San Patricio County USDA Serv Cntr,Sinton,TX
+48,411,San Saba County USDA Serv Cntr,San Saba,TX
+48,413,Schleicher County USDA Serv Cntr,Eldorado,TX
+48,415,Scurry County USDA Serv Cntr,Snyder,TX
+48,417,Shackelford County USDA Serv Cntr,Albany,TX
+48,419,Shelby County USDA Serv Cntr,Center,TX
+48,421,Sherman County USDA Serv Cntr,Stratford,TX
+48,423,Smith County USDA Serv Cntr,Tyler,TX
+48,425,Somervell County FSA Office,Granbury,TX
+48,427,Starr County USDA Serv Cntr,Rio Grande City,TX
+48,429,Stephens County USDA Serv Cntr,Breckenridge,TX
+48,431,Sterling County FSA Office,Robert Lee,TX
+48,433,Stonewall County USDA Serv Cntr,Aspermont,TX
+48,435,Sutton County FSA Office,Eldorado,TX
+48,437,Swisher County USDA Serv Cntr,Tulia,TX
+48,439,Tarrant County USDA Serv Cntr,Fort Worth,TX
+48,441,Taylor County USDA Serv Cntr,Abilene,TX
+48,443,Terrell County FSA Office,Alpine,TX
+48,445,Terry County USDA Serv Cntr,Brownfield,TX
+48,447,Throckmorton County USDA Serv Cntr,Throckmorton,TX
+48,449,Titus County USDA Serv Cntr,Mount Pleasant,TX
+48,451,Tom Green County USDA Serv Cntr,San Angelo,TX
+48,453,Travis County USDA Serv Cntr,Austin,TX
+48,455,Trinity County FSA Office,Lufkin,TX
+48,457,Tyler County FSA Office,Jasper,TX
+48,459,Upshur County USDA Serv Cntr,Gilmer,TX
+48,461,Upton County FSA Office,Big Lake,TX
+48,463,Uvalde County USDA Serv Cntr,Uvalde,TX
+48,465,Val Verde County FSA Office,Eldorado,TX
+48,467,Van Zandt County USDA Serv Cntr,Canton,TX
+48,469,Victoria County USDA Serv Cntr,Victoria,TX
+48,471,Walker County USDA Serv Cntr,Huntsville,TX
+48,473,Waller County USDA Serv Cntr,Hempstead,TX
+48,475,Ward County FSA Office,Odessa,TX
+48,477,Washington County USDA Serv Cntr,Brenham,TX
+48,479,Webb County USDA Serv Cntr,Laredo,TX
+48,481,Wharton County USDA Serv Cntr,Wharton,TX
+48,483,Wheeler County USDA Serv Cntr,Wheeler,TX
+48,485,Wichita County USDA Serv Cntr,Iowa Park,TX
+48,487,Wilbarger County USDA Serv Cntr,Vernon,TX
+48,489,Willacy County USDA Serv Cntr,Raymondville,TX
+48,491,Williamson County USDA Serv Cntr,Georgetown,TX
+48,493,Wilson County USDA Serv Cntr,Floresville,TX
+48,495,Winkler County FSA Office,Odessa,TX
+48,497,Wise County USDA Serv Cntr,Decatur,TX
+48,499,Wood County USDA Serv Cntr,Quitman,TX
+48,501,Yoakum County USDA Serv Cntr,Plains,TX
+48,503,Young County USDA Serv Cntr,Graham,TX
+48,505,Zapata County USDA Serv Cntr,Zapata,TX
+48,507,Zavala County FSA Office,Carrizo Springs,TX
+48,701,Telmark (LSA),Lubbock,TX
+48,707,"Richardson LSA, Inc. (LSA)",Richardson,TX
+48,708,"Sunmark Services, LLC (LSA)",Dallas,TX
+48,709,"Cotton Resources, Inc. (LSA)",Seminole,TX
+48,710,"Harvest LSA, Inc.",Richardson,TX
+48,711,"T-H Cotton Resources, Inc.",Loop,TX
+48,712,"Fourway Cotton Specialty, Inc.",Seagraves,TX
+48,803,Plains Cotton Cooperative Association,Lubbock,TX 
+48,805,Southwestern Irrigated Cotton Growers Assoc,El Paso,TX
+48,806,Dimmitt Agri Industries Inc.,Dimmitt,TX
+48,808,Sunray Cooperative,Sunray,TX
+48,809,Farmers Cooperative of El Campo,El Campo,TX
+48,814,"Olton Grain Cooperative, Inc",Olton,TX
+48,815,Dumas Cooperative,Dumas,TX
+48,826,Producers' Marketing Cooperative,Mertzon,TX
+48,827,US Cotton Growers Association,Raleigh,NC
+48,828,Cotton Cooperative Association,Lubbock,TX
+48,829,Southwestern Peanut Growers' Association,Gorman,TX
+48,830,Peanut Loan Processing Center (DMA),Gorman,TX
+48,831,Growers Marketing Cooperative Inc.,Robstown,TX
+49,000,Utah State USDA Office,Salt Lake City,UT
+49,001,Beaver County USDA Serv Cntr,Beaver,UT
+49,003,Box Elder County USDA Serv Cntr,Tremonton,UT
+49,005,Cache County USDA Serv Cntr,North Logan,UT
+49,007,Carbon County FSA Office,Castle Dale,UT
+49,009,Daggett County FSA Office,Vernal,UT
+49,011,Davis County FSA Office,Ogden,UT
+49,013,Duchesne County USDA Serv Cntr,Roosevelt,UT
+49,015,Emery County USDA Serv Cntr,Castle Dale,UT
+49,017,Garfield County USDA Serv Cntr,Panguitch,UT
+49,019,Grand County FSA Office,Monticello,UT
+49,021,Iron County USDA Serv Cntr,Cedar City,UT
+49,023,Juab County USDA Serv Cntr,Nephi,UT
+49,025,Kane County FSA Office,Panguitch,UT
+49,027,Millard County USDA Serv Cntr,Fillmore,UT
+49,029,Morgan County FSA Office,Ogden,UT
+49,031,Piute County FSA Office,Richfield,UT
+49,033,Rich County USDA Serv Cntr,Randolph,UT
+49,035,Salt Lake County FSA Office,Tooele,UT
+49,037,San Juan County USDA Serv Cntr,Monticello,UT
+49,039,Sanpete County USDA Serv Cntr,Manti,UT
+49,041,Sevier County USDA Serv Cntr,Richfield,UT
+49,043,Summit County USDA Serv Cntr,Coalville,UT
+49,045,Tooele County USDA Serv Cntr,Tooele,UT
+49,047,Uintah County USDA Serv Cntr,Vernal,UT
+49,049,Utah County USDA Serv Cntr,Provo,UT
+49,051,Wasatch County FSA Office,Provo,UT
+49,053,Washington County USDA Serv Cntr,St George,UT
+49,055,Wayne County USDA Serv Cntr,Loa,UT
+49,057,Weber County USDA Serv Cntr,Ogden,UT
+50,000,Vermont State USDA Office,Burlington,VT
+50,001,Addison County USDA Serv Cntr,Middlebury,VT
+50,003,Bennington County FSA Office,Rutland,VT
+50,005,Caledonia County USDA Serv Cntr,St Johnsbury,VT
+50,007,Chittenden County USDA Serv Cntr,Williston,VT
+50,009,Essex County FSA Office,St Johnsbury,VT
+50,011,Franklin County USDA Serv Cntr,St Albans,VT
+50,013,Grand Isle County FSA Office,St Albans,VT
+50,015,Lamoille County USDA Serv Cntr,Morrisville,VT
+50,017,Orange County FSA Office,White River Junction,VT
+50,019,Orleans County USDA Serv Cntr,Newport,VT
+50,021,Rutland County USDA Serv Cntr,Rutland,VT
+50,023,Washington County FSA Office,Williston,VT
+50,025,Windham County USDA Serv Cntr,Brattleboro,VT
+50,027,Windsor County USDA Serv Cntr,White River Junction,VT
+51,000,Virginia State USDA Office,Richmond,VA
+51,001,Accomack County USDA Serv Cntr,Accomac,VA
+51,003,Albemarle County USDA Serv Cntr,Charlottesville,VA
+51,005,Alleghany County FSA Office,Lexington,VA
+51,007,Amelia County USDA Serv Cntr,Amelia,VA
+51,009,Amherst County FSA Office,Rustburg,VA
+51,011,Appomattox County USDA Serv Cntr,Appomattox,VA
+51,015,Augusta County USDA Serv Cntr,Verona,VA
+51,017,Bath County FSA Office,Lexington,VA
+51,019,Bedford County USDA Serv Cntr,Bedford,VA
+51,021,Bland County FSA Office,Wytheville,VA
+51,023,Botetourt County USDA Serv Cntr,Roanoke,VA
+51,025,Brunswick County USDA Serv Cntr,Lawrenceville,VA
+51,027,Buchanan County FSA Office,North Tazewell,VA
+51,029,Buckingham County USDA Serv Cntr,Buckingham,VA
+51,031,Campbell County USDA Serv Cntr,Rustburg,VA
+51,033,Caroline County FSA Office,Hanover,VA
+51,035,Carroll County FSA Office,Galax,VA
+51,036,Charles City County FSA Office,Quinton,VA
+51,037,Charlotte County USDA Serv Cntr,Charlotte Ct. House,VA
+51,041,Chesterfield County FSA Office,Amelia,VA
+51,043,Clarke County FSA Office,Stephens City,VA
+51,045,Craig County FSA Office,Roanoke,VA
+51,047,Culpeper County USDA Serv Cntr,Culpeper,VA
+51,049,Cumberland County FSA Office,Buckingham,VA
+51,051,Dickenson County FSA Office,Lebanon,VA
+51,053,Dinwiddie County USDA Serv Cntr,Dinwiddie,VA
+51,057,Essex County USDA Serv Cntr,Tappahannock,VA
+51,059,Fairfax County FSA Office,Stephens City,VA
+51,061,Fauquier County USDA Serv Cntr,Warrenton,VA
+51,063,Floyd County FSA Office,Christiansburg,VA
+51,065,Fluvanna County FSA Office,Louisa,VA
+51,067,Franklin County USDA Serv Cntr,Rocky Mount,VA
+51,069,Frederick County USDA Serv Cntr,Stephens City,VA
+51,071,Giles County FSA Office,Christiansburg,VA
+51,073,Gloucester County USDA Serv Cntr,Gloucester,VA
+51,075,Goochland County USDA Serv Cntr,Goochland,VA
+51,077,Grayson County USDA Serv Cntr,Galax,VA
+51,079,Greene County FSA Office,Charlottesville,VA
+51,081,Greensville County USDA Serv Cntr,Emporia,VA
+51,083,Halifax County USDA Serv Cntr,Halifax,VA
+51,085,Hanover County USDA Serv Cntr,Hanover,VA
+51,087,Henrico County FSA Office,Quinton,VA
+51,089,Henry County FSA Office,Rocky Mount,VA
+51,091,Highland County FSA Office,Verona,VA
+51,093,Isle Of Wight County USDA Serv Cntr,Smithfield,VA
+51,095,James City County FSA Office,Quinton,VA
+51,097,King and Queen County FSA Office,Tappahannock,VA
+51,099,King George County FSA Office,Fredericksburg,VA
+51,101,King William County FSA Office,Tappahannock,VA
+51,103,Lancaster County FSA Office,Warsaw,VA
+51,105,Lee County USDA Serv Cntr,Jonesville,VA
+51,107,Loudoun County FSA Office,Stephens City,VA
+51,109,Louisa County USDA Serv Cntr,Louisa,VA
+51,111,Lunenburg County USDA Serv Cntr,Kenbridge,VA
+51,113,Madison County FSA Office,Orange,VA
+51,115,Mathews County FSA Office,Gloucester,VA
+51,117,Mecklenberg County USDA Serv Cntr,Boydton,VA
+51,119,Middlesex County FSA Office,Gloucester,VA
+51,121,Montgomery County USDA Serv Cntr,Christiansburg,VA
+51,125,Nelson County FSA Office,Charlottesville,VA
+51,127,New Kent County USDA Serv Cntr,Quinton,VA
+51,131,Northhampton County FSA Office,Accomac,VA
+51,133,Northumberland County FSA Office,Warsaw,VA
+51,135,Nottoway County FSA Office,Farmville,VA
+51,137,Orange County USDA Serv Cntr,Orange,VA
+51,139,Page County FSA Office,Harrisonburg,VA
+51,141,Patrick County USDA Serv Cntr,Stuart,VA
+51,143,Pittsylvania County USDA Serv Cntr,Chatham,VA
+51,145,Powhatan County FSA Office,Amelia,VA
+51,147,Prince Edward County USDA Serv Cntr,Farmville,VA
+51,149,Prince George County USDA Serv Cntr,Prince George,VA
+51,153,Prince William County FSA Office,Warrenton,VA
+51,155,Pulaski County FSA Office,Christiansburg,VA
+51,157,Rappahannock County FSA Office,Culpeper,VA
+51,159,Richmond County USDA Serv Cntr,Warsaw,VA
+51,161,Roanoke County FSA Office,Roanoke,VA
+51,163,Rockbridge County USDA Serv Cntr,Lexington,VA
+51,165,Rockingham County USDA Serv Cntr,Harrisonburg,VA
+51,167,Russell County USDA Serv Cntr,Lebanon,VA
+51,169,Scott County USDA Serv Cntr,Gate City,VA
+51,171,Shenandoah County USDA Serv Cntr,Woodstock,VA
+51,173,Smyth County USDA Serv Cntr,Marion,VA
+51,175,Southampton County USDA Serv Cntr,Courtland,VA
+51,177,Spotsylvania County USDA Serv Cntr,Fredericksburg,VA
+51,179,Stafford County FSA Office,Fredericksburg,VA
+51,181,Surry County FSA Office,Smithfield,VA
+51,183,Sussex County USDA Serv Cntr,Sussex,VA
+51,185,Tazewell County USDA Serv Cntr,North Tazewell,VA
+51,187,Warren County FSA Office,Stephens City,VA
+51,191,Washington County USDA Serv Cntr,Abingdon,VA
+51,193,Westmoreland County FSA Office,Warsaw,VA
+51,195,Wise County FSA Office,Lebanon,VA
+51,197,Wythe County USDA Serv Cntr,Wytheville,VA
+51,199,York County FSA Office,Quinton,VA
+51,550,Chesapeake County FSA Office,Chesapeake,VA
+51,650,Hampton County FSA Office,Quinton,VA
+51,700,Newport News (Indep.) County FSA Office,Quinton,VA
+51,800,Suffolk County USDA Serv Cntr,Suffolk,VA
+51,801,Peanut Growers Cooperative Marketing Assoc,Franklin,VA
+51,802,V-C Peanut DMA LLC (DMA),Franklin,VA
+51,810,Virginia Beach (Indep.) County FSA Office,Chesapeake,VA
+53,000,Washington State USDA Office,Spokane,WA
+53,001,Adams County USDA Serv Cntr,Ritzville,WA
+53,003,Asotin County USDA Serv Cntr,Clarkston,WA
+53,005,Benton County USDA Serv Cntr,Prosser,WA
+53,007,Chelan County USDA Serv Cntr,Wenatchee,WA
+53,009,Clallam County FSA Office,Everett,WA
+53,011,Clark County USDA Serv Cntr,Brush Praire,WA
+53,013,Columbia County USDA Serv Cntr,Dayton,WA
+53,015,Cowlitz County FSA Office,Brush Praire,WA
+53,017,Douglas County USDA Serv Cntr,Waterville,WA
+53,019,Ferry County USDA Serv Cntr,Republic,WA
+53,021,Franklin County USDA Serv Cntr,Pasco,WA
+53,023,Garfield County USDA Serv Cntr,Pomeroy,WA
+53,025,Grant County USDA Serv Cntr,Ephrata,WA
+53,027,Grays Harbor County USDA Serv Cntr,Montesano,WA
+53,029,Island County FSA Office,Mt Vernon,WA
+53,031,Jefferson County FSA Office,Everett,WA
+53,033,King County FSA Office,Puyallup,WA
+53,035,Kitsap County FSA Office,Puyallup,WA
+53,037,Kittitas County USDA Serv Cntr,Ellensburg,WA
+53,039,Klickitat County USDA Serv Cntr,Goldendale,WA
+53,041,Lewis County USDA Serv Cntr,Chehalis,WA
+53,043,Lincoln County USDA Serv Cntr,Davenport,WA
+53,045,Mason County FSA Office,Puyallup,WA
+53,047,Okanogan County USDA Serv Cntr,Okanogan,WA
+53,049,Pacific County FSA Office,Montesano,WA
+53,051,Pend Oreille County FSA Office,Spokane,WA
+53,053,Pierce County USDA Serv Cntr,Puyallup,WA
+53,055,San Juan County FSA Office,Mt Vernon,WA
+53,057,Skagit County USDA Serv Cntr,Mt Vernon,WA
+53,059,Skamania County FSA Office,Brush Praire,WA
+53,061,Snohomish County USDA Serv Cntr,Everett,WA
+53,063,Spokane County USDA Serv Cntr,Spokane,WA
+53,065,Stevens County USDA Serv Cntr,Colville,WA
+53,067,Thurston County FSA Office,Puyallup,WA
+53,069,Wahkiakum County FSA Office,Brush Praire,WA
+53,071,Walla Walla County USDA Serv Cntr,Walla Walla,WA
+53,073,Whatcom County USDA Serv Cntr,Lynden,WA
+53,075,Whitman County USDA Serv Cntr,Colfax,WA
+53,077,Yakima County USDA Serv Cntr,Yakima,WA
+54,000,West Virginia State USDA Office,Morgantown,WV
+54,001,Barbour County USDA Serv Cntr,Philippi,WV
+54,003,Berkeley County USDA Serv Cntr,Martinsburg,WV
+54,005,Boone County FSA Office,Hamlin,WV
+54,007,Braxton County USDA Serv Cntr,Gassaway,WV
+54,009,Brooke County FSA Office,Wheeling,WV
+54,011,Cabell County USDA Serv Cntr,Huntington,WV
+54,013,Calhoun County FSA Office,Glenville,WV
+54,015,Braxton County FSA Office,Gassaway,WV
+54,017,Doddridge County FSA Office,Martinsburg,WV
+54,019,Fayette County FSA Office,Beckley,WV
+54,021,Gilmer County USDA Serv Cntr,Glenville,WV
+54,023,Grant County USDA Serv Cntr,Petersburg,WV
+54,025,Greenbrier County USDA Serv Cntr,Lewisburg,WV
+54,027,Hampshire County USDA Serv Cntr,Romney,WV
+54,029,Hancock County FSA Office,Wheeling,WV
+54,031,Hardy County USDA Serv Cntr,Moorefield,WV
+54,033,Harrison County USDA Serv Cntr,Mt. Clare,WV
+54,035,Jackson County USDA Serv Cntr,Ripley,WV
+54,037,Jefferson County USDA Serv Cntr,Ranson,WV
+54,039,Kanawha County USDA Serv Cntr,Cross Lanes,WV
+54,041,Lewis County USDA Serv Cntr,Weston,WV
+54,043,Lincoln County USDA Serv Cntr,Hamlin,WV
+54,045,Logan County FSA Office,Hamlin,WV
+54,049,Marion County USDA Serv Cntr,White Hall,WV
+54,051,Marshall County FSA Office,Wheeling,WV
+54,053,Mason County USDA Serv Cntr,Point Pleasant,WV
+54,055,Mercer County USDA Serv Cntr,Princeton,WV
+54,057,Mineral County USDA Serv Cntr,Keyser,WV
+54,061,Monongalia County USDA Serv Cntr,Morgantown,WV
+54,063,Monroe County USDA Serv Cntr,Union,WV
+54,065,Morgan County FSA Office,Martinsburg,WV
+54,067,Nicholas County USDA Serv Cntr,Summersville,WV
+54,069,Ohio County USDA Serv Cntr,Wheeling,WV
+54,071,Pendleton County USDA Serv Cntr,Franklin,WV
+54,073,Pleasants County FSA Office,Parkersburg,WV
+54,075,Pocahontas County USDA Serv Cntr,Buckeye,WV
+54,077,Preston County USDA Serv Cntr,Kingwood,WV
+54,079,Putnam County FSA Office,Cross Lanes,WV
+54,081,Raleigh County USDA Serv Cntr,Beckley,WV
+54,083,Randolph County USDA Serv Cntr,Elkins,WV
+54,085,Ritchie County FSA Office,Parkersburg,WV
+54,087,Roane County USDA Serv Cntr,Spencer,WV
+54,089,Summers County FSA Office,Beckley,WV
+54,091,Taylor County FSA Office,White Hall,WV
+54,093,Tucker County FSA Office,Elkins,WV
+54,095,Tyler County USDA Serv Cntr,Sistersville,WV
+54,097,Upshur County FSA Office,Weston,WV
+54,099,Wayne County FSA Office,Huntington,WV
+54,101,Webster County FSA Office,Summersville,WV
+54,103,Wetzel County FSA Office,Middlebourne,WV
+54,105,Wirt County FSA Office,Parkersburg,WV
+54,107,Wood County USDA Serv Cntr,Parkersburg,WV
+54,109,Wyoming County FSA Office,Beckley,WV
+55,000,Wisconsin State USDA Office,Madison,WI
+55,001,Adams County USDA Serv Cntr,Adams,WI
+55,003,Ashland County USDA Serv Cntr,Ashland,WI
+55,005,Barron County USDA Serv Cntr,Barron,WI
+55,007,Bayfield County FSA Office,Ashland,WI
+55,009,Brown County USDA Serv Cntr,Green Bay,WI
+55,011,Buffalo County USDA Serv Cntr,Alma,WI
+55,013,Burnett County USDA Serv Cntr,Siren,WI
+55,015,Calumet County USDA Serv Cntr,Chilton,WI
+55,017,Chippewa County USDA Serv Cntr,Chippewa Falls,WI
+55,019,Clark County USDA Serv Cntr,Neillsville,WI
+55,021,Columbia County USDA Serv Cntr,Portage,WI
+55,023,Crawford County USDA Serv Cntr,Prairie du Chien,WI
+55,025,Dane County USDA Serv Cntr,Madison,WI
+55,027,Dodge County USDA Serv Cntr,Juneau,WI
+55,029,Door County USDA Serv Cntr,Sturgeon Bay,WI
+55,031,Douglas County FSA Office,Ashland,WI
+55,033,Dunn County USDA Serv Cntr,Menomonie,WI
+55,035,Eau Claire County USDA Serv Cntr,Altoona,WI
+55,037,Florence County FSA Office,Rhineland,WI
+55,039,Fond du Lac County USDA Serv Cntr,Fond du Lac,WI
+55,041,Forest County USDA Serv Cntr,Rhineland,WI
+55,043,Grant County USDA Serv Cntr,Lancaster,WI
+55,045,Green County USDA Serv Cntr,Monroe,WI
+55,047,Green Lake County USDA Serv Cntr,Greenlake,WI
+55,049,Iowa County USDA Serv Cntr,Dodgeville,WI
+55,051,Iron County FSA Office,Ashland,WI
+55,053,Jackson County USDA Serv Cntr,Black River Falls,WI
+55,055,Jefferson County USDA Serv Cntr,Jefferson,WI
+55,057,Juneau County USDA Serv Cntr,Mauston,WI
+55,059,Kenosha County FSA Office,Union Grove,WI
+55,061,Kewaunee County USDA Serv Cntr,Kewaunee,WI
+55,063,La Crosse County USDA Serv Cntr,Onalaska,WI
+55,065,Lafayette County USDA Serv Cntr,Darlington,WI
+55,067,Langlade County FSA Office,Merrill,WI
+55,069,Lincoln County USDA Serv Cntr,Merrill,WI
+55,071,Manitowoc County USDA Serv Cntr,Manitowoc,WI
+55,073,Marathon County USDA Serv Cntr,Wausau,WI
+55,075,Marinette County USDA Serv Cntr,Marinette,WI
+55,077,Marquette County USDA Serv Cntr,Montello,WI
+55,078,Menominee County FSA Office,Shawano,WI
+55,079,Milwaukee County FSA Office,Waukesha,WI
+55,081,Monroe County USDA Serv Cntr,Sparta,WI
+55,083,Oconto County USDA Serv Cntr,Oconto,WI
+55,085,Oneida County FSA Office,Rhineland,WI
+55,087,Outagamie County USDA Serv Cntr,Appleton,WI
+55,089,Ozaukee County FSA Office,West Bend,WI
+55,091,Pepin County USDA Serv Cntr,Durand,WI
+55,093,Pierce County USDA Serv Cntr,Ellsworth,WI
+55,095,Polk County USDA Serv Cntr,Balsam Lake,WI
+55,097,Portage County USDA Serv Cntr,Stevens Point,WI
+55,099,Price County FSA Office,Medford,WI
+55,101,Racine County USDA Serv Cntr,Union Grove,WI
+55,103,Richland County USDA Serv Cntr,Richland Center,WI
+55,105,Rock County USDA Serv Cntr,Janesville,WI
+55,107,Rusk County USDA Serv Cntr,Ladysmith,WI
+55,109,St Croix County USDA Serv Cntr,Baldwin,WI
+55,111,Sauk County USDA Serv Cntr,Baraboo,WI
+55,113,Sawyer County FSA Office,Ladysmith,WI
+55,115,Shawano County USDA Serv Cntr,Shawano,WI
+55,117,Sheboygan County USDA Serv Cntr,Sheboygan Falls,WI
+55,119,Taylor County USDA Serv Cntr,Medford,WI
+55,121,Trempealeau County USDA Serv Cntr,Whitehall,WI
+55,123,Vernon County USDA Serv Cntr,Viroqua,WI
+55,125,Vilas County FSA Office,Rhineland,WI
+55,127,Walworth County USDA Serv Cntr,Elkhorn,WI
+55,129,Washburn County USDA Serv Cntr,Spooner,WI
+55,131,Washington County USDA Serv Cntr,West Bend,WI
+55,133,Waukesha County USDA Serv Cntr,Waukesha,WI
+55,135,Waupaca County USDA Serv Cntr,Waupaca,WI
+55,137,Waushara County USDA Serv Cntr,Wautoma,WI
+55,139,Winnebago County USDA Serv Cntr,Oshkosh,WI
+55,141,Wood County USDA Serv Cntr,Wisconsin Rapids,WI
+56,000,Wyoming State USDA Office,Casper,WY
+56,001,Albany County FSA Office,Saratoga,WY
+56,003,Big Horn County USDA Serv Cntr,Greybull,WY
+56,005,Campbell County USDA Serv Cntr,Gillette,WY
+56,007,Carbon County USDA Serv Cntr,Saratoga,WY
+56,009,Converse County USDA Serv Cntr,Douglas,WY
+56,011,Crook County USDA Serv Cntr,Sundance,WY
+56,013,Fremont County USDA Serv Cntr,Riverton,WY
+56,015,Goshen County USDA Serv Cntr,Torrington,WY
+56,017,Hot Springs County FSA Office,Worland,WY
+56,019,Johnson County USDA Serv Cntr,Buffalo,WY
+56,021,Laramie County USDA Serv Cntr,Cheyenne,WY
+56,023,Lincoln County USDA Serv Cntr,Afton,WY
+56,025,Natrona County USDA Serv Cntr,Casper,WY
+56,027,Niobrara County USDA Serv Cntr,Lusk,WY
+56,029,Park County USDA Serv Cntr,Powell,WY
+56,031,Platte County USDA Serv Cntr,Wheatland,WY
+56,033,Sheridan County USDA Serv Cntr,Sheridan,WY
+56,035,Sublette County FSA Office,Farson,WY
+56,037,Sweetwater County USDA Serv Cntr,Farson,WY
+56,039,Teton County FSA Office,Driggs,ID
+56,041,Uinta County USDA Serv Cntr,Lyman,WY
+56,043,Washakie County USDA Serv Cntr,Worland,WY
+56,045,Weston County USDA Serv Cntr,Newcastle,WY
