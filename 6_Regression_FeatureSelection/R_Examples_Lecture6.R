@@ -316,7 +316,7 @@ plot(log_price_lasso_cv) # There is a minimum in MSE!
 best_lambda = log_price_lasso_cv$lambda.min
 
 best_coef = coef(log_price_lasso)[,log_price_lasso$lambda == best_lambda]
-best_coef = best_coef[best_coef > 1e-10]
+best_coef = best_coef[abs(best_coef) > 1e-10]
 
 ##-----Hurricane Evacuation Prediction-----
 
