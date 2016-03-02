@@ -8,7 +8,7 @@
 ##
 ##--------------------------------------------
 
-setwd('E:/Work/Teaching/PCE_Data_Science/9_NLP')
+setwd('/home/nick/Documents/teaching/DataScience350/8_NLP')
 
 ##-----Load Libraries-----
 library(tm)
