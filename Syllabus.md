@@ -8,11 +8,9 @@ This course is designed to build on what students have learned so far about stru
 ## Course Learning Objectives
 By the end of the class, students will be able to apply these methods to data and interpret and communicate their results. Topics will include:
 
-* Programming for productionalization: Unit testing, logging, functionalization, ...
-* Statistical tools for data exploration.
-* Using inferential statistics to interrogate data.
-* Testing and experimental design.
-* Bayesian and computational statistics.
+* Understand and implement various statistical procedures in R.
+* Describe and interpret the results of such procedures and algorithms.
+* Expand R programming skills to be able to write/test/log code from scratch.
 
 ## Course Format
 Each course session will be a mixture of lecture and in-class exercises. Typically the materials for each evening include presentation slides, one or more data sets, and R scripts with illustrations and exercises related to the material. There will also be 8 weekly homework assignments which will include a combination of programming and reading. There will also be a final individual project that students will work on over the course of the class.
@@ -51,17 +49,17 @@ Students are expected to use personal machines in class that are able to:
 | [Week 1](https://github.com/nfmcclure/DataScience350/tree/master/1_Intro_Lecture)  | 2016-01-05 | Introduction; Data Exploration; R overview | -Intro DS Ch 3,9; -StatThink Ch 2. |
 | [Week 2](https://github.com/nfmcclure/DataScience350/tree/master/2_Distributions_ConditionalProb)  | 2016-01-12 | Probability Distributions; Conditional Prob; Missing Data; Getting/Storing Data | -Intro DS Ch 7,10; -StatThink Ch 4. |
 | [Week 3](https://github.com/nfmcclure/DataScience350/tree/master/3_Outliers_MissingData_Hypothesis)  | 2016-01-19 | Outliers and Missing Data; Intro to Hypothesis Testing | -Intro DS Ch 6 |
-| [Week 4](https://github.com/nfmcclure/DataScience350/tree/master/4_HypothesisTesting_CentralLimit)  | 2016-01-26 | Hypothesis Testing; The Central Limit Theorem | -StatThink Ch 6, 7 |
-| [Week 5](https://github.com/nfmcclure/DataScience350/tree/master/5_HypothesisTesting_ConfidenceIntervals)  | 2016-02-02 | Graph Algorithms and Intro to Regression | -StatThink Pg 93-97 |
+| [Week 4](https://github.com/nfmcclure/DataScience350/tree/master/4_HypothesisTesting_CentralLimit)  | 2016-01-26 | Hypothesis Testing; The Central Limit Theorem; Intro to Regression | -StatThink Ch 6, 7 |
+| [Week 5](https://github.com/nfmcclure/DataScience350/tree/master/5_HypothesisTesting_ConfidenceIntervals)  | 2016-02-02 | More on Regression; Extra Topic #1 | -StatThink Pg 93-97 |
 | [Week 6](https://github.com/nfmcclure/DataScience350/tree/master/6_Regression_FeatureSelection)  | 2016-02-09 | Regression and Feature Selection | -Intro DS Ch 16 |
-| [Week 7](https://github.com/nfmcclure/DataScience350/tree/master/7_TimeSeries_SpatialStats_Bayes)  | 2016-02-16 | Feature Selection; Simpson's Paradox; Intro to Bayes | -None |
-| [Week 8](https://github.com/nfmcclure/DataScience350/tree/master/8_Bayesian_ComputationalStats)  | 2016-02-23 | Extra Topics and Intro to Bayesian Statistics | -StatThink Pg 97-101 |
-| [Week 9](https://github.com/nfmcclure/DataScience350/tree/master/9_NLP)  | 2016-03-01 | Bayesian Inference and Computational Statistics | None |
-| [Week 10](https://github.com/nfmcclure/DataScience350/tree/master/10_Review_ExtraTopics) | 2016-03-08 | Review; Guest Lecture; and Possible Extra Topics | None |
+| [Week 7](https://github.com/nfmcclure/DataScience350/tree/master/7_TimeSeries_SpatialStats_Bayes)  | 2016-02-16 | Time Series; Spatial Statistics | -None |
+| [Week 8](https://github.com/nfmcclure/DataScience350/tree/master/8_Bayesian_ComputationalStats)  | 2016-02-23 | EBayesian and Computational Statistics | -StatThink Pg 97-101 |
+| [Week 9](https://github.com/nfmcclure/DataScience350/tree/master/9_NLP)  | 2016-03-01 | Guest Lecture; Extra Topic #3 | None |
+| [Week 10](https://github.com/nfmcclure/DataScience350/tree/master/10_Review_ExtraTopics) | 2016-03-08 | Review; Possible Extra Topics | None |
 
 
 ## Student Assessment
-Students **MUST** attend at least 8 of 10 classes.  Your grade will be based on eight homework assignments and one individual project. Details on these will be handed out/distributed on the first day.
+Students **MUST** attend at least 8 of 10 classes.  Your grade will be based on eight homework assignments and one individual project. Details on these will be handed out/distributed on the first day. For complete homework Rubric, please see the class syllabus on the Canvas page.
 
 For each homework, students should submis a report that includes:
 * Working code which implements the procedures specified by the assignment. Code should be easy to read and commented well.
