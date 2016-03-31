@@ -36,8 +36,18 @@ moving_average = function(data_series, num_trailing){
   return(mov_avg)
 }
 
+test_moving_average = function(){
+  test_data = 1:10
+  test_output = moving_average(test_data, 2)
+  expected_output = c(1, 1.5, 2, 3, 4, 5, 6, 7, 8, 9)
+  stopifnot(test_output == expected_output)
+}
+
 
 if (interactive()){
+  # Run unit test:
+  test_moving_average()
+  
   # Set logging information
   basicConfig()
   addHandler(writeToFile, logger="data_logger", file="file_log.log")
