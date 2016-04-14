@@ -16,7 +16,7 @@
 ##    -State and County Code List (374KB) xls file (probably convert this to csv)
 ##
 ##--------------------------------------------
-
+setwd('E:/Work/Teaching/PCE_Data_Science/3_Outliers_MissingData_Hypothesis')
 ##----Import Libraries-----
 require(RSQLite)
 require(logging)

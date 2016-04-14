@@ -10,6 +10,22 @@
 ##
 ##--------------------------------------------
 
+## Homework check of variance of a vector of 1's and 0's.
+p_success = seq(0,1,length=100)
+n_coin_flips = 1000
+get_variance = sapply(p_success, function(p){
+  temp_vec = sample(c(1,0), size=n_coin_flips, prob = c(p, 1-p), replace=TRUE)
+  return(var(temp_vec))
+})
+plot(p_success, get_variance)
+
+# add theoretical line
+binom_var = p_success * (1 - p_success)
+lines(p_success, binom_var)
+
+##----------------------
+
+
 data = data.frame('index' = 1:100,
                   'var1' = rnorm(100),
                   'group' = sample(1:3, 100, replace=TRUE, prob=c(0.1,0.45,0.45)))
@@ -20,11 +36,10 @@ bernoulli_sample = data[runif(100)<p,] # Yay for R vectorization
 
 ##----Cluster Sampling-----
 num_clusters = 10
-cluster_samples = lapply(1:num_clusters, function(x){
-  stopifnot((nrow(data) %% num_clusters)==0)
-  cluster_labels = sample(rep(1:num_clusters,each=num_clusters))
-  return(data[cluster_labels == x,])
-})
+cluster_labels = sample(rep(1:num_clusters,each=num_clusters))
+clusters_sampled = sample(1:10, 3) # Pick three clusters to sample
+
+cluster_sample = data[cluster_labels%in%clusters_sampled,]
 
 ##----Simple Random Sample-----
 size = 15
@@ -93,12 +108,27 @@ grid()
 outcomes_sd = sd(outcomes)
 outcomes_sd_theo = sqrt( 0.5 * (1 - 0.5) )
 
+##----St. Dev. vs. St. Error-----
+n = seq(10,10000,len=1000)
+
+sample_means = sapply(n, function(x) mean(rnorm(x)))
+sample_sds = sapply(n, function(x) sd(rnorm(x)))
+
+plot(n, sample_means) # Plot means
+lines(n, 1/sqrt(n))   # Plot means +- st. error
+lines(n, -1/sqrt(n))
+
+plot(n, sample_sds)   # Plot sd's
+lines(n, 1/sqrt(n)+1) # plot sd's +- st. error
+lines(n, -1/sqrt(n)+1)
+
 # You can imagine that there is a inherent variation in the population,
 #  this is the standard deviation we have found above.
 
 # But also, there is some variation in finding the mean of the outcomes.
 #  The more coin flips, the closer the mean will be to 0.5... see the plot of
 #  the running average above.  This plot scales with 1/sqrt(n).
+
 
 ##----Prob between two points on a Normal-----
 
@@ -133,20 +163,22 @@ cutoff_stat = function(alpha, mean=0, sd=1, one_tailed=TRUE){
 
 cutoff_stat(0.1, 15, 4)
 
-##----St. Dev. vs. St. Error-----
-n = seq(10,10000,len=1000)
+##----T-Test-----
+pop_A = rnorm(25, mean=150, sd = 7)
+pop_B = rnorm(25, mean=140, sd = 4)
 
-sample_means = sapply(n, function(x) mean(rnorm(x)))
-sample_sds = sapply(n, function(x) sd(rnorm(x)))
+# p-value for t-test
+?t.test
+# One-tailed test: is mean(pop_A) > mean(pop_B)?
+#H_o: mean(pop_A) <= mean(pop_B)
+#H_a: mean(pop_A) > mean(pop_B)
+t.test(pop_A, pop_B, alternative = "greater")
 
-plot(n, sample_means) # Plot means
-lines(n, 1/sqrt(n))   # Plot means +- st. error
-lines(n, -1/sqrt(n))
 
-plot(n, sample_sds)   # Plot sd's
-lines(n, 1/sqrt(n)+1) # plot sd's +- st. error
-lines(n, -1/sqrt(n)+1)
-
+# Two-tailed test: is mean(pop_A) != mean(pop_B)
+#H_o: mean(pop_A) = mean(pop_B)
+#H_a: mean(pop_A)!= mean(pop_B)
+t.test(pop_A, pop_B, alternative = "two.sided")
 
 ##----Chi-squared Test----
 
