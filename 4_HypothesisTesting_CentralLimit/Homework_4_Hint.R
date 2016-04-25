@@ -13,8 +13,8 @@ data = read.csv('ChicagoDiabetesData.csv', stringsAsFactors = FALSE)
 
 data_sums = apply(data[-1],2,sum)
 
-hospitalizations = data_sums[grepl('Hospitalizations', names(data))]
-admit_rate = data_sums[grepl('Crude.Rate.[0-9]+$', names(data), perl = TRUE)]
+hospitalizations = data_sums[grepl('Hospitalizations', names(data_sums))]
+admit_rate = data_sums[grepl('Crude.Rate.[0-9]+$', names(data_sums), perl = TRUE)]
 
 plot(hospitalizations, admit_rate)
 
