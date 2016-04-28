@@ -86,8 +86,16 @@ names(data) = columns
 mean_norm_losses = mean(data$normalized_losses, na.rm=TRUE)
 data$normalized_losses[is.na(data$normalized_losses)] = mean_norm_losses
 
-# Now remove missing rows
-data = data[complete.cases(data),]
+# Deal with missing values
+summary(data)
+numeric_data_cols = c('symboling','normalized_losses','wheel_base',
+                      'length','width','height','curb_weight',
+                      'engine_size','bore','stroke','compression_ratio','horsepower',
+                      'peak_rpm','city_mpg','highway_mpg','price')
+# Fill in with mean:
+for(i in numeric_data_cols){
+  data[is.na(data[,i]), i] <- mean(data[,i], na.rm = TRUE)
+}
 
 # Plot price vs. curb weight
 plot(data$curb_weight, data$price, pch=16, main="Price vs. Weight",
@@ -145,13 +153,17 @@ lines(sort(data$curb_weight), pred_bands[,2], col='green', lwd=3, lty=2)
 lines(sort(data$curb_weight), pred_bands[,3], col='green', lwd=3, lty=2)
 
 # Transform back out to Price
-x_weight = seq(1000,4500,len=1000)
+x_weight = seq(min(data$curb_weight),max(data$curb_weight),len=1000)
 y_price_fit = exp(log_price_weight_summary$coefficients[1] + log_price_weight_summary$coefficients[2] * x_weight)
 
-# As an example, shade in transformed prediction bands
-x_pred = sort(data$curb_weight)
-pred_upper = exp(log_price_weight_summary$coefficients[1] + log_price_weight_summary$coefficients[2] * pred_bands[,2])
-pred_lower = exp(log_price_weight_summary$coefficients[1] + log_price_weight_summary$coefficients[2] * pred_bands[,3])
+# Plot the results
+plot(x_weight, y_price_fit, type='l', lty=1, col='red', lwd=2)
+points(data$curb_weight, data$price)
+# Add transformed confidence and prediction bands:
+lines(sort(data$curb_weight), exp(conf_bands[,2]), col='green', lwd=3)
+lines(sort(data$curb_weight), exp(conf_bands[,3]), col='green', lwd=3)
+lines(sort(data$curb_weight), exp(pred_bands[,2]), col='green', lwd=3, lty=2)
+lines(sort(data$curb_weight), exp(pred_bands[,3]), col='green', lwd=3, lty=2)
 
 # But are our error normally distributed?
 # Test normality of errors!
@@ -202,6 +214,7 @@ shapiro.test(log_price_all_model2$residuals)
 #  I.e., removing one variable could make another variable significant.
 
 # We use the function stepAIC to do this.
+?step
 step_lm = step(log_price_all_model2)
 summary(step_lm)
 anova(step_lm)
