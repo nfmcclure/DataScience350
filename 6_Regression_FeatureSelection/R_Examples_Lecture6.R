@@ -59,6 +59,20 @@ square_matrix %*% eye4
 # Mulitiply by inverse:
 round(square_matrix %*% ginv(square_matrix))
 
+# Transformations of points by matrix multiplication:
+X = matrix(c(1, -2, 2, 3, 0, 1), nrow=2)
+# plot points
+plot(X[1,], X[2,], xlim=c(-5,5), ylim=c(-5, 5))
+abline(v=0)
+abline(h=0)
+grid()
+# Transform X
+# Try rotation (pi = 180deg)
+angle = pi/2
+A_rot = matrix(c(cos(angle), sin(angle), -sin(angle), cos(angle)), nrow=2)
+X_rot = A_rot %*% X
+points(X_rot[1,], X_rot[2,], pch='X', col='red')
+
 # SVD of square matrix:
 
 square_svd = svd(square_matrix)
@@ -176,6 +190,7 @@ which.min(aic_by_num_pc) # 59 principal components!
 ##-----SVD as a type of Regression: Total Least Squares------
 # Remember the first SVD axis? That looked like a good fit.
 #  And it actually is.  Just a different way of solving linear regression.
+# We will use generated data in 2D because we can plot the results.
 x = 1:25
 y = x + 6*runif(length(x))
 
@@ -316,7 +331,7 @@ plot(log_price_lasso_cv) # There is a minimum in MSE!
 best_lambda = log_price_lasso_cv$lambda.min
 
 best_coef = coef(log_price_lasso)[,log_price_lasso$lambda == best_lambda]
-best_coef = best_coef[abs(best_coef) > 1e-10]
+best_coef = best_coef[best_coef > 1e-10]
 
 ##-----Hurricane Evacuation Prediction-----
 
