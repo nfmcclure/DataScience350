@@ -84,6 +84,8 @@ for (i in 1:num_loops){
     best_y = y
     best_result = result
   }
+  print(result)
+  Sys.sleep(0.05)
 }
 
 # Is x* y lower?
@@ -141,7 +143,7 @@ best_z = z
 best_result = forward_two_gate(x, y, z)
 
 for (i in 1:num_loops){
-  out1 = forward_add(x, y)
+  out1 = forward_add(x, y) # Temporary store the output of the first operation
   x = x - (step_size * add_gradient(x,y) * mult_gradient_x(out1, z))
   y = y - (step_size * add_gradient(x,y) * mult_gradient_x(out1, z))
   z = z - (step_size * mult_gradient_y(out1, z))
@@ -152,11 +154,62 @@ for (i in 1:num_loops){
     best_z = z
     best_result = result
   }
+  print(result)
+  Sys.sleep(0.05)
 }
 
 # Is it less than original? (< 20?)
 best_result
 
+#-----------------------------------------
+# Know that we can make it persue a goal.  Let's add a target or goal.
+# Our goal will be to decrease this network until it gets to the value 17.
+# Loop through again:
+num_loops = 150
+step_size = 0.001
+x = 2; y = 3; z = 4
+best_x = x
+best_y = y
+best_z = z
+best_result = forward_two_gate(x, y, z)
+
+goal = 17
+loss_vec = c()
+
+for (i in 1:num_loops){
+  out1 = forward_add(x, y) # Temporary store the output of the first operation
+  out2 = forward_multiply(out1, z) # Find predicted output
+  
+  # Now we need to measure the 'loss', or the distance between our prediction
+  #  and the goal.  If the loss is negative (under predict), increase.
+  # If the loss is positive (over predict), decrease.
+  loss = (out2 - goal)
+  loss_vec = c(loss_vec, loss)
+  if (loss > 0){
+    sign_of_change = -1
+  } else{
+    sign_of_change = +1
+  }
+  
+  x = x + sign_of_change * (step_size * add_gradient(x,y) * mult_gradient_x(out1, z))
+  y = y + sign_of_change * (step_size * add_gradient(x,y) * mult_gradient_x(out1, z))
+  z = z + sign_of_change * (step_size * mult_gradient_y(out1, z))
+  result = (x + y) * z
+  if (result < best_result){
+    best_x = x
+    best_y = y
+    best_z = z
+    best_result = result
+  }
+  print(result)
+  Sys.sleep(0.05)
+}
+
+# What does the loss look like?
+plot(loss_vec, type='l')
+grid()
+
+# What would the loss curve look like if the step size was bigger?
 
 ##----Simple Neural Network-----
 # We add a 'neuron' to our network by composing the output with
