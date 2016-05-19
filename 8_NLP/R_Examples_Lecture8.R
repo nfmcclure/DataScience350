@@ -8,7 +8,7 @@
 ##
 ##--------------------------------------------
 
-setwd('/home/nick/Documents/teaching/DataScience350/8_NLP')
+setwd('E:/Work/Teaching/PCE_Data_Science/8_NLP')
 
 ##-----Load Libraries-----
 library(tm)
@@ -64,8 +64,9 @@ w_jaccard = function(s1, s2){
 w_jaccard(word1, word2)
 w_jaccard(phrase1, phrase2)
 
-# What's great about the weighted jaccard?
-#    Let's create random strings of random length and find out
+# What's another benefit about the weighted jaccard?
+# Slightly more evenly distributed as well
+#    Let's create random strings of random length and observe this
 N = 1000
 sample_words = sapply(1:100, function(x) {
   paste(sample(letters, sample(3:10,1), replace=TRUE), collapse="")
@@ -85,8 +86,8 @@ sample_distances_jaccard = sapply(1:5000, function(x){
 })
 
 # Most of random distances are between 0.5 and 1
-hist(sample_distances_weighted, breaks=35) # More regular
-hist(sample_distances_jaccard, breaks=35) # Slightly irregular
+hist(sample_distances_weighted, breaks=50) # More regular
+hist(sample_distances_jaccard, breaks=50) # Slightly irregular
 
 
 ##-----Load Data Sets-----
@@ -146,6 +147,7 @@ text_term_matrix = DocumentTermMatrix(text_corpus)
 dim(text_term_matrix)
 
 # Save Matrix (This is mostly empty)
+# NOTE BE CAREFUL DOING THIS WITH LARGER DATA SETS!!!!!!
 text_corpus_mat = as.matrix(text_term_matrix)
 dim(text_corpus_mat)
 
@@ -226,10 +228,10 @@ reviews$review = iconv(reviews$review, from="latin1", to="ASCII", sub="")
 # remove stopwords
 stopwords()
 my_stops = as.character(sapply(stopwords(), function(x) gsub("'","",x)))
-my_stops = c(my_stops, "beer", "pour", "pours", "poured", "glass",
-             "thank", "bottle", "bottles", "glasses", "thanked", "tulip",
-             "great", "good", "nice", "really", "thanks", "like",
-             "pint", "snifter", "just", "leaves", "served")
+my_stops = c(my_stops, "beer", "pour")
+
+# Maybe more stop words to use?.... leave for homework data exploration
+
 reviews$review = sapply(reviews$review, function(x){
   paste(setdiff(strsplit(x," ")[[1]],my_stops),collapse=" ")
 })# Wait a minute for this to complete
@@ -384,22 +386,6 @@ lda = LDA(review_dtm, k)
 # Get list of top keywords for each topic:
 beer_topics = terms(lda, 10)
 
-##-----RAKE-------
-# Rapid Automatic Keyword Extraction
-data(crude)
-?crude
-keywords = lapply(1:length(crude), function(x) c("Diamond", "crude oil", "price","OPEC", "oil",
-                                                 "price","Texaco", "oil", "price", "decrease",
-                                                 "Marathon Petroleum", "crude", "decrease","Houston Oil",
-                                                 "revenues", "decrease","Kuwait", "OPEC", "quota"))
-# This library is a wrapper for a java based program that needs a temp directory to store documents in.
-tmpdir = tempfile()
-dir.create(tmpdir)
-rake_model = file.path(tmpdir, "oil_rake_model")
-createModel(crude, keywords, rake_model, voc = c(stopwords(), "it", "said"))
-
-extractKeywords(crude, rake_model)
-
 ##-----Part of Speech Tagging------
 x1 = "The customer ordered a beer."
 x2 = "The customer got his order of beer."
@@ -410,4 +396,28 @@ string_input = x1
 char_annotate = Annotation(1L, "sentence", 1L, nchar(string_input)) # How to break up the string
 word_annotate = annotate(string_input, word_token_annotator, char_annotate) # Tell R where the words are
 part_of_speech = annotate(string_input, Maxent_POS_Tag_Annotator(), word_annotate) # Use HMM to tag words
+
+##-----Word2Vec-----
+# Need 'devtools' to install
+library(devtools)
+install_github("bmschmidt/wordVectors")
+# Wait to compile...
+library(wordVectors)
+
+cookbook_file = 'epib.txt'
+
+# Train word2vec:
+model = train_word2vec(cookbook_file, output="cookbook_vectors.bin",
+                       threads = 3, vectors = 100, window=12)
+
+# Read in prior trained model:
+# read.vectors("cookbook_vectors.bin")
+
+# What is the top 10 nearest word vectors to 'fish'?
+nearest_to(model,model[["fish"]])
+
+# What is the top 50 nearest word vectors to a series of words?
+nearest_to(model,model[[c("fish","salmon","trout","shad","flounder","carp","roe","eels")]],50)
+
+##-----Sentiment Analysis-----
 
