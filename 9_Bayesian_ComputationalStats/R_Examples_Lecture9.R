@@ -55,6 +55,12 @@ prior = prior / sum(prior)
 # look at prior belief:
 plot(theta_vals, prior)
 
+# What's the probability of theta (p(H)) being 0.5?
+0.5 ** num_heads * (1-0.5) ** num_tails
+
+# What's the probability of theta (p(H)) being 0.05?
+0.05 ** num_heads * (1-0.05) ** num_tails
+
 # Calclulate the probability of each theta value (theta_vals) for our given data (num_heads, num_tails)
 likelihood = theta_vals**num_heads * (1-theta_vals)**num_tails
 
@@ -198,6 +204,9 @@ likelihood = function(x,y){
   sigma = matrix(c(1,0.6,0.6,1), nrow=2)
   mu = c(0.5,0.5)
   dist = c(x,y) - mu
+  
+  # value = Bivariate normal evaluated at a point (x,y) or where
+  # dist = distance from center
   value = (1/sqrt(4*pi^2**det(sigma))) * exp((-1/2) * t(dist) %*% ginv(sigma) %*% t(t(dist)) )
   return(value)
 }
@@ -269,8 +278,8 @@ plot(y_chain, type="l")
 hosp_data = read.csv("ChicagoDiabetesData.csv", stringsAsFactors = FALSE)
 data_sums = apply(hosp_data[-1],2,sum)
 
-hospitalizations = data_sums[grepl('Hospitalizations', names(hosp_data))]
-admit_rate = data_sums[grepl('Crude.Rate.[0-9]+$', names(hosp_data), perl = TRUE)]
+hospitalizations = data_sums[grepl('Hospitalizations', names(data_sums))]
+admit_rate = data_sums[grepl('Crude.Rate.[0-9]+$', names(data_sums), perl = TRUE)]
 
 plot(hospitalizations, admit_rate, main="Admit Rate vs. Hospitalizations for Diabetes (Chicago)",
      pch=16, xlab="Hospitalizations", ylab="Admit Rate")
@@ -294,8 +303,8 @@ likelihood_linear = function(m, b, sd){
 
 # Need to defind the prior probability
 prior_linear = function(m, b, sd){
-  m_prior = dunif(m, min=0, max=5, log=TRUE)      # 0 < m < 10 is a good prior
-  b_prior = dunif(b, min=0, max=200, log=TRUE)    # Random guess
+  m_prior = dunif(m, min=0, max=1, log=TRUE)      # 0 < m < 1 is a good prior
+  b_prior = dunif(b, min=0, max=500, log=TRUE)    # Random guess
   sd_prior = dunif(sd, min=0,  max=500, log=TRUE) # 0 < sd < 500 Just picked a random range.
   return(max(m_prior,0) + max(b_prior,0) + max(sd_prior,0)) # Remember, logs of a product = sum of logs
 }
@@ -363,12 +372,12 @@ plot(hospitalizations, admit_rate, main="Hospitalizations vs. Admit Rate for Dia
 abline(mean(chain_vals[burn_in:chain_length,2]), mean(chain_vals[burn_in:chain_length,1]))
 
 # We can also plot sample lines from our distribution of m's and b's:
-N = 100 # # of lines to plot
+N = 500 # # of lines to plot
 sample_line_indices = sample(1:chain_length, N)
 for (line in sample_line_indices){
   m_temp = chain_vals[line,1]
   b_temp = chain_vals[line,2]
-  abline(b_temp, m_temp, col=rgb(0.9,0.9,0,0.25))
+  abline(b_temp, m_temp, col=rgb(0.9,0.9,0,0.15), lwd=5)
 }
 abline(mean(chain_vals[burn_in:chain_length,2]), mean(chain_vals[burn_in:chain_length,1]))
 points(hospitalizations, admit_rate, pch=16)
@@ -380,6 +389,7 @@ ages = c(21,25,27,28,28,29,29,30,30,31,33,33,33,35,40,95)
 mean(ages)
 sd(ages)
 num_samples = length(ages)
+hist(ages, n=10)
 
 # Super bad approximation, probably not even
 #   statistically valid with a small sample:
@@ -398,7 +408,7 @@ hist(boot_means, breaks = 50)
 # Q: Why the multi-modal distribution?
 
 # Look at some outliers:
-bootstrap_samples[,boot_means<28]
+bootstrap_samples[,boot_means<27]
 bootstrap_samples[,boot_means>50]
 
 # Estimate the S.D.:
@@ -415,6 +425,7 @@ mean_fun = function(data, ix) mean(data[ix], na.rm = TRUE)
 #  a function that takes the data and indices (ix)
 
 boot_results = boot(ages, mean_fun, R=1000, sim="ordinary")
+hist(boot_results)
 
 # Create a trim function to remove outliers:
 trim = function(data, n=1){
@@ -428,6 +439,7 @@ mean(boot_trim_means)
 # use boot function:
 mean_trim_fun = function(data, ix) mean(trim(data[ix]), na.rm = TRUE)
 boot_trim_results = boot(ages, mean_trim_fun, R=1000, sim="ordinary")
+hist(boot_trim_results)
 
 ##-----Bootstrapping for Linear Regression-----
 N = 1000
@@ -462,7 +474,7 @@ hospitalizations_boots = lapply(1:N, function(x){
 
 # Look a a few plots:
 plot(hospitalizations_boots[[1]], admit_rate, pch=16, col=rgb(0,0,0,0.05))
-lapply(1:50, function(x){
+lapply(1:100, function(x){
   points(hospitalizations_boots[[x]], admit_rate, pch=16, col=rgb(0,0,0,0.05))
 })
 
