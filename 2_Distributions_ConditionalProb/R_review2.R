@@ -22,7 +22,7 @@ headcount$DateFormat = as.Date(headcount$DateFormat, format = "%m/%d/%Y")
 
 # The purpose of functions are to:
 #    1.  Make code readable.
-#    2.  Make code reusable.  Do NOT copy and paste code! (evil stare from Linus Torvalds)
+#    2.  Make code reusable.  Do NOT copy and paste code!
 
 # Let's make a season computation:
 #
