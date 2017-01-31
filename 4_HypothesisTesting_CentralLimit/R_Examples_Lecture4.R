@@ -52,6 +52,11 @@ ks_stat = function(x_min,x_max, dist_a, dist_b){
   return(k_s_stat)
 }
 
+# Check to make sure
+ks_stat(-3, 3, norm1, norm2)
+
+# What should we expect? Is this an ok value?...
+
 ##----Repeat N Times-----
 N = 10000
 k_s_rep = sapply(1:100, function(i){
@@ -63,7 +68,7 @@ k_s_rep = sapply(1:100, function(i){
 hist(k_s_rep, breaks=30, freq=FALSE)
 lines(density(k_s_rep))
 
-##----Empirical Two Tailed KS test-----
+##----Empirical One Tailed KS test-----
 # Alternative hypothesis is that the k-s- statistic
 #  is greater than the "expected value".
 
@@ -82,7 +87,11 @@ k_s_hypothesis = sapply(1:500, function(i){
   return(ks_stat(-3, 3, dist_a, dist_b))
 })
 
+# Histogram of the NULL hypothesis
 hist(k_s_hypothesis, breaks=30)
+# Add a line of the observation
+abline(v=k_s_stat, col='red', lwd=2)
+
 
 empirical_p_value = sum(k_s_hypothesis>k_s_stat)/500
 
@@ -92,9 +101,16 @@ dist_a = rnorm(100,mean=0,sd=1)
 shapiro.test(dist_a)
 # Can NOT reject null that dist_a is from a normal population.
 
+dist_b = runif(100)
+shapiro.test(dist_b)
+# Why is this rejected? Because the uniform distribution is *flat* (kurtosis)
+
 ##----Look at Normal Quantile-Quantile Plot----
 qqnorm(dist_a, pch=16)
-abline(0,1, lwd=2, col="red")
+qqline(dist_a)
+
+qqnorm(dist_b, pch=16)
+qqline(dist_b)
 
 ##-----ANOVA Example-----
 df = data.frame('group'=c(rep(1,50),
@@ -103,7 +119,7 @@ df = data.frame('group'=c(rep(1,50),
                           rep(4,40)),
                 'val' = c(rnorm(50, mean=0, sd=1),
                           rnorm(50, mean=0, sd=1),
-                          rnorm(60, mean=0.5, sd=1),
+                          rnorm(60, mean=0.5, sd=1), # Note different mean here
                           rnorm(40, mean=0, sd=1)))
 df$group = factor(df$group) # Make sure your groups are a factor (for further analysis below)
 
@@ -130,6 +146,7 @@ tukey_anova
 plot(tukey_anova)
 
 ##----CLT and Confidence Intervals----
+# Let's create a NOT normal distribution
 x = c(rnorm(1000),rnorm(1000,mean=3,sd=0.5))
 plot(density(x)) # Definitely not normal
 
@@ -138,6 +155,7 @@ x_samples = lapply(1:500, function(i) sample(x, size=50, replace=TRUE))
 x_means = lapply(x_samples, mean)
 hist(unlist(x_means))
 qqnorm(unlist(x_means)) # Yay normality!
+qqline(unlist(x_means))
 
 pop_mean_estimate = mean(unlist(x_means))
 pop_mean_sd = sd(unlist(x_means))
@@ -145,6 +163,7 @@ pop_mean_sd = sd(unlist(x_means))
 actual_mean = mean(x)
 
 # Create an alpha-level confidence interval
+#    it will be two tailes, so we need (1+alpha)/2
 alpha = 0.95
 half_width = qnorm((1+alpha)/2, mean=pop_mean_estimate, sd = pop_mean_sd) - pop_mean_estimate
 
@@ -153,6 +172,9 @@ ci_high = pop_mean_estimate + half_width
 
 print(paste('The actual mean is',round(actual_mean,3)))
 print(paste('The',alpha,'level CI is (',round(ci_low,3),',',round(ci_high,3),').'))
+
+# What happens to the width of the CI
+#   when we increase or decrease the alpha level?
 
 ##---Confidence interval of monty hall switching-----
 
@@ -191,7 +213,7 @@ print(paste(round(sample_mean,3),'with a',100*alpha_level,'% CI: (',
 #   we are going to be LESS sure of where the population mean is.
 #
 # A higher alpha level, say 0.99 (99% C.I.) will be larger because
-#   we are going to be MORE confident of where the populatio mean is.
+#   we are going to be MORE confident of where the population mean is.
 
 ##-----Interpret Slope Example-----
 lv_high_temps = c(100,91,101,102,112,89,103, 96, 105)
@@ -228,9 +250,11 @@ lines(x,true_y, col='blue')
 SSE = sum((y - true_y)^2)
 
 # Pick a random line and see SSE
-y_rand = 0.75 * x
-sse_rand = sum((y - y_rand)^2)
+y_rand1 = 0.75 * x
+sse_rand1 = sum((y - y_rand1)^2)
 
+y_rand2 = 0.85 * x
+sse_rand2 = sum((y - y_rand2)^2)
 
 # Calculate SSE for a sequence of slopes to see min
 slopes_test = seq(0.75,1.25, len=1000)
@@ -241,14 +265,14 @@ grid()
 # find min
 slope_min = slopes_test[which.min(sse_slopes)]
 
-# What if I just predicted the average?
+# What if I just predicted the average y value (horizontal line?
 y_avg = rep(mean(true_y), length(x))
 plot(x,y,pch=16)
 lines(x,y_avg)
 
 SST = sum((y - y_avg)^2)  # Sum of Squares Total
 
-# Proportion of increase of predicting y = x
+# Proportion of variablity explained by predicting y from x
 1 - SSE/SST  # This is called R-squared.  It is interpreted as
              #  the % of variance explained in the model (more than the average)
 
@@ -320,8 +344,10 @@ summary(best_line)
 #  -Intercept
 #  -Slope for each X variable
 #    -Estimates, Std. Error
-#    -t-value:  This is the statistic for a test if the parameter is different than 0
-#    - Pr(>|t|):  This the p-value for the above hypothesis test (with sig. codes)
+#    -t-value:  This is the statistic for a test
+#               if the parameter is different than 0 (two tailed)
+#    - Pr(>|t|):  This the p-value for the above
+#                 hypothesis test (with sig. codes)
 
 # Residual Standard Error: Standard deviation of the residuals
 # Multiple R Squared: Measure of variation explained
@@ -357,6 +383,11 @@ print(paste(round(y_int_est,3),'with a',100*alpha_level,'% CI: (',
 
 
 ##-------Homework 4 Hint-------
+# You will need to sum across zip codes.
+# 
+# Note that zip code units will be proportions.
+# Here it is ok to average them because the proportions have the
+#   same denominator (per X admissions)
 
 test_data = data.frame('Label'=letters[1:10],
                        'x_val1'=1*rnorm(10), 'y_val1' = 1*rnorm(10),
@@ -370,10 +401,11 @@ test_data = data.frame('Label'=letters[1:10],
                        'x_val9'=9*rnorm(10), 'y_val9' = 9*rnorm(10),
                        'x_val10'=10*rnorm(10), 'y_val10' = 10*rnorm(10))
 
-test_data_sums = apply(test_data[-1],2,sum)
+# Get the averages of all columns
+test_data_avgs = apply(test_data[-1],2,mean)
 
-x_vals = test_data_sums[grepl('^x_val[0-9]+$', names(test_data_sums), perl = TRUE)]
-y_vals = test_data_sums[grepl('^y_val[0-9]+$', names(test_data_sums), perl = TRUE)]
+x_vals = test_data_avgs[grepl('^x_val[0-9]+$', names(test_data_avgs), perl = TRUE)]
+y_vals = test_data_avgs[grepl('^y_val[0-9]+$', names(test_data_avgs), perl = TRUE)]
 
 x_diffs = diff(x_vals)
 y_diffs = diff(y_vals)

@@ -1,7 +1,7 @@
 # Let's test what happens with samples of different sizes.
 
 # First declare a probability of success
-p = (1/3)
+p = (1/4)
 
 # We are going to run this over many different sample sizes
 N = round(seq(10, 10000, length=500))
