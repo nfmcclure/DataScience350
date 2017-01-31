@@ -104,6 +104,7 @@ running_average = sapply(1:n, function(x) mean(outcomes[1:x]))
 
 plot(running_average, type='l')
 grid()
+abline(h=0.5, lty=2)
 
 outcomes_sd = sd(outcomes)
 outcomes_sd_theo = sqrt( 0.5 * (1 - 0.5) )
@@ -174,6 +175,11 @@ pop_B = rnorm(25, mean=140, sd = 4)
 #H_a: mean(pop_A) > mean(pop_B)
 t.test(pop_A, pop_B, alternative = "greater")
 
+# t = test statistic
+# df = adjusted degrees of freedom, slightly less than 50
+# p-value = The probability of observing our sample,
+#   assuming that the NULL IS TRUE (ie both are equal).
+#--------------------------
 
 # Two-tailed test: is mean(pop_A) != mean(pop_B)
 #H_o: mean(pop_A) = mean(pop_B)
