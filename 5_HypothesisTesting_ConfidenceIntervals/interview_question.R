@@ -8,8 +8,8 @@
 #
 # Three assumptions about 1st and 2nd interviews of candidates:
 #  - 50% of all people who get a 1st interview get a 2nd interview
-#  - 95% of people you know who got a 2nd interview feel they did well
-#  - 75% of people you know who didn't get a 2nd interview feel they did well
+#  - 95% of people you know who got a 2nd interview feel they did well on first interview
+#  - 75% of people you know who didn't get a 2nd interview feel they did well on first interview
 #
 # If you feel you did well, what is the probability you get a second interview?
 
