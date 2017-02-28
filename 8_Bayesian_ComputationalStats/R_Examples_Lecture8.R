@@ -6,7 +6,7 @@
 ##
 ##--------------------------------------------
 
-setwd('E:/Work/Teaching/PCE_Data_Science/9_Bayesian_ComputationalStats')
+setwd('E:/Work/Teaching/PCE_Data_Science/8_Bayesian_ComputationalStats')
 
 library(boot)
 library(ggplot2)
@@ -53,7 +53,7 @@ theta_vals = seq(0.01, 0.99, length=100)
 prior = pmin(theta_vals,1-theta_vals)
 prior = prior / sum(prior)
 # look at prior belief:
-plot(theta_vals, prior)
+plot(theta_vals, prior, type='l')
 
 # What's the probability of theta (p(H)) being 0.5?
 0.5 ** num_heads * (1-0.5) ** num_tails
@@ -111,13 +111,16 @@ prior_likelihood_posterior_coin(theta_vals, dbeta(theta_vals,2,5), flips)
 unscaled_prior = pmax((-theta_vals + (1/8)),0) + pmax(sqrt(1-(theta_vals-0.5)^2)-0.95,0) +
   pmax((theta_vals - (7/8)),0)
 crazy_prior = unscaled_prior / sum(unscaled_prior)
-plot(theta_vals, crazy_prior)
+plot(theta_vals, crazy_prior, type='l')
 
 prior_likelihood_posterior_coin(theta_vals, crazy_prior, flips)
 
 
 ##-----Monte-Carlo Markov-Chain for a Coin Flip------
 
+# Likelihood function.  Takes the arguments:
+# - theta: A guess at the prob_heads
+# - data: A sequence of 1's and 0's indicating the outcomes of flipping coins
 likelihood_fun = function(theta, data){
   num_heads = sum(data==1)
   num_tails = sum(data==0)
@@ -128,6 +131,8 @@ likelihood_fun = function(theta, data){
   return(likelihood)
 }
 
+# Prior function. Takes the theta guess(es)
+# - Returns a prior based over the theta values.
 prior_fun = function(theta){
   # prior = dbeta(pmin(2*theta,2*(1-theta)) ,2,2 ) # bimodal
   prior = rep(1/length(theta), length(theta)) # Even
@@ -138,6 +143,7 @@ prior_fun = function(theta){
   return(prior)
 }
 
+# Now we calculate the probability of data given a theta
 relative_probability_fun = function(theta, data){
   target_prob = likelihood_fun(theta, data) * prior_fun(theta)
   return(target_prob)
@@ -147,7 +153,7 @@ relative_probability_fun = function(theta, data){
 observed_data = sample(c(0,1), 25, replace=TRUE)
 
 # MCMC needs to know how many iterations to do:
-chain_length = 1000
+chain_length = 10000
 
 # MCMC needs a starting position
 chain_start = 0.5
@@ -265,6 +271,7 @@ accept_count/chain_length
 reject_count/chain_length
 
 # Always look at the chain, we would like random noise centered around means
+# 'Would like' not 'should be'.
 plot(x_chain, type="l")
 plot(y_chain, type="l")
 
@@ -408,7 +415,7 @@ hist(boot_means, breaks = 50)
 # Q: Why the multi-modal distribution?
 
 # Look at some outliers:
-bootstrap_samples[,boot_means<27]
+bootstrap_samples[,boot_means<28]
 bootstrap_samples[,boot_means>50]
 
 # Estimate the S.D.:

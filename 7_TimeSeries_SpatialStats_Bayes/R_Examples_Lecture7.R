@@ -63,6 +63,7 @@ time_resid_10 = y - mov_avg_past10
 time_resid_25 = y - mov_avg_past25
 time_resid_50 = y - mov_avg_past50
 
+# Plot of the residuals vs points(mov avg)
 plot(time_resid_50, mov_avg_past5, pch = 16, cex = 0.5, col="red")
 # This plot isn't too helpful, because the result isn't linear...
 
@@ -86,7 +87,7 @@ points(x,y,pch=16, cex=0.5)
 zoo_mov_avg5 = rollapply(c(rep(NA, 4),y), width = 5, by = 1, FUN = mean, na.rm = TRUE, align = "left")
 plot(x,zoo_mov_avg5)
 lines(x,mov_avg_past5, col="red", lwd=2)
-
+points(x,y,pch=16, cex=0.25)
 
 ##-----Fourier Transform-----
 # Create some data
@@ -108,10 +109,19 @@ potential_frequencies = y_spectrum$freq[y_spectrum$freq<0.1 & y_spectrum$spec > 
 # Find Periods
 potential_periods = (1/potential_frequencies) * mean(diff(x))
 
+# With the TSA package:
+p = periodogram(y)
+periods_data = data.frame(freq=p$freq, spec=p$spec)
+periods_data = periods_data[order(-periods_data$spec),]
+head(periods_data)
+x_width = x[2]-x[1]
+
+periods_data$seasonality = x_width / periods_data$freq
+
 ##------Simple Exponential Smoothing-----
 
-dj_data = read.csv("DJIA.csv")
-dj_data$Date = as.Date(dj_data$Date, format="%m/%d/%Y")
+dj_data = read.csv("dow_jones_data.csv")
+dj_data$Date = as.Date(dj_data$Date, format="%Y-%m-%d")
 
 plot(dj_data$Date, dj_data$DJIA, type="l")
 
@@ -122,6 +132,26 @@ plot(dj_data$Date, dj_data$DJIA, type="l",
 
 # use forecast's ses() function:
 exp_smooth1 = ses(dj_data$DJIA, alpha=0.05, h=31) # h is how many t-units to forecast out
+
+names(exp_smooth1)
+exp_smooth1["model"]
+# Model returns the alpha, initial state, and the standard error
+exp_smooth1["mean"]
+# Mean returns the mean. May change with trend or seasonality
+exp_smooth1["upper"]
+exp_smooth1["lower"]
+# Upper and lower return 2 series by default the:
+exp_smooth1["level"]
+# 80th and 95th percentile based on the standard error.
+
+exp_smooth1["fitted"]
+# Returns the fitted values.
+exp_smooth1["residuals"]
+# Returns the residuals
+
+exp_smooth1["method"]
+
+
 exp_smooth2 = ses(dj_data$DJIA, alpha=0.15, h=31)
 exp_smooth3 = ses(dj_data$DJIA, alpha=0.95, h=31)
 
@@ -133,6 +163,7 @@ legend('topleft', c('Original Data','alpha=0.05', 'alpha=0.15', 'alpha=0.95'),
        col=c('black','blue', 'green', 'red'), lty=c(1,1,1))
 
 ##----Double Exponential Smoothing----
+# For future slide reference:
 # Remember this is equivalent to ARIMA(0,1,1)
 # P - Auto Regression
 # D - Degree Integrated (1) # One level differencing
@@ -140,19 +171,21 @@ legend('topleft', c('Original Data','alpha=0.05', 'alpha=0.15', 'alpha=0.95'),
 
 double_exp_smooth = Arima(dj_data$DJIA, order = c(0,1,1), seasonal=c(0,1,0))
 double_exp_fit = dj_data$DJIA - double_exp_smooth$residuals # fitted values
-plot(dj_data$Date, dj_data$DJIA,type="l", lwd=2)
+plot(dj_data$Date, dj_data$DJIA,type="l", lwd=2,
+     xlim=c(as.Date('2014-01-01'), as.Date('2015-06-01')), ylim=c(15000, 19000))
 lines(dj_data$Date, double_exp_fit, col="red", lwd=2, lty=2)
 
 # prediction
 double_exp_pred = predict(double_exp_smooth, n.ahead = 30)
 
-lines(seq(from=dj_data$Date[375], to=dj_data$Date[375]+30, by=1)[-1],
+lines(seq(from=dj_data$Date[333], to=dj_data$Date[333]+30, by=1)[-1],
       double_exp_pred$pred, lwd=2, col='green')
 # Add in standard error lines
-lines(seq(from=dj_data$Date[375], to=dj_data$Date[375]+30, by=1)[-1],
+lines(seq(from=dj_data$Date[333], to=dj_data$Date[333]+30, by=1)[-1],
       double_exp_pred$pred + double_exp_pred$se, lwd=2, col='green')
-lines(seq(from=dj_data$Date[375], to=dj_data$Date[375]+30, by=1)[-1],
+lines(seq(from=dj_data$Date[333], to=dj_data$Date[333]+30, by=1)[-1],
       double_exp_pred$pred - double_exp_pred$se, lwd=2, col='green')
+
 
 ##----Auto regressive Model----
 lh   # Built in dataset
@@ -303,17 +336,16 @@ lines(dj$Date, dj_model$fitted.values, lwd=2, lty=8, col="red")
 
 # More autoregressive than 1 day?  Let's check:
 DJIA_2_periods_ago = sapply(1:nrow(dj), function(x){
-  if(x == 1){
+  if(x <= 2){
     return(dj$DJIA[1])
   }else{
-    return(dj$DJIA[x-1])
+    return(dj$DJIA[x-2])
   }
 })
 dj$two_days_ago = DJIA_2_periods_ago
 
 dj_model_AR2 = lm(DJIA ~ . - Date, data = dj)
 summary(dj_model_AR2)
-# Nope!
 
 # Can this predict well? Why not?
 #

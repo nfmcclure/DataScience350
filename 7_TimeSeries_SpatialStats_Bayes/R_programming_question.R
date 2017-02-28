@@ -9,8 +9,8 @@
 # If the first person to board is crazy and will ignore
 # the seat # and sit wherever, and the subsequent sane
 # 99 people will take thier assigned seat unless
-# theirs is already taken, then they will take a
-# random seat, then what is the probability that
+# theirs is already taken (then they will take a
+# random seat) then what is the probability that
 # the last person (100th person) will sit in the
 # correct seat?
 
@@ -100,3 +100,4 @@ prob_seq = sapply(seat_seq, function(x) sum(sapply(1:500, function(n) check_last
 
 
 plot(seat_seq, prob_seq, type="l", ylim=c(0,1))
+abline(h=0.5, lty=2)
