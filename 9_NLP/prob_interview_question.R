@@ -39,6 +39,8 @@ while (dist_between_trains>0.0001){
     dist_train_traveled = time_to_intercept * (4+6)
     dist_between_trains = dist_between_trains - dist_train_traveled
     
+    # Turn around to other train
+    logical_train = 0
   }else{
     # Fly and 6mph train are headed towards each other.
     # Combined speed of 6+8 = 14 mph
@@ -49,10 +51,13 @@ while (dist_between_trains>0.0001){
     # Need to compute distance train traveled:
     dist_train_traveled = time_to_intercept * (4+6)
     dist_between_trains = dist_between_trains - dist_train_traveled
+    
+    # Turn around to other train
+    logical_train = 1
   }
 }
 
-print(paste('Fly traveled', round(total_distance, 2), 'miles'))
+print(paste('Fly traveled', round(total_distance, 3), 'miles'))
 
 
 ##-------- (2) -------------

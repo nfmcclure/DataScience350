@@ -4,8 +4,6 @@
 ##
 ##--------------------------------------------
 
-setwd('/home/nick/Documents/teaching/DataScience350/8_NLP/')
-
 # Going to show the difference between eager and lazy evaluation
 #    for short circuiting logical statements.
 # See:

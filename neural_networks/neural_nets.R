@@ -142,6 +142,8 @@ best_y = y
 best_z = z
 best_result = forward_two_gate(x, y, z)
 
+saved_results = c()
+
 for (i in 1:num_loops){
   out1 = forward_add(x, y) # Temporary store the output of the first operation
   x = x - (step_size * add_gradient(x,y) * mult_gradient_x(out1, z))
@@ -153,6 +155,7 @@ for (i in 1:num_loops){
     best_y = y
     best_z = z
     best_result = result
+    saved_results = c(saved_results, best_result)
   }
   print(result)
   Sys.sleep(0.05)
@@ -161,8 +164,22 @@ for (i in 1:num_loops){
 # Is it less than original? (< 20?)
 best_result
 
+# What happens when we change the step size?
+original = saved_results
+# Rerun with larger step size here**********
+faster = saved_results
+
+plot(original, type='l', ylim = c(min(c(original, faster)), max(c(original, faster))))
+lines(faster, col='red')
+
+# Why does it have a curved line?
+#  Because the closer it gets to zero,
+#  the smaller the gradients are.
+#  Remember that the multiplication gradient
+#  depends on the values.
+
 #-----------------------------------------
-# Know that we can make it persue a goal.  Let's add a target or goal.
+# Know that we can make it pursue a goal.  Let's add a target or goal.
 # Our goal will be to decrease this network until it gets to the value 17.
 # Loop through again:
 num_loops = 150
@@ -209,7 +226,61 @@ for (i in 1:num_loops){
 plot(loss_vec, type='l')
 grid()
 
-# What would the loss curve look like if the step size was bigger?
+# There may be a problem near 17.  To illustrate this, redo the plot with
+#  a larger stepsize.
+
+# How to address this problem??
+
+##----- Changing the step size relative to how close we are-----
+
+num_loops = 150
+step_size = 0.001
+x = 2; y = 3; z = 4
+best_x = x
+best_y = y
+best_z = z
+best_result = forward_two_gate(x, y, z)
+
+goal = 17
+loss_vec = c()
+
+for (i in 1:num_loops){
+  out1 = forward_add(x, y) # Temporary store the output of the first operation
+  out2 = forward_multiply(out1, z) # Find predicted output
+  
+  # Now we need to measure the 'loss', or the distance between our prediction
+  #  and the goal.  If the loss is negative (under predict), increase.
+  # If the loss is positive (over predict), decrease.
+  loss = (out2 - goal)
+  loss_vec = c(loss_vec, loss)
+  if (loss > 0){
+    sign_of_change = -1
+    magnitude = loss**2
+  } else{
+    sign_of_change = +1
+    magnitude = loss**2
+  }
+  
+  new_step = step_size * magnitude
+  
+  x = x + sign_of_change * (new_step * add_gradient(x,y) * mult_gradient_x(out1, z))
+  y = y + sign_of_change * (new_step * add_gradient(x,y) * mult_gradient_x(out1, z))
+  z = z + sign_of_change * (new_step * mult_gradient_y(out1, z))
+  result = (x + y) * z
+  if (result < best_result){
+    best_x = x
+    best_y = y
+    best_z = z
+    best_result = result
+  }
+  print(result)
+  Sys.sleep(0.05)
+}
+
+# What does the loss look like?
+plot(loss_vec, type='l')
+grid()
+
 
 ##----Simple Neural Network-----
 # We add a 'neuron' to our network by composing the output with
@@ -359,6 +430,8 @@ best_c = c
 best_d = d
 best_f = f
 
+accuracy_sequence = c()
+
 # There's a print statement in the following loop, so we can see the output
 for (i in 1:num_loops){
   # Select a random point
@@ -411,12 +484,16 @@ for (i in 1:num_loops){
   
   # Percent classified correctly:
   classification_per = sum(classification_correctness)/nrow(evac_df)
+  accuracy_sequence = c(accuracy_sequence, classification_per)
   
   #Print out every 50 loops:
   if (i%%50==0){
     print(paste('Loop',i,'. Accuracy=',round(classification_per,3)))
   }
 }
+
+# Plot accuracy vs iterations
+plot(accuracy_sequence, type='l')
 
 # Print model:
 print('Prediction = sigmoid(a * pets + b * mobile_home + c * tenure + d * years_educ + f')

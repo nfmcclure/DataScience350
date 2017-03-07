@@ -8,7 +8,7 @@
 ##
 ##--------------------------------------------
 
-setwd('E:/Work/Teaching/PCE_Data_Science/8_NLP')
+setwd('E:/Work/Teaching/PCE_Data_Science/9_NLP')
 
 ##-----Load Libraries-----
 library(tm)
@@ -20,8 +20,10 @@ library(RTextTools)
 library(topicmodels)
 library(slam)
 library(RKEA)
-
+library(broom)
 library(stringdist)
+library(tidytext)
+library(dplyr)
 
 # If you cannot install stringdist, download the zip here:
 # https://cran.rstudio.com/bin/windows/contrib/3.2/stringdist_0.9.3.zip
@@ -29,6 +31,7 @@ library(stringdist)
 library(textir)
 library(openNLP)
 library(openNLPdata)
+library(qdap)
 
 ##----Measuring Text Distance------
 word1 = "beer"
@@ -64,32 +67,6 @@ w_jaccard = function(s1, s2){
 w_jaccard(word1, word2)
 w_jaccard(phrase1, phrase2)
 
-# What's another benefit about the weighted jaccard?
-# Slightly more evenly distributed as well
-#    Let's create random strings of random length and observe this
-N = 1000
-sample_words = sapply(1:100, function(x) {
-  paste(sample(letters, sample(3:10,1), replace=TRUE), collapse="")
-})
-
-# Look at some words
-sample_words[1:25]
-
-# Calcluate weighted jaccard distances
-sample_distances_weighted = sapply(1:5000, function(x){
-  w_jaccard(sample(sample_words,1), sample(sample_words,1))
-})
-
-# Calculate regular jaccard distances
-sample_distances_jaccard = sapply(1:5000, function(x){
-  stringdist(sample(sample_words,1), sample(sample_words,1), method = "jaccard")
-})
-
-# Most of random distances are between 0.5 and 1
-hist(sample_distances_weighted, breaks=50) # More regular
-hist(sample_distances_jaccard, breaks=50) # Slightly irregular
-
-
 ##-----Load Data Sets-----
 # Load email list
 texts = read.csv("text_messages.csv", stringsAsFactors = FALSE)
@@ -111,7 +88,7 @@ texts$Message = sapply(texts$Message, function(x) gsub("[ ]+"," ",x))
 # Remove non-ascii
 texts$Message = iconv(texts$Message, from="latin1", to="ASCII", sub="")
 
-# remove stopwords
+# remove stopwords # Careful doing this in the right order
 stopwords()
 my_stops = as.character(sapply(stopwords(), function(x) gsub("'","",x)))
 texts$Message = sapply(texts$Message, function(x){
@@ -181,14 +158,21 @@ confusionMatrix(test_predictions, as.factor(test_set$type))
 important_words = setdiff(names(text_frame), "type")
 
 sample_text = "Please call asap for free consultation!"
-sample_text = tolower(sample_text)
-sample_text = gsub("'", "", sample_text)
-sample_text = gsub("[[:punct:]]", " ", sample_text)
-sample_text = gsub("\\d","",sample_text)
-sample_text = gsub("[ ]+"," ",sample_text)
-sample_text = iconv(sample_text, from="latin1", to="ASCII", sub="")
-sample_text = gsub("[ ]+"," ",sample_text)
-sample_text = paste(setdiff(wordStem(strsplit(sample_text," ")[[1]]),""),collapse=" ")
+
+# Define text cleaning function:
+clean_text = function(text){
+  text = tolower(text)
+  text = gsub("'", "", text)
+  text = gsub("[[:punct:]]", " ", text)
+  text = gsub("\\d","",text)
+  text = gsub("[ ]+"," ",text)
+  text = iconv(text, from="latin1", to="ASCII", sub="")
+  text = gsub("[ ]+"," ",text)
+  text = paste(setdiff(wordStem(strsplit(text," ")[[1]]),""),collapse=" ")
+  return(text)
+}
+
+sample_text = clean_text(sample_text)
 
 # Create occurence vector of important words
 sample_occurences = sapply(important_words, function(x){
@@ -230,7 +214,7 @@ stopwords()
 my_stops = as.character(sapply(stopwords(), function(x) gsub("'","",x)))
 my_stops = c(my_stops, "beer", "pour")
 
-# Maybe more stop words to use?.... leave for homework data exploration
+# Maybe more stop words to use?
 
 reviews$review = sapply(reviews$review, function(x){
   paste(setdiff(strsplit(x," ")[[1]],my_stops),collapse=" ")
@@ -278,9 +262,11 @@ inspect(review_term_matrix[1:5,1:5])
 # Too large and too sparse, so we remove sparse terms:
 review_term_small = removeSparseTerms(review_term_matrix, 0.995) # Play with the % criteria, start low and work up
 dim(review_term_small)
+inspect(review_term_small[1:5,1:5])
 
 # Look at frequencies of words across all documents
 word_freq = sort(colSums(as.matrix(review_term_small)))
+hist(word_freq[word_freq<10000], breaks=35)
 
 # Most common:
 tail(word_freq, n=10)
@@ -305,6 +291,7 @@ dim(tf_idf_small)
 
 # Look at frequencies of words across all documents
 tfidf_word_freq = sort(colSums(as.matrix(tf_idf_small)))
+hist(tfidf_word_freq[tfidf_word_freq<2000], breaks=30)
 
 # Most common:
 tail(tfidf_word_freq, n=10)
@@ -362,31 +349,140 @@ head(tfidf_word_freq_nohoppy, n=10)
 hoppy_unique_tfidf = setdiff(names(rev(tfidf_word_freq_hoppy)), names(tfidf_word_freq_nohoppy))
 non_hoppy_unique_tfidf = setdiff(names(rev(tfidf_word_freq_nohoppy)), names(tfidf_word_freq_hoppy))
 
+##-------Sentiment Analysis--------------
+
+# Filter out NA ratings
+summary(reviews$rating)
+reviews = reviews[!is.na(reviews$rating),]
+
+# There are a few built in dictionaries of sentiments:
+# 'afinn' = integer rating of word.
+# 'bing' = positive/negative
+# 'nrc' = emotion of word
+bing_sentiments = get_sentiments('bing')
+bing_sentiments$integer = ifelse(bing_sentiments$sentiment=='positive', 1, -1)
+
+# We could do an inner join on words with the bing (+/-) sentiment set
+avg_sentiment = sapply(reviews$review, function(x){
+  # Here we pass in the review, x, as a string
+  words = strsplit(x, ' ')[[1]]
+  indices = unlist(sapply(words, function(w) which(bing_sentiments$word==w)))
+  return(mean(bing_sentiments$integer[indices]))
+})
+
+# Replace NaN's with zero
+reviews$avg_sentiment[is.nan(reviews$avg_sentiment)]=0
+
+hist(avg_sentiment)
+reviews$avg_sentiment = avg_sentiment
+
+# Look at a plot of sentiment and rating
+sentiment_sequence = seq(-1, 1, len=25)
+avg_rating_seq = sapply(1:(length(sentiment_sequence)-1), function(x){
+  min_sent = sentiment_sequence[x]
+  max_sent = sentiment_sequence[x+1]
+  return(mean(reviews$rating[reviews$avg_sentiment>=min_sent & reviews$avg_sentiment < max_sent], na.rm=T))
+})
+
+plot(sentiment_sequence[1:(length(sentiment_sequence)-1)], avg_rating_seq)
+
+# Most common positive and negative terms:
+all_review_text = paste(reviews$review, collapse = ' ')
+
+bing_sentiments$frequency = sapply(bing_sentiments$word, function(w) {
+  word_count = tryCatch({
+    str_count(all_review_text, w)
+  },
+  error = function(e) {
+    0
+  })
+  return(word_count)
+})
+
+# Most common positive/negative words
+bing_sentiments = bing_sentiments[order(bing_sentiments$frequency, decreasing = T),]
+
+head(bing_sentiments[bing_sentiments$integer==1,], n=10)
+head(bing_sentiments[bing_sentiments$integer== -1,], n=10)
+
+
 ##-------Latent Dirichlet Allocation------
 review_corpus_unstemmed = Corpus(VectorSource(reviews$review))
 review_dtm = DocumentTermMatrix(review_corpus_unstemmed, control = list(wordLengths = c(4,10)))
 dim(review_dtm)
 
-term_tfidf = tapply(review_dtm$v/row_sums(review_dtm)[review_dtm$i], review_dtm$j, mean) *
-  log2(nDocs(review_dtm)/col_sums(review_dtm > 0))
+# Remove sparse terms
+review_term_small = removeSparseTerms(review_dtm, 0.999)
+dim(review_term_small)
 
-# Filter out lower terms in tf-idf
-review_dtm = review_dtm[,term_tfidf >= 0.1]
-# filter out reviews that have no interesting terms
-review_dtm = review_dtm[row_sums(review_dtm) > 0,]
-
-dim(review_dtm)
+# Remove documents that no longer have interesting words
+rowTotals = apply(review_term_small , 1, sum)
+reviews = reviews[rowTotals > 0,]
+review_term_small = review_term_small[rowTotals > 0, ]  
 
 # Number of topics:
 k = 4
 
 # Perform LDA
-lda = LDA(review_dtm, k)
+lda = LDA(review_term_small, k)
+
+lda_tidy = tidy(lda)
+lda_tidy
+# This produces a data frame of three columns
+#   Topic: Integer label of topic
+#   Term:  Word
+#   Beta:  Probability of Word given topic
+sum(lda_tidy$beta[lda_tidy$topic==1])
 
 # Get list of top keywords for each topic:
 beer_topics = terms(lda, 10)
+# Plot probabilities for each topic:
+
+beer_top_terms <- lda_tidy %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  arrange(topic, -beta)
+
+beer_top_terms %>%
+  mutate(term = reorder(term, beta)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_bar(stat = "identity", show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  coord_flip()
+
+##-------Topic Modeling as a Feature in Regression------
+beer_topics = topics(lda)
+head(beer_topics)
+
+# Get probabilities for each review:
+beer_topic_probs = posterior(lda, review_term_small)
+beer_topic_probs[[2]]
+beer_topic_df = as.data.frame(beer_topic_probs[[2]])
+colnames(beer_topic_df) = c('t1', 't2', 't3', 't4')
+reviews = cbind(reviews, beer_topic_df)
+
+# Can we predict hoppy style or not? (feature was 'hoppy_indicator')
+train_ix = sample(1:nrow(reviews), size = round(0.8*nrow(reviews)))
+test_ix = setdiff(1:nrow(reviews), train_ix)
+review_train = reviews[train_ix,]
+review_test = reviews[test_ix,]
+hoppy_logistic = glm(hoppy_indicator ~ t1 + t2 + t3 + t4, data = review_train, family=binomial)
+
+# Predictions on test set
+hoppy_probs = predict(hoppy_logistic, newdata=review_test, type='response')
+hoppy_preds = ifelse(hoppy_probs > 0.35,1,0)
+
+# Create confusion matrix
+confusionMatrix(data=hoppy_preds, reference = as.numeric(review_test$hoppy_indicator))
+# Not very good.
+# Improvement:  Try with more groups (increase k) and more words (leave more words in)!
 
 ##-----Part of Speech Tagging------
+detach("package:caret", unload=TRUE)
+detach("package:qdap", unload=TRUE)
+detach("package:ggplot2", unload=TRUE)
+library(qdap)
 x1 = "The customer ordered a beer."
 x2 = "The customer got his order of beer."
 word_token_annotator = Maxent_Word_Token_Annotator()
@@ -397,27 +493,5 @@ char_annotate = Annotation(1L, "sentence", 1L, nchar(string_input)) # How to bre
 word_annotate = annotate(string_input, word_token_annotator, char_annotate) # Tell R where the words are
 part_of_speech = annotate(string_input, Maxent_POS_Tag_Annotator(), word_annotate) # Use HMM to tag words
 
-##-----Word2Vec-----
-# Need 'devtools' to install
-library(devtools)
-install_github("bmschmidt/wordVectors")
-# Wait to compile...
-library(wordVectors)
-
-cookbook_file = 'epib.txt'
-
-# Train word2vec:
-model = train_word2vec(cookbook_file, output="cookbook_vectors.bin",
-                       threads = 3, vectors = 100, window=12)
-
-# Read in prior trained model:
-# read.vectors("cookbook_vectors.bin")
-
-# What is the top 10 nearest word vectors to 'fish'?
-nearest_to(model,model[["fish"]])
-
-# What is the top 50 nearest word vectors to a series of words?
-nearest_to(model,model[[c("fish","salmon","trout","shad","flounder","carp","roe","eels")]],50)
-
-##-----Sentiment Analysis-----
-
+part_of_speech
+unlist(part_of_speech$features[2:length(part_of_speech$features)])
